@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Văn Chiến Thắng | Developer Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary: #6366f1;
+            --primary-glow: rgba(99, 102, 241, 0.4);
+            --bg: #0b0f19;
+            --card-bg: rgba(23, 32, 54, 0.7);
+            --text-main: #f8fafc;
+            --text-sub: #94a3b8;
+            --border: rgba(255, 255, 255, 0.08);
+            --tag-bg: rgba(255, 255, 255, 0.05);
+        }
+
+        [data-theme="light"] {
+            --primary: #4f46e5;
+            --primary-glow: rgba(79, 70, 229, 0.25);
+            --bg: #f1f5f9;
+            --card-bg: rgba(255, 255, 255, 0.85);
+            --text-main: #0f172a;
+            --text-sub: #64748b;
+            --border: rgba(0, 0, 0, 0.08);
+            --tag-bg: rgba(0, 0, 0, 0.04);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            transition: background 0.3s ease, color 0.3s ease;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            background-image:
+                radial-gradient(at 0% 0%, rgba(99, 102, 241, 0.15) 0px, transparent 50%),
+                radial-gradient(at 100% 100%, rgba(236, 72, 153, 0.12) 0px, transparent 50%);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 540px;
+            background: var(--card-bg);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid var(--border);
+            border-radius: 28px;
+            padding: 40px 32px;
+            text-align: center;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
+            position: relative;
+        }
+
+        .top-actions {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .icon-btn {
+            background: var(--tag-bg);
+            border: 1px solid var(--border);
+            color: var(--text-main);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .icon-btn:hover {
+            border-color: var(--primary);
+        }
+
+        .avatar-wrap {
+            position: relative;
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 16px;
+        }
+
+        .avatar-img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary);
+            padding: 3px;
+        }
+
+        .status-dot {
+            position: absolute;
+            bottom: 4px;
+            right: 4px;
+            width: 16px;
+            height: 16px;
+            background: #22c55e;
+            border: 3px solid var(--bg);
+            border-radius: 50%;
+        }
+
+        h1 {
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 4px;
+        }
+
+        .subtitle {
+            color: var(--text-sub);
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 16px;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            margin-bottom: 24px;
+        }
+
+        .stat-card {
+            background: var(--tag-bg);
+            border: 1px solid var(--border);
+            padding: 12px 8px;
+            border-radius: 14px;
+        }
+
+        .stat-number {
+            font-size: 16px;
+            font-weight: 700;
+            color: var(--primary);
+        }
+
+        .stat-label {
+            font-size: 11px;
+            color: var(--text-sub);
+            margin-top: 2px;
+        }
+
+        .section-title {
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-sub);
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-align: left;
+        }
+
+        .tags-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 24px;
+        }
+
+        .tag {
+            background: var(--tag-bg);
+            border: 1px solid var(--border);
+            color: var(--text-main);
+            padding: 6px 12px;
+            border-radius: 10px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 12px 18px;
+            border-radius: 14px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #6366f1, #4f46e5);
+            color: #ffffff;
+            box-shadow: 0 4px 14px var(--primary-glow);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-glass {
+            background: var(--tag-bg);
+            border: 1px solid var(--border);
+            color: var(--text-main);
+        }
+
+        .btn-glass:hover {
+            border-color: var(--primary);
+            transform: translateY(-2px);
+        }
+
+        .footer {
+            margin-top: 24px;
+            font-size: 12px;
+            color: var(--text-sub);
+        }
+    </style>
+</head>
+
+<body data-theme="dark">
+
+    <div class="container">
+        <div class="top-actions">
+            <button class="icon-btn" id="theme-toggle" title="Đổi giao diện">🌓</button>
+        </div>
+
+        <div class="avatar-wrap">
+            <img src="https://github.com/thanglvc.png" alt="Avatar" class="avatar-img">
+            <div class="status-dot" title="Active"></div>
+        </div>
+
+        <h1>Lê Văn Chiến Thắng</h1>
+        <p class="subtitle">Software Engineer • Web Developer</p>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="clock">--:--</div>
+                <div class="stat-label">Local Time</div>
+            </div>
+            <div class="stat-card" style="cursor: pointer;" id="like-box">
+                <div class="stat-number" id="like-count">128</div>
+                <div class="stat-label">❤️ Thả tim</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Git Ready</div>
+            </div>
+        </div>
+
+        <div class="section-title">Kỹ năng & Chuyên môn</div>
+        <div class="tags-grid">
+            <span class="tag">HTML5 / CSS3</span>
+            <span class="tag">JavaScript ES6</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">Linux Terminal</span>
+            <span class="tag">GitHub Pages</span>
+        </div>
+
+        <div class="section-title">Liên kết nộp bài</div>
+        <div class="btn-group">
+            <a href="https://github.com/thanglvc" target="_blank" class="btn btn-primary">
+                Truy cập GitHub Profile
+            </a>
+            <a href="https://github.com/thanglvc/study_git" target="_blank" class="btn btn-glass">
+                Xem Repository Bài Tập (study_git)
+            </a>
+            <button class="btn btn-glass" id="hello-btn">
+                👋 Gửi lời chào (JS Alert)
+            </button>
+        </div>
+
+        <div class="footer">
+            © 2026 thanglvc. Built with HTML, CSS & JavaScript for Git Assignment.
+        </div>
+    </div>
+
+    <script>
+        // 1. JavaScript: Toggle Dark/Light Mode
+        const themeBtn = document.getElementById('theme-toggle');
+        themeBtn.addEventListener('click', () => {
+            const currentTheme = document.body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', newTheme);
+        });
+
+        // 2. JavaScript: Đồng hồ thời gian thực
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            document.getElementById('clock').textContent = `${hours}:${minutes}`;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+
+        // 3. JavaScript: Tương tác Thả tim tăng số lượng
+        const likeBox = document.getElementById('like-box');
+        const likeCount = document.getElementById('like-count');
+        let count = 128;
+        likeBox.addEventListener('click', () => {
+            count++;
+            likeCount.textContent = count;
+            likeBox.style.transform = 'scale(1.05)';
+            setTimeout(() => likeBox.style.transform = 'scale(1)', 150);
+        });
+
+        // 4. JavaScript: Popup tương tác
+        document.getElementById('hello-btn').addEventListener('click', () => {
+            alert('Xin chào! Trang web tĩnh được xây dựng bằng HTML, CSS, JavaScript và deploy tự động qua GitHub Pages.');
+        });
+    </script>
+</body>
+
+</html>
