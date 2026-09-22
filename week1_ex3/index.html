@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Profile - Đề 3</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+  <main class="profile-card">
+    <!-- Header Section -->
+    <header class="profile-card__header">
+      <h1 class="profile-card__title">Player Profile</h1>
+      <div class="profile-card__title-shadow" aria-hidden="true"></div>
+    </header>
+
+    <!-- Bio & Scrollable Information -->
+    <section class="profile-card__bio" aria-label="Thông tin cầu thủ">
+      <img class="profile-card__avatar" src="images/pic_player.png" alt="Ảnh đại diện cầu thủ" width="83" height="90">
+      <div class="profile-card__scroll-box" tabindex="0" aria-label="Chi tiết hồ sơ cầu thủ">
+        <div class="profile-card__scroll-content">
+          <p class="profile-card__info-line">Nơi sinh: Hà Nội</p>
+          <p class="profile-card__info-line">Ngay sinh: 28/11/1990</p>
+          <p class="profile-card__info-line">Vị trí: Teamlear</p>
+          <p class="profile-card__info-line">Cao: 170cm</p>
+          <p class="profile-card__info-line">Nặng: 67kg</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Facts Section -->
+    <section class="profile-card__facts" aria-label="Các sự kiện nổi bật">
+      <h2 class="profile-card__facts-title">Facts:</h2>
+      <ul class="facts-list">
+        <li class="facts-list__item">
+          <img class="facts-list__icon" src="images/icn_star.png" alt="" width="17" height="16" aria-hidden="true">
+          <span class="facts-list__text">Nam gia nhap The Cong nam 1999</span>
+        </li>
+        <li class="facts-list__item">
+          <img class="facts-list__icon" src="images/icn_star.png" alt="" width="17" height="16" aria-hidden="true">
+          <span class="facts-list__text">Trong suot thoi trai tre gia nhap The Cong Nam da ghi duoc 160 ban thang trong vong 7 nam</span>
+        </li>
+        <li class="facts-list__item">
+          <img class="facts-list__icon" src="images/icn_star.png" alt="" width="17" height="16" aria-hidden="true">
+          <span class="facts-list__text">Nam choi tran dau tien cho U21 Viet Nam vao do tuoi 16</span>
+        </li>
+        <li class="facts-list__item">
+          <img class="facts-list__icon" src="images/icn_star.png" alt="" width="17" height="16" aria-hidden="true">
+          <span class="facts-list__text">Nam da dat cup U21 cho Viet Nam vao nam 2007</span>
+        </li>
+        <li class="facts-list__item">
+          <img class="facts-list__icon" src="images/icn_star.png" alt="" width="17" height="16" aria-hidden="true">
+          <span class="facts-list__text">Nam da dat duoc cup cau thu xuat sac nhat trong nam</span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Comments Section -->
+    <section class="profile-card__comments" aria-label="Bình luận của người hâm mộ">
+      <div class="comment-bubble">
+        <div class="comment-bubble__box">
+          <p class="comment-bubble__text">Nam choi cho cau lac bo The Cong<br>The Cong dat chuc vo dich</p>
+        </div>
+        <p class="comment-bubble__meta">
+          Post by <a class="comment-bubble__author-link" href="#">The Cong’s Fan</a> 20/12/2007
+        </p>
+      </div>
+
+      <div class="comment-bubble">
+        <div class="comment-bubble__box">
+          <p class="comment-bubble__text">Nam la cau thu choi rat hay o The Cong<br>va anh da chuyen toi Hoa Phat &lt;&gt;:)</p>
+        </div>
+        <p class="comment-bubble__meta">
+          Post by <a class="comment-bubble__author-link" href="#">Hoa Phat’s Fan</a> 20/12/2007
+        </p>
+      </div>
+    </section>
+
+    <!-- Feedback Form Section -->
+    <section class="profile-card__feedback" aria-label="Gửi bình luận">
+      <h2 class="profile-card__feedback-title">Your comment</h2>
+      <form class="feedback-form" action="#" method="post">
+        <div class="feedback-form__field feedback-form__field--name">
+          <label class="feedback-form__label" for="field-name">Your name</label>
+          <input class="feedback-form__input" id="field-name" name="name" type="text">
+        </div>
+
+        <div class="feedback-form__field feedback-form__field--email">
+          <label class="feedback-form__label feedback-form__label--email" for="field-email">Your email (will<br>not public)</label>
+          <input class="feedback-form__input" id="field-email" name="email" type="email">
+        </div>
+
+        <div class="feedback-form__field feedback-form__field--comment">
+          <label class="feedback-form__label feedback-form__label--comment" for="field-comment">Comment</label>
+          <textarea class="feedback-form__textarea" id="field-comment" name="comment">Your comment here &lt;/textarea&gt;</textarea>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
