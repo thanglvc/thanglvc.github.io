@@ -1,8 +1,8 @@
 {
   "all": {
-    "mean_absolute_channel_error_0_255": 0.876,
-    "pixels_with_any_difference_percent": 3.7818,
-    "pixels_with_difference_over_16_percent": 1.6998
+    "mean_absolute_channel_error_0_255": 0.8866,
+    "pixels_with_any_difference_percent": 3.8086,
+    "pixels_with_difference_over_16_percent": 1.7128
   },
   "tabs_and_toolbar": {
     "mean_absolute_channel_error_0_255": 2.1022,
@@ -31,7 +31,7 @@
   },
   "product_text": {
     "mean_absolute_channel_error_0_255": 2.8874,
-    "pixels_with_any_difference_percent": 8.2902,
-    "pixels_with_difference_over_16_percent": 5.193
+    "pixels_with_any_difference_percent": 8.2859,
+    "pixels_with_difference_over_16_percent": 5.1922
   }
 }

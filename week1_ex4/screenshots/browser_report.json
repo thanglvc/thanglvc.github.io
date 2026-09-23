@@ -1,7 +1,24 @@
 {
   "browser": "Chrome/153.0.8010.47",
-  "timestamp": "2026-09-23T04:06:40.858Z",
+  "timestamp": "2026-09-23T07:29:21.523Z",
   "errors": [],
+  "interactionChecks": {
+    "detailsTabWorks": true,
+    "keyboardTabWorks": true,
+    "reviewsTabRestored": true,
+    "filterMenuWorks": true,
+    "fourStarFilterWorks": true,
+    "filterResetWorks": true,
+    "sliderHasEightItems": true,
+    "sliderNextWorks": true,
+    "sliderPreviousWorks": true,
+    "autoplayDelayIsThirtySeconds": true,
+    "hoverPausesAfterClick": true,
+    "focusKeepsPaused": true,
+    "focusTransferKeepsPaused": true,
+    "resumesAfterExit": true,
+    "autoplayAdvancesAfterThirtySeconds": true
+  },
   "reports": [
     {
       "viewport": [
@@ -16,7 +33,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -119,6 +136,62 @@
         {
           "text": "-30%",
           "x": 1175,
+          "y": 1569,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $212",
+          "x": 1360,
+          "y": 1567,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 1423,
+          "y": 1567,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 1491,
+          "y": 1569,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 1675,
+          "y": 1567,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 1990,
+          "y": 1567,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 2305,
+          "y": 1567,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 2370,
+          "y": 1567,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 2435,
           "y": 1569,
           "width": 58,
           "height": 28
@@ -230,7 +303,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -333,6 +406,62 @@
         {
           "text": "-30%",
           "x": 897,
+          "y": 1608.28125,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $212",
+          "x": 1012,
+          "y": 1633.28125,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 1075,
+          "y": 1633.28125,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 1143,
+          "y": 1635.28125,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 1257,
+          "y": 1633.28125,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 1502,
+          "y": 1633.28125,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 1747,
+          "y": 1606.28125,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 1812,
+          "y": 1606.28125,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 1877,
           "y": 1608.28125,
           "width": 58,
           "height": 28
@@ -444,7 +573,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -525,29 +654,85 @@
         },
         {
           "text": "Price: $180",
-          "x": 32,
-          "y": 2418.6875,
+          "x": 1011,
+          "y": 1806.421875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
-          "x": 521.5,
-          "y": 2418.6875,
+          "x": 1500.5,
+          "y": 1806.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
-          "x": 586.5,
-          "y": 2418.6875,
+          "x": 1565.5,
+          "y": 1806.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
-          "x": 651.5,
-          "y": 2420.6875,
+          "x": 1630.5,
+          "y": 1808.421875,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $212",
+          "x": 1990,
+          "y": 1806.421875,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 2053,
+          "y": 1806.421875,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 2121,
+          "y": 1808.421875,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 2479.5,
+          "y": 1806.421875,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 2969,
+          "y": 1806.421875,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 3458.5,
+          "y": 1806.421875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 3523.5,
+          "y": 1806.421875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 3588.5,
+          "y": 1808.421875,
           "width": 58,
           "height": 28
         }
@@ -617,7 +802,7 @@
           "x": 32,
           "y": 1254.15625,
           "width": 959,
-          "height": 1196.53125
+          "height": 584.265625
         },
         ".product-card__picture": {
           "x": 32,
@@ -658,7 +843,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -739,29 +924,85 @@
         },
         {
           "text": "Price: $180",
-          "x": 32,
-          "y": 2417.6875,
+          "x": 1010,
+          "y": 1805.921875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
-          "x": 521,
-          "y": 2417.6875,
+          "x": 1499,
+          "y": 1805.921875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
-          "x": 586,
-          "y": 2417.6875,
+          "x": 1564,
+          "y": 1805.921875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
-          "x": 651,
-          "y": 2419.6875,
+          "x": 1629,
+          "y": 1807.921875,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $212",
+          "x": 1988,
+          "y": 1805.921875,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 2051,
+          "y": 1805.921875,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 2119,
+          "y": 1807.921875,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 2477,
+          "y": 1805.921875,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 2966,
+          "y": 1805.921875,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 3455,
+          "y": 1805.921875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 3520,
+          "y": 1805.921875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 3585,
+          "y": 1807.921875,
           "width": 58,
           "height": 28
         }
@@ -831,7 +1072,7 @@
           "x": 32,
           "y": 1254.15625,
           "width": 958,
-          "height": 1195.53125
+          "height": 583.765625
         },
         ".product-card__picture": {
           "x": 32,
@@ -872,7 +1113,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -953,29 +1194,85 @@
         },
         {
           "text": "Price: $180",
-          "x": 32,
-          "y": 2315.09375,
+          "x": 756,
+          "y": 1831.625,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
-          "x": 394,
-          "y": 2315.09375,
+          "x": 1118,
+          "y": 1831.625,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
-          "x": 459,
-          "y": 2315.09375,
+          "x": 1183,
+          "y": 1831.625,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
-          "x": 524,
-          "y": 2317.09375,
+          "x": 1248,
+          "y": 1833.625,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $212",
+          "x": 1480,
+          "y": 1831.625,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 1543,
+          "y": 1831.625,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 1611,
+          "y": 1833.625,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 1842,
+          "y": 1831.625,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 2204,
+          "y": 1831.625,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 2566,
+          "y": 1831.625,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 2631,
+          "y": 1831.625,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 2696,
+          "y": 1833.625,
           "width": 58,
           "height": 28
         }
@@ -1045,7 +1342,7 @@
           "x": 32,
           "y": 1408.15625,
           "width": 704,
-          "height": 938.9375
+          "height": 455.46875
         },
         ".product-card__picture": {
           "x": 32,
@@ -1086,7 +1383,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -1140,56 +1437,112 @@
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2367.625,
+          "y": 2405.609375,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2367.625,
+          "y": 2405.609375,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2369.953125,
+          "y": 2407.9375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 391.5,
-          "y": 2367.625,
+          "x": 389.5,
+          "y": 2405.609375,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 16,
-          "y": 2854.015625,
+          "x": 763,
+          "y": 2405.609375,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 391.5,
-          "y": 2854.015625,
+          "x": 1136.5,
+          "y": 2405.609375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 442.5,
-          "y": 2854.015625,
+          "x": 1187.5,
+          "y": 2405.609375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 493.5,
-          "y": 2856.34375,
+          "x": 1238.5,
+          "y": 2407.9375,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $212",
+          "x": 1510,
+          "y": 2405.609375,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 1559,
+          "y": 2405.609375,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 1612,
+          "y": 2407.9375,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 1883.5,
+          "y": 2405.609375,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 2257,
+          "y": 2405.609375,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 2630.5,
+          "y": 2405.609375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 2681.5,
+          "y": 2405.609375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 2732.5,
+          "y": 2407.9375,
           "width": 42,
           "height": 22
         }
@@ -1257,32 +1610,32 @@
         },
         ".related-products__list": {
           "x": 16,
-          "y": 1931.890625,
+          "y": 1971.890625,
           "width": 735,
-          "height": 948.78125
+          "height": 460.375
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 1931.890625,
-          "width": 359.5,
-          "height": 363.140625
+          "y": 1971.890625,
+          "width": 357.5,
+          "height": 361.125
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2311.03125,
-          "width": 359.5,
+          "y": 2349.015625,
+          "width": 357.5,
           "height": 21.59375
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2340.625,
-          "width": 359.5,
+          "y": 2378.609375,
+          "width": 357.5,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2367.625,
-          "width": 359.5,
+          "y": 2405.609375,
+          "width": 357.5,
           "height": 26.65625
         }
       }
@@ -1300,7 +1653,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -1354,56 +1707,112 @@
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2367.125,
+          "y": 2405.109375,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2367.125,
+          "y": 2405.109375,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2369.453125,
+          "y": 2407.4375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 391,
-          "y": 2367.125,
+          "x": 389,
+          "y": 2405.109375,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 16,
-          "y": 2853.015625,
+          "x": 762,
+          "y": 2405.109375,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 391,
-          "y": 2853.015625,
+          "x": 1135,
+          "y": 2405.109375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 442,
-          "y": 2853.015625,
+          "x": 1186,
+          "y": 2405.109375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 493,
-          "y": 2855.34375,
+          "x": 1237,
+          "y": 2407.4375,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $212",
+          "x": 1508,
+          "y": 2405.109375,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 1557,
+          "y": 2405.109375,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 1610,
+          "y": 2407.4375,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 1881,
+          "y": 2405.109375,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 2254,
+          "y": 2405.109375,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 2627,
+          "y": 2405.109375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 2678,
+          "y": 2405.109375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 2729,
+          "y": 2407.4375,
           "width": 42,
           "height": 22
         }
@@ -1471,32 +1880,32 @@
         },
         ".related-products__list": {
           "x": 16,
-          "y": 1931.890625,
+          "y": 1971.890625,
           "width": 734,
-          "height": 947.78125
+          "height": 459.875
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 1931.890625,
-          "width": 359,
-          "height": 362.640625
+          "y": 1971.890625,
+          "width": 357,
+          "height": 360.625
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2310.53125,
-          "width": 359,
+          "y": 2348.515625,
+          "width": 357,
           "height": 21.59375
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2340.125,
-          "width": 359,
+          "y": 2378.109375,
+          "width": 357,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2367.125,
-          "width": 359,
+          "y": 2405.109375,
+          "width": 357,
           "height": 26.65625
         }
       }
@@ -1514,7 +1923,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -1568,56 +1977,112 @@
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2502.8125,
+          "y": 2540.78125,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2502.8125,
+          "y": 2540.78125,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2505.140625,
+          "y": 2543.109375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 203,
-          "y": 2502.8125,
+          "x": 201,
+          "y": 2540.78125,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 16,
-          "y": 2820.390625,
+          "x": 386,
+          "y": 2540.78125,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 203,
-          "y": 2798.796875,
+          "x": 571,
+          "y": 2519.1875,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 254,
-          "y": 2798.796875,
+          "x": 622,
+          "y": 2519.1875,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 305,
-          "y": 2801.125,
+          "x": 673,
+          "y": 2521.515625,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $212",
+          "x": 756,
+          "y": 2540.78125,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 805,
+          "y": 2540.78125,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 858,
+          "y": 2543.109375,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 941,
+          "y": 2540.78125,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 1126,
+          "y": 2540.78125,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 1311,
+          "y": 2519.1875,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 1362,
+          "y": 2519.1875,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 1413,
+          "y": 2521.515625,
           "width": 42,
           "height": 22
         }
@@ -1685,32 +2150,32 @@
         },
         ".related-products__list": {
           "x": 16,
-          "y": 2235.890625,
+          "y": 2275.890625,
           "width": 358,
-          "height": 611.15625
+          "height": 291.546875
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 2235.890625,
-          "width": 171,
-          "height": 172.734375
+          "y": 2275.890625,
+          "width": 169,
+          "height": 170.703125
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2424.625,
-          "width": 171,
+          "y": 2462.59375,
+          "width": 169,
           "height": 43.1875
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2475.8125,
-          "width": 171,
+          "y": 2513.78125,
+          "width": 169,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2502.8125,
-          "width": 171,
+          "y": 2540.78125,
+          "width": 169,
           "height": 26.65625
         }
       }
@@ -1728,7 +2193,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -1782,56 +2247,112 @@
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2517.234375,
+          "y": 2555.21875,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2517.234375,
+          "y": 2555.21875,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2519.5625,
+          "y": 2557.546875,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 195.5,
-          "y": 2517.234375,
+          "x": 193.5,
+          "y": 2555.21875,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 16,
-          "y": 2827.234375,
+          "x": 371,
+          "y": 2555.21875,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 195.5,
-          "y": 2805.640625,
+          "x": 548.5,
+          "y": 2533.625,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 246.5,
-          "y": 2805.640625,
+          "x": 599.5,
+          "y": 2533.625,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 297.5,
-          "y": 2807.96875,
+          "x": 650.5,
+          "y": 2535.953125,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $212",
+          "x": 726,
+          "y": 2555.21875,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 775,
+          "y": 2555.21875,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 828,
+          "y": 2557.546875,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 903.5,
+          "y": 2555.21875,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 1081,
+          "y": 2555.21875,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 1258.5,
+          "y": 2533.625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 1309.5,
+          "y": 2533.625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 1360.5,
+          "y": 2535.953125,
           "width": 42,
           "height": 22
         }
@@ -1899,32 +2420,32 @@
         },
         ".related-products__list": {
           "x": 16,
-          "y": 2257.890625,
+          "y": 2297.890625,
           "width": 343,
-          "height": 596
+          "height": 283.984375
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 2257.890625,
-          "width": 163.5,
-          "height": 165.15625
+          "y": 2297.890625,
+          "width": 161.5,
+          "height": 163.140625
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2439.046875,
-          "width": 163.5,
+          "y": 2477.03125,
+          "width": 161.5,
           "height": 43.1875
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2490.234375,
-          "width": 163.5,
+          "y": 2528.21875,
+          "width": 161.5,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2517.234375,
-          "width": 163.5,
+          "y": 2555.21875,
+          "width": 161.5,
           "height": 26.65625
         }
       }
@@ -1942,7 +2463,7 @@
       ],
       "brokenImages": [],
       "cards": 6,
-      "products": 4,
+      "products": 8,
       "textBoxes": [
         {
           "text": "(451)",
@@ -2023,29 +2544,85 @@
         },
         {
           "text": "Price: $180",
-          "x": 32,
-          "y": 2281.875,
+          "x": 832,
+          "y": 1760.015625,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
-          "x": 432,
-          "y": 2281.875,
+          "x": 1232,
+          "y": 1760.015625,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
-          "x": 497,
-          "y": 2281.875,
+          "x": 1297,
+          "y": 1760.015625,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
-          "x": 562,
-          "y": 2283.875,
+          "x": 1362,
+          "y": 1762.015625,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $212",
+          "x": 1632,
+          "y": 1760.015625,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 1695,
+          "y": 1760.015625,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 1763,
+          "y": 1762.015625,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 2032,
+          "y": 1760.015625,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 2432,
+          "y": 1760.015625,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 2832,
+          "y": 1760.015625,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 2897,
+          "y": 1760.015625,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 2962,
+          "y": 1762.015625,
           "width": 58,
           "height": 28
         }
@@ -2115,7 +2692,7 @@
           "x": 32,
           "y": 1298.15625,
           "width": 780,
-          "height": 1015.71875
+          "height": 493.859375
         },
         ".product-card__picture": {
           "x": 32,

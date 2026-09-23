@@ -8,31 +8,49 @@
   <link rel="preload" href="fonts/satoshi_regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/satoshi_medium.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/satoshi_bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/style.css?v=20260923">
+  <link rel="stylesheet" href="css/style.css?v=20260923-day3">
+  <script src="js/main.js?v=20260923-day3" defer></script>
 </head>
 <body>
   <main class="product-detail">
     <h1 class="visually-hidden">One Life Graphic T-shirt: reviews and recommended products</h1>
     <div class="product-tabs">
-      <ul class="product-tabs__list" aria-label="Product information">
+      <ul class="product-tabs__list" role="tablist" aria-label="Product information">
         <li class="product-tabs__item">
-          <button class="product-tabs__button" type="button" disabled><span class="product-tabs__label">Product Details</span></button>
+          <button class="product-tabs__button js-product-tab" id="product-details-tab" type="button" role="tab" aria-selected="false" aria-controls="product-details-panel" tabindex="-1"><span class="product-tabs__label">Product Details</span></button>
         </li>
         <li class="product-tabs__item">
-          <button class="product-tabs__button product-tabs__button--active" type="button" aria-current="true" disabled><span class="product-tabs__label">Rating &amp; Reviews</span></button>
+          <button class="product-tabs__button product-tabs__button--active js-product-tab" id="reviews-tab" type="button" role="tab" aria-selected="true" aria-controls="reviews-panel"><span class="product-tabs__label">Rating &amp; Reviews</span></button>
         </li>
         <li class="product-tabs__item">
-          <button class="product-tabs__button" type="button" disabled><span class="product-tabs__label">FAQs</span></button>
+          <button class="product-tabs__button js-product-tab" id="faqs-tab" type="button" role="tab" aria-selected="false" aria-controls="faqs-panel" tabindex="-1"><span class="product-tabs__label">FAQs</span></button>
         </li>
       </ul>
     </div>
-    <section class="reviews" aria-labelledby="reviews-heading">
+    <section class="product-tab-panel product-tab-panel--placeholder js-product-panel" id="product-details-panel" role="tabpanel" aria-labelledby="product-details-tab" tabindex="0" hidden>
+      <h2 class="product-tab-panel__heading">Product Details</h2>
+      <p class="product-tab-panel__text">Product information will be updated here.</p>
+    </section>
+    <section class="product-tab-panel product-tab-panel--placeholder js-product-panel" id="faqs-panel" role="tabpanel" aria-labelledby="faqs-tab" tabindex="0" hidden>
+      <h2 class="product-tab-panel__heading">FAQs</h2>
+      <p class="product-tab-panel__text">Frequently asked questions will be updated here.</p>
+    </section>
+    <section class="reviews product-tab-panel js-product-panel" id="reviews-panel" role="tabpanel" aria-labelledby="reviews-tab" tabindex="0">
       <div class="reviews__toolbar">
-        <h2 class="reviews__heading" id="reviews-heading"><span class="reviews__title">All Reviews</span> <span class="reviews__count">(451)</span></h2>
+        <h2 class="reviews__heading"><span class="reviews__title">All Reviews</span> <span class="reviews__count js-review-count" aria-live="polite">(451)</span></h2>
         <div class="reviews__controls">
-          <button class="pill-button pill-button--filter" type="button" aria-label="Filter reviews" disabled>
-            <img class="pill-button__icon" src="images/icn_filter.svg" alt="" width="24" height="24">
-          </button>
+          <div class="rating-filter">
+            <button class="pill-button pill-button--filter js-review-filter" type="button" aria-label="Filter reviews by rating" aria-expanded="false" aria-controls="rating-filter-options">
+              <img class="pill-button__icon" src="images/icn_filter.svg" alt="" width="24" height="24">
+            </button>
+            <ul class="rating-filter__menu js-rating-menu" id="rating-filter-options" aria-label="Rating filter" hidden>
+              <li><button class="rating-filter__option js-rating-option" type="button" data-rating="4"><span aria-hidden="true">★★★★</span><span class="visually-hidden">4-star reviews</span></button></li>
+              <li><button class="rating-filter__option js-rating-option" type="button" data-rating="3"><span aria-hidden="true">★★★</span><span class="visually-hidden">3-star reviews</span></button></li>
+              <li><button class="rating-filter__option js-rating-option" type="button" data-rating="2"><span aria-hidden="true">★★</span><span class="visually-hidden">2-star reviews</span></button></li>
+              <li><button class="rating-filter__option js-rating-option" type="button" data-rating="1"><span aria-hidden="true">★</span><span class="visually-hidden">1-star reviews</span></button></li>
+              <li><button class="rating-filter__option rating-filter__option--all js-rating-option" type="button" data-rating="all">All ratings</button></li>
+            </ul>
+          </div>
           <button class="pill-button pill-button--sort" type="button" aria-label="Sort reviews: Latest" disabled>
             Latest
             <img class="pill-button__chevron" src="images/icn_chevron_down.svg" alt="" width="16" height="16">
@@ -138,11 +156,12 @@
             </article>
           </li>
       </ul>
+      <p class="reviews__empty js-reviews-empty" role="status" hidden>No reviews match this rating.</p>
       <div class="reviews__footer">
         <button class="pill-button pill-button--outline" type="button" disabled>Load More Reviews</button>
       </div>
     </section>
-    <section class="related-products" aria-labelledby="related-heading">
+    <section class="related-products js-product-slider" data-autoplay-delay="30000" aria-labelledby="related-heading">
       <h2 class="related-products__heading" id="related-heading">
         <img class="related-products__heading-image" src="images/ttl_related_products.svg" alt="You might also like" width="578" height="36">
       </h2>

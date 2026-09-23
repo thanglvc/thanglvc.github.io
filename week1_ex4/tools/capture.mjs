@@ -78,7 +78,7 @@ function send(method, params = {}, sessionId) {
     const timer = setTimeout(() => {
       pending.delete(id);
       reject(new Error("CDP timeout: " + method));
-    }, 20000);
+    }, 45000);
     pending.set(id, { resolve: resolveCommand, reject, timer });
     socket.send(JSON.stringify({ id, method, params, sessionId }));
   });
@@ -89,6 +89,7 @@ try {
   const { sessionId } = await send("Target.attachToTarget", { targetId, flatten: true });
   await Promise.all(["Page.enable", "Runtime.enable", "Network.enable", "Log.enable"].map(method => send(method, {}, sessionId)));
   const reports = [];
+  let interactionChecks = null;
   const viewports = process.argv.includes("--desktop") ? [[1440, 1000]] : [
     [1440, 1000], [1024, 768], [1023, 768], [1022, 768],
     [768, 1024], [767, 1024], [766, 1024], [390, 844], [375, 812], [844, 390]
@@ -134,16 +135,109 @@ try {
       await mkdir(resolve(projectRoot, "screenshots"), { recursive: true });
       await writeFile(resolve(projectRoot, "screenshots/browser_" + width + ".png"), Buffer.from(screenshot.data, "base64"));
     }
+    if (width === 1440) {
+      const interactionResult = await send("Runtime.evaluate", {
+        expression: `JSON.stringify((() => {
+          const detailsTab = document.querySelector('#product-details-tab');
+          const reviewsTab = document.querySelector('#reviews-tab');
+          const faqsTab = document.querySelector('#faqs-tab');
+          const detailsPanel = document.querySelector('#product-details-panel');
+          const reviewsPanel = document.querySelector('#reviews-panel');
+          detailsTab.click();
+          const detailsTabWorks = !detailsPanel.hidden && reviewsPanel.hidden;
+          reviewsTab.click();
+          reviewsTab.dispatchEvent(new KeyboardEvent('keydown', {key:'ArrowRight', bubbles:true}));
+          const keyboardTabWorks = faqsTab.getAttribute('aria-selected') === 'true';
+          reviewsTab.click();
+
+          const filterButton = document.querySelector('.js-review-filter');
+          filterButton.click();
+          const filterMenuWorks = !document.querySelector('.js-rating-menu').hidden && filterButton.getAttribute('aria-expanded') === 'true';
+          document.querySelector('[data-rating="4"]').click();
+          const visibleAfterFilter = Array.from(document.querySelectorAll('.reviews__item')).filter(item => !item.hidden).length;
+          const fourStarFilterWorks = visibleAfterFilter === 5 && document.querySelector('.js-review-count').textContent === '(5)';
+          document.querySelector('.js-review-filter').click();
+          document.querySelector('[data-rating="all"]').click();
+          const visibleAfterReset = Array.from(document.querySelectorAll('.reviews__item')).filter(item => !item.hidden).length;
+          const filterResetWorks = visibleAfterReset === 6 && document.querySelector('.js-review-count').textContent === '(451)';
+
+          const slider = document.querySelector('.js-product-slider');
+          const nextButton = document.querySelector('.related-products__arrow--next');
+          const previousButton = document.querySelector('.related-products__arrow--previous');
+          nextButton.click();
+          const sliderNextWorks = slider.dataset.currentIndex === '1';
+          previousButton.click();
+          return {
+            detailsTabWorks,
+            keyboardTabWorks,
+            reviewsTabRestored: reviewsTab.getAttribute('aria-selected') === 'true' && !reviewsPanel.hidden,
+            filterMenuWorks,
+            fourStarFilterWorks,
+            filterResetWorks,
+            sliderHasEightItems: document.querySelectorAll('.related-products__item').length === 8 && slider.dataset.itemCount === '8',
+            sliderNextWorks,
+            sliderPreviousWorks: slider.dataset.currentIndex === '0',
+            autoplayDelayIsThirtySeconds: slider.dataset.autoplayDelay === '30000'
+          };
+        })())`,
+        returnByValue: true
+      }, sessionId);
+      interactionChecks = JSON.parse(interactionResult.result.value);
+      const pauseResult = await send("Runtime.evaluate", {
+        expression: `JSON.stringify((() => {
+          const slider = document.querySelector('.js-product-slider');
+          const next = document.querySelector('.related-products__arrow--next');
+          const previous = document.querySelector('.related-products__arrow--previous');
+          const nativeSetInterval = window.setInterval;
+          let scheduledTimers = 0;
+          window.setInterval = function (...args) {
+            scheduledTimers += 1;
+            return nativeSetInterval.apply(this, args);
+          };
+          try {
+            slider.dispatchEvent(new Event('mouseenter'));
+            next.click();
+            const hoverPausesAfterClick = scheduledTimers === 0;
+            previous.click();
+            next.focus();
+            slider.dispatchEvent(new Event('mouseleave'));
+            const focusKeepsPaused = scheduledTimers === 0;
+            previous.focus();
+            const focusTransferKeepsPaused = scheduledTimers === 0;
+            previous.blur();
+            const resumesAfterExit = scheduledTimers === 1;
+            return {
+              hoverPausesAfterClick,
+              focusKeepsPaused,
+              focusTransferKeepsPaused,
+              resumesAfterExit
+            };
+          } finally {
+            window.setInterval = nativeSetInterval;
+          }
+        })())`,
+        returnByValue: true
+      }, sessionId);
+      Object.assign(interactionChecks, JSON.parse(pauseResult.result.value));
+      const autoplayResult = await send("Runtime.evaluate", {
+        expression: "new Promise(resolve => window.setTimeout(() => resolve(document.querySelector('.js-product-slider').dataset.currentIndex === '1'), 30100))",
+        awaitPromise: true,
+        returnByValue: true
+      }, sessionId);
+      interactionChecks.autoplayAdvancesAfterThirtySeconds = autoplayResult.result.value;
+    }
   }
   const version = await send("Browser.getVersion");
-  const report = { browser: version.product, timestamp: new Date().toISOString(), errors, reports };
+  const report = { browser: version.product, timestamp: new Date().toISOString(), errors, interactionChecks, reports };
   await writeFile(resolve(projectRoot, "screenshots/browser_report.json"), JSON.stringify(report, null, 2) + "\n");
   console.info(JSON.stringify({
     browser: report.browser, errors,
     reports: reports.map(({viewport,overflow,fonts,brokenImages}) => ({viewport,overflow,fonts,brokenImages})),
-    desktopBoxes: reports[0].boxes
+    desktopBoxes: reports[0].boxes,
+    interactionChecks
   }, null, 2));
-  if (errors.length || reports.some(report => report.overflow || report.brokenImages.length || report.fonts.some(loaded => !loaded))) {
+  const interactionsFailed = !interactionChecks || Object.values(interactionChecks).some(check => !check);
+  if (errors.length || interactionsFailed || reports.some(report => report.overflow || report.brokenImages.length || report.fonts.some(loaded => !loaded))) {
     process.exitCode = 1;
   }
 } finally {
