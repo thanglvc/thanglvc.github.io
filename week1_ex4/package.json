@@ -1,0 +1,15 @@
+{
+  "name": "shop-pc-day-2",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "gulp build",
+    "dev": "gulp dev",
+    "check:visual": "node tools/capture.mjs"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "sass": "^1.93.0"
+  }
+}

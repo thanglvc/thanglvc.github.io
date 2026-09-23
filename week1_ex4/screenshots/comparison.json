@@ -1,0 +1,37 @@
+{
+  "all": {
+    "mean_absolute_channel_error_0_255": 0.876,
+    "pixels_with_any_difference_percent": 3.7818,
+    "pixels_with_difference_over_16_percent": 1.6998
+  },
+  "tabs_and_toolbar": {
+    "mean_absolute_channel_error_0_255": 2.1022,
+    "pixels_with_any_difference_percent": 3.7399,
+    "pixels_with_difference_over_16_percent": 2.7352
+  },
+  "reviews": {
+    "mean_absolute_channel_error_0_255": 1.3216,
+    "pixels_with_any_difference_percent": 6.6213,
+    "pixels_with_difference_over_16_percent": 2.8857
+  },
+  "load_more": {
+    "mean_absolute_channel_error_0_255": 2.8661,
+    "pixels_with_any_difference_percent": 9.2057,
+    "pixels_with_difference_over_16_percent": 5.301
+  },
+  "heading": {
+    "mean_absolute_channel_error_0_255": 0.8583,
+    "pixels_with_any_difference_percent": 5.8378,
+    "pixels_with_difference_over_16_percent": 1.8103
+  },
+  "product_images": {
+    "mean_absolute_channel_error_0_255": 0.0272,
+    "pixels_with_any_difference_percent": 1.548,
+    "pixels_with_difference_over_16_percent": 0.0
+  },
+  "product_text": {
+    "mean_absolute_channel_error_0_255": 2.8874,
+    "pixels_with_any_difference_percent": 8.2902,
+    "pixels_with_difference_over_16_percent": 5.193
+  }
+}

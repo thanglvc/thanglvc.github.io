@@ -1,0 +1,2147 @@
+{
+  "browser": "Chrome/153.0.8010.47",
+  "timestamp": "2026-09-23T04:06:40.858Z",
+  "errors": [],
+  "reports": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 233,
+          "y": 104,
+          "width": 32.453125,
+          "height": 22
+        },
+        {
+          "text": "Samantha D.",
+          "x": 132,
+          "y": 230.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 762,
+          "y": 230.078125,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 132,
+          "y": 492.078125,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 762,
+          "y": 492.078125,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 132,
+          "y": 754.078125,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 762,
+          "y": 754.078125,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 100,
+          "y": 1567,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 163,
+          "y": 1567,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 231,
+          "y": 1569,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 415,
+          "y": 1567,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 730,
+          "y": 1567,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 1045,
+          "y": 1567,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 1110,
+          "y": 1567,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 1175,
+          "y": 1569,
+          "width": 58,
+          "height": 28
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 100,
+          "y": 0,
+          "width": 1240,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 100,
+          "y": 88,
+          "width": 1240,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 100,
+          "y": 160,
+          "width": 1240,
+          "height": 765.578125
+        },
+        ".review-card": {
+          "x": 100,
+          "y": 160,
+          "width": 610,
+          "height": 241.578125
+        },
+        ".review-card__author": {
+          "x": 132,
+          "y": 225.578125,
+          "width": 522,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 132,
+          "y": 261.578125,
+          "width": 522,
+          "height": 66
+        },
+        ".review-card__date": {
+          "x": 132,
+          "y": 351.578125,
+          "width": 546,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 100,
+          "y": 962,
+          "width": 1240,
+          "height": 52
+        },
+        ".related-products__heading": {
+          "x": 100,
+          "y": 1078,
+          "width": 1240,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 431.28125,
+          "y": 1095.280029296875,
+          "width": 578,
+          "height": 36
+        },
+        ".related-products__list": {
+          "x": 100,
+          "y": 1191,
+          "width": 1240,
+          "height": 408
+        },
+        ".product-card__picture": {
+          "x": 100,
+          "y": 1191,
+          "width": 295,
+          "height": 298
+        },
+        ".product-card__title": {
+          "x": 100,
+          "y": 1505,
+          "width": 295,
+          "height": 27
+        },
+        ".product-card__rating": {
+          "x": 100,
+          "y": 1540,
+          "width": 295,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 100,
+          "y": 1567,
+          "width": 295,
+          "height": 32
+        }
+      }
+    },
+    {
+      "viewport": [
+        1024,
+        768
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 165,
+          "y": 104,
+          "width": 32.453125,
+          "height": 22
+        },
+        {
+          "text": "Samantha D.",
+          "x": 64,
+          "y": 230.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 554,
+          "y": 230.078125,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 64,
+          "y": 536.078125,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 554,
+          "y": 536.078125,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 64,
+          "y": 842.078125,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 554,
+          "y": 842.078125,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 32,
+          "y": 1633.28125,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 95,
+          "y": 1633.28125,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 163,
+          "y": 1635.28125,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 277,
+          "y": 1633.28125,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 522,
+          "y": 1633.28125,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 767,
+          "y": 1606.28125,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 832,
+          "y": 1606.28125,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 897,
+          "y": 1608.28125,
+          "width": 58,
+          "height": 28
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 32,
+          "y": 0,
+          "width": 960,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 32,
+          "y": 88,
+          "width": 960,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 32,
+          "y": 160,
+          "width": 960,
+          "height": 875.578125
+        },
+        ".review-card": {
+          "x": 32,
+          "y": 160,
+          "width": 470,
+          "height": 285.578125
+        },
+        ".review-card__author": {
+          "x": 64,
+          "y": 225.578125,
+          "width": 382,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 64,
+          "y": 261.578125,
+          "width": 382,
+          "height": 88
+        },
+        ".review-card__date": {
+          "x": 64,
+          "y": 395.578125,
+          "width": 406,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 32,
+          "y": 1072,
+          "width": 960,
+          "height": 52
+        },
+        ".related-products__heading": {
+          "x": 32,
+          "y": 1188,
+          "width": 960,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 223.28125,
+          "y": 1205.280029296875,
+          "width": 578,
+          "height": 36
+        },
+        ".related-products__list": {
+          "x": 32,
+          "y": 1301,
+          "width": 960,
+          "height": 364.28125
+        },
+        ".product-card__picture": {
+          "x": 32,
+          "y": 1301,
+          "width": 225,
+          "height": 227.28125
+        },
+        ".product-card__title": {
+          "x": 32,
+          "y": 1544.28125,
+          "width": 225,
+          "height": 54
+        },
+        ".product-card__rating": {
+          "x": 32,
+          "y": 1606.28125,
+          "width": 225,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 32,
+          "y": 1633.28125,
+          "width": 225,
+          "height": 32
+        }
+      }
+    },
+    {
+      "viewport": [
+        1023,
+        768
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 165,
+          "y": 104,
+          "width": 32.453125,
+          "height": 22
+        },
+        {
+          "text": "Samantha D.",
+          "x": 56,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 545.5,
+          "y": 226.078125,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 56,
+          "y": 501.65625,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 545.5,
+          "y": 501.65625,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 56,
+          "y": 799.234375,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 545.5,
+          "y": 799.234375,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 32,
+          "y": 1806.421875,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 95,
+          "y": 1806.421875,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 163,
+          "y": 1808.421875,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 521.5,
+          "y": 1806.421875,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 32,
+          "y": 2418.6875,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 521.5,
+          "y": 2418.6875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 586.5,
+          "y": 2418.6875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 651.5,
+          "y": 2420.6875,
+          "width": 58,
+          "height": 28
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 32,
+          "y": 0,
+          "width": 959,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 32,
+          "y": 88,
+          "width": 959,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 32,
+          "y": 160,
+          "width": 959,
+          "height": 828.734375
+        },
+        ".review-card": {
+          "x": 32,
+          "y": 160,
+          "width": 469.5,
+          "height": 255.578125
+        },
+        ".review-card__author": {
+          "x": 56,
+          "y": 221.578125,
+          "width": 397.5,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 56,
+          "y": 257.578125,
+          "width": 397.5,
+          "height": 88
+        },
+        ".review-card__date": {
+          "x": 56,
+          "y": 369.578125,
+          "width": 421.5,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 32,
+          "y": 1025.15625,
+          "width": 959,
+          "height": 52
+        },
+        ".related-products__heading": {
+          "x": 32,
+          "y": 1141.15625,
+          "width": 959,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 222.78125,
+          "y": 1158.436279296875,
+          "width": 578,
+          "height": 36
+        },
+        ".related-products__list": {
+          "x": 32,
+          "y": 1254.15625,
+          "width": 959,
+          "height": 1196.53125
+        },
+        ".product-card__picture": {
+          "x": 32,
+          "y": 1254.15625,
+          "width": 469.5,
+          "height": 474.265625
+        },
+        ".product-card__title": {
+          "x": 32,
+          "y": 1744.421875,
+          "width": 469.5,
+          "height": 27
+        },
+        ".product-card__rating": {
+          "x": 32,
+          "y": 1779.421875,
+          "width": 469.5,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 32,
+          "y": 1806.421875,
+          "width": 469.5,
+          "height": 32
+        }
+      }
+    },
+    {
+      "viewport": [
+        1022,
+        768
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 165,
+          "y": 104,
+          "width": 32.453125,
+          "height": 22
+        },
+        {
+          "text": "Samantha D.",
+          "x": 56,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 545,
+          "y": 226.078125,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 56,
+          "y": 501.65625,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 545,
+          "y": 501.65625,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 56,
+          "y": 799.234375,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 545,
+          "y": 799.234375,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 32,
+          "y": 1805.921875,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 95,
+          "y": 1805.921875,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 163,
+          "y": 1807.921875,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 521,
+          "y": 1805.921875,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 32,
+          "y": 2417.6875,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 521,
+          "y": 2417.6875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 586,
+          "y": 2417.6875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 651,
+          "y": 2419.6875,
+          "width": 58,
+          "height": 28
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 32,
+          "y": 0,
+          "width": 958,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 32,
+          "y": 88,
+          "width": 958,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 32,
+          "y": 160,
+          "width": 958,
+          "height": 828.734375
+        },
+        ".review-card": {
+          "x": 32,
+          "y": 160,
+          "width": 469,
+          "height": 255.578125
+        },
+        ".review-card__author": {
+          "x": 56,
+          "y": 221.578125,
+          "width": 397,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 56,
+          "y": 257.578125,
+          "width": 397,
+          "height": 88
+        },
+        ".review-card__date": {
+          "x": 56,
+          "y": 369.578125,
+          "width": 421,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 32,
+          "y": 1025.15625,
+          "width": 958,
+          "height": 52
+        },
+        ".related-products__heading": {
+          "x": 32,
+          "y": 1141.15625,
+          "width": 958,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 222.28125,
+          "y": 1158.436279296875,
+          "width": 578,
+          "height": 36
+        },
+        ".related-products__list": {
+          "x": 32,
+          "y": 1254.15625,
+          "width": 958,
+          "height": 1195.53125
+        },
+        ".product-card__picture": {
+          "x": 32,
+          "y": 1254.15625,
+          "width": 469,
+          "height": 473.765625
+        },
+        ".product-card__title": {
+          "x": 32,
+          "y": 1743.921875,
+          "width": 469,
+          "height": 27
+        },
+        ".product-card__rating": {
+          "x": 32,
+          "y": 1778.921875,
+          "width": 469,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 32,
+          "y": 1805.921875,
+          "width": 469,
+          "height": 32
+        }
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 165,
+          "y": 104,
+          "width": 32.453125,
+          "height": 22
+        },
+        {
+          "text": "Samantha D.",
+          "x": 56,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 418,
+          "y": 226.078125,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 56,
+          "y": 567.65625,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 418,
+          "y": 567.65625,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 56,
+          "y": 909.234375,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 418,
+          "y": 909.234375,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 32,
+          "y": 1831.625,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 95,
+          "y": 1831.625,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 163,
+          "y": 1833.625,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 394,
+          "y": 1831.625,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 32,
+          "y": 2315.09375,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 394,
+          "y": 2315.09375,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 459,
+          "y": 2315.09375,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 524,
+          "y": 2317.09375,
+          "width": 58,
+          "height": 28
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 32,
+          "y": 0,
+          "width": 704,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 32,
+          "y": 88,
+          "width": 704,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 32,
+          "y": 160,
+          "width": 704,
+          "height": 982.734375
+        },
+        ".review-card": {
+          "x": 32,
+          "y": 160,
+          "width": 342,
+          "height": 321.578125
+        },
+        ".review-card__author": {
+          "x": 56,
+          "y": 221.578125,
+          "width": 270,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 56,
+          "y": 257.578125,
+          "width": 270,
+          "height": 110
+        },
+        ".review-card__date": {
+          "x": 56,
+          "y": 435.578125,
+          "width": 294,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 32,
+          "y": 1179.15625,
+          "width": 704,
+          "height": 52
+        },
+        ".related-products__heading": {
+          "x": 32,
+          "y": 1295.15625,
+          "width": 704,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 95.28125,
+          "y": 1312.436279296875,
+          "width": 578,
+          "height": 36
+        },
+        ".related-products__list": {
+          "x": 32,
+          "y": 1408.15625,
+          "width": 704,
+          "height": 938.9375
+        },
+        ".product-card__picture": {
+          "x": 32,
+          "y": 1408.15625,
+          "width": 342,
+          "height": 345.46875
+        },
+        ".product-card__title": {
+          "x": 32,
+          "y": 1769.625,
+          "width": 342,
+          "height": 27
+        },
+        ".product-card__rating": {
+          "x": 32,
+          "y": 1804.625,
+          "width": 342,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 32,
+          "y": 1831.625,
+          "width": 342,
+          "height": 32
+        }
+      }
+    },
+    {
+      "viewport": [
+        767,
+        1024
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 126,
+          "y": 103.671875,
+          "width": 28.40625,
+          "height": 19.25
+        },
+        {
+          "text": "Samantha D.",
+          "x": 40,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 40,
+          "y": 487.65625,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 40,
+          "y": 749.234375,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 40,
+          "y": 1010.8125,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 40,
+          "y": 1272.390625,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 40,
+          "y": 1533.96875,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 16,
+          "y": 2367.625,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 65,
+          "y": 2367.625,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 118,
+          "y": 2369.953125,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 391.5,
+          "y": 2367.625,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 16,
+          "y": 2854.015625,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 391.5,
+          "y": 2854.015625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 442.5,
+          "y": 2854.015625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 493.5,
+          "y": 2856.34375,
+          "width": 42,
+          "height": 22
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 16,
+          "y": 0,
+          "width": 735,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 16,
+          "y": 88,
+          "width": 735,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 16,
+          "y": 160,
+          "width": 735,
+          "height": 1549.46875
+        },
+        ".review-card": {
+          "x": 16,
+          "y": 160,
+          "width": 735,
+          "height": 241.578125
+        },
+        ".review-card__author": {
+          "x": 40,
+          "y": 221.578125,
+          "width": 663,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 40,
+          "y": 257.578125,
+          "width": 663,
+          "height": 44
+        },
+        ".review-card__date": {
+          "x": 40,
+          "y": 355.578125,
+          "width": 687,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 16,
+          "y": 1745.890625,
+          "width": 735,
+          "height": 48
+        },
+        ".related-products__heading": {
+          "x": 16,
+          "y": 1841.890625,
+          "width": 735,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 183.78125,
+          "y": 1864.717529296875,
+          "width": 400,
+          "height": 24.90625
+        },
+        ".related-products__list": {
+          "x": 16,
+          "y": 1931.890625,
+          "width": 735,
+          "height": 948.78125
+        },
+        ".product-card__picture": {
+          "x": 16,
+          "y": 1931.890625,
+          "width": 359.5,
+          "height": 363.140625
+        },
+        ".product-card__title": {
+          "x": 16,
+          "y": 2311.03125,
+          "width": 359.5,
+          "height": 21.59375
+        },
+        ".product-card__rating": {
+          "x": 16,
+          "y": 2340.625,
+          "width": 359.5,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 16,
+          "y": 2367.625,
+          "width": 359.5,
+          "height": 26.65625
+        }
+      }
+    },
+    {
+      "viewport": [
+        766,
+        1024
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 126,
+          "y": 103.671875,
+          "width": 28.40625,
+          "height": 19.25
+        },
+        {
+          "text": "Samantha D.",
+          "x": 40,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 40,
+          "y": 487.65625,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 40,
+          "y": 749.234375,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 40,
+          "y": 1010.8125,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 40,
+          "y": 1272.390625,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 40,
+          "y": 1533.96875,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 16,
+          "y": 2367.125,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 65,
+          "y": 2367.125,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 118,
+          "y": 2369.453125,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 391,
+          "y": 2367.125,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 16,
+          "y": 2853.015625,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 391,
+          "y": 2853.015625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 442,
+          "y": 2853.015625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 493,
+          "y": 2855.34375,
+          "width": 42,
+          "height": 22
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 16,
+          "y": 0,
+          "width": 734,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 16,
+          "y": 88,
+          "width": 734,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 16,
+          "y": 160,
+          "width": 734,
+          "height": 1549.46875
+        },
+        ".review-card": {
+          "x": 16,
+          "y": 160,
+          "width": 734,
+          "height": 241.578125
+        },
+        ".review-card__author": {
+          "x": 40,
+          "y": 221.578125,
+          "width": 662,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 40,
+          "y": 257.578125,
+          "width": 662,
+          "height": 44
+        },
+        ".review-card__date": {
+          "x": 40,
+          "y": 355.578125,
+          "width": 686,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 16,
+          "y": 1745.890625,
+          "width": 734,
+          "height": 48
+        },
+        ".related-products__heading": {
+          "x": 16,
+          "y": 1841.890625,
+          "width": 734,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 183.28125,
+          "y": 1864.717529296875,
+          "width": 400,
+          "height": 24.90625
+        },
+        ".related-products__list": {
+          "x": 16,
+          "y": 1931.890625,
+          "width": 734,
+          "height": 947.78125
+        },
+        ".product-card__picture": {
+          "x": 16,
+          "y": 1931.890625,
+          "width": 359,
+          "height": 362.640625
+        },
+        ".product-card__title": {
+          "x": 16,
+          "y": 2310.53125,
+          "width": 359,
+          "height": 21.59375
+        },
+        ".product-card__rating": {
+          "x": 16,
+          "y": 2340.125,
+          "width": 359,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 16,
+          "y": 2367.125,
+          "width": 359,
+          "height": 26.65625
+        }
+      }
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 126,
+          "y": 103.671875,
+          "width": 28.40625,
+          "height": 19.25
+        },
+        {
+          "text": "Samantha D.",
+          "x": 40,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 40,
+          "y": 523.65625,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 40,
+          "y": 843.234375,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 40,
+          "y": 1162.8125,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 40,
+          "y": 1482.390625,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 40,
+          "y": 1801.96875,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 16,
+          "y": 2502.8125,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 65,
+          "y": 2502.8125,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 118,
+          "y": 2505.140625,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 203,
+          "y": 2502.8125,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 16,
+          "y": 2820.390625,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 203,
+          "y": 2798.796875,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 254,
+          "y": 2798.796875,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 305,
+          "y": 2801.125,
+          "width": 42,
+          "height": 22
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 16,
+          "y": 0,
+          "width": 358,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 16,
+          "y": 88,
+          "width": 358,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 16,
+          "y": 160,
+          "width": 358,
+          "height": 1853.46875
+        },
+        ".review-card": {
+          "x": 16,
+          "y": 160,
+          "width": 358,
+          "height": 277.578125
+        },
+        ".review-card__author": {
+          "x": 40,
+          "y": 221.578125,
+          "width": 286,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 40,
+          "y": 257.578125,
+          "width": 286,
+          "height": 110
+        },
+        ".review-card__date": {
+          "x": 40,
+          "y": 391.578125,
+          "width": 310,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 16,
+          "y": 2049.890625,
+          "width": 358,
+          "height": 48
+        },
+        ".related-products__heading": {
+          "x": 16,
+          "y": 2145.890625,
+          "width": 358,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 16.28125,
+          "y": 2170.014404296875,
+          "width": 358,
+          "height": 22.296875
+        },
+        ".related-products__list": {
+          "x": 16,
+          "y": 2235.890625,
+          "width": 358,
+          "height": 611.15625
+        },
+        ".product-card__picture": {
+          "x": 16,
+          "y": 2235.890625,
+          "width": 171,
+          "height": 172.734375
+        },
+        ".product-card__title": {
+          "x": 16,
+          "y": 2424.625,
+          "width": 171,
+          "height": 43.1875
+        },
+        ".product-card__rating": {
+          "x": 16,
+          "y": 2475.8125,
+          "width": 171,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 16,
+          "y": 2502.8125,
+          "width": 171,
+          "height": 26.65625
+        }
+      }
+    },
+    {
+      "viewport": [
+        375,
+        812
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 126,
+          "y": 103.671875,
+          "width": 28.40625,
+          "height": 19.25
+        },
+        {
+          "text": "Samantha D.",
+          "x": 40,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 40,
+          "y": 523.65625,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 40,
+          "y": 843.234375,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 40,
+          "y": 1162.8125,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 40,
+          "y": 1504.390625,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 40,
+          "y": 1823.96875,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 16,
+          "y": 2517.234375,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 65,
+          "y": 2517.234375,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 118,
+          "y": 2519.5625,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 195.5,
+          "y": 2517.234375,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 16,
+          "y": 2827.234375,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 195.5,
+          "y": 2805.640625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 246.5,
+          "y": 2805.640625,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 297.5,
+          "y": 2807.96875,
+          "width": 42,
+          "height": 22
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 16,
+          "y": 0,
+          "width": 343,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 16,
+          "y": 88,
+          "width": 343,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 16,
+          "y": 160,
+          "width": 343,
+          "height": 1875.46875
+        },
+        ".review-card": {
+          "x": 16,
+          "y": 160,
+          "width": 343,
+          "height": 277.578125
+        },
+        ".review-card__author": {
+          "x": 40,
+          "y": 221.578125,
+          "width": 271,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 40,
+          "y": 257.578125,
+          "width": 271,
+          "height": 110
+        },
+        ".review-card__date": {
+          "x": 40,
+          "y": 391.578125,
+          "width": 295,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 16,
+          "y": 2071.890625,
+          "width": 343,
+          "height": 48
+        },
+        ".related-products__heading": {
+          "x": 16,
+          "y": 2167.890625,
+          "width": 343,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 16.28125,
+          "y": 2192.483154296875,
+          "width": 343,
+          "height": 21.359375
+        },
+        ".related-products__list": {
+          "x": 16,
+          "y": 2257.890625,
+          "width": 343,
+          "height": 596
+        },
+        ".product-card__picture": {
+          "x": 16,
+          "y": 2257.890625,
+          "width": 163.5,
+          "height": 165.15625
+        },
+        ".product-card__title": {
+          "x": 16,
+          "y": 2439.046875,
+          "width": 163.5,
+          "height": 43.1875
+        },
+        ".product-card__rating": {
+          "x": 16,
+          "y": 2490.234375,
+          "width": 163.5,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 16,
+          "y": 2517.234375,
+          "width": 163.5,
+          "height": 26.65625
+        }
+      }
+    },
+    {
+      "viewport": [
+        844,
+        390
+      ],
+      "overflow": false,
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 4,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 165,
+          "y": 104,
+          "width": 32.453125,
+          "height": 22
+        },
+        {
+          "text": "Samantha D.",
+          "x": 56,
+          "y": 226.078125,
+          "width": 118,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 456,
+          "y": 226.078125,
+          "width": 69,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 56,
+          "y": 523.65625,
+          "width": 78,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 456,
+          "y": 523.65625,
+          "width": 75,
+          "height": 15
+        },
+        {
+          "text": "Liam K.",
+          "x": 56,
+          "y": 821.234375,
+          "width": 70,
+          "height": 15
+        },
+        {
+          "text": "Ava H.",
+          "x": 456,
+          "y": 821.234375,
+          "width": 61,
+          "height": 15
+        },
+        {
+          "text": "Price: $212",
+          "x": 32,
+          "y": 1760.015625,
+          "width": 53,
+          "height": 32
+        },
+        {
+          "text": "Original price: $242",
+          "x": 95,
+          "y": 1760.015625,
+          "width": 58,
+          "height": 32
+        },
+        {
+          "text": "-20%",
+          "x": 163,
+          "y": 1762.015625,
+          "width": 58,
+          "height": 28
+        },
+        {
+          "text": "Price: $145",
+          "x": 432,
+          "y": 1760.015625,
+          "width": 54,
+          "height": 32
+        },
+        {
+          "text": "Price: $180",
+          "x": 32,
+          "y": 2281.875,
+          "width": 56,
+          "height": 32
+        },
+        {
+          "text": "Price: $120",
+          "x": 432,
+          "y": 2281.875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "Original price: $150",
+          "x": 497,
+          "y": 2281.875,
+          "width": 55,
+          "height": 32
+        },
+        {
+          "text": "-30%",
+          "x": 562,
+          "y": 2283.875,
+          "width": 58,
+          "height": 28
+        }
+      ],
+      "boxes": {
+        ".product-tabs": {
+          "x": 32,
+          "y": 0,
+          "width": 780,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 32,
+          "y": 88,
+          "width": 780,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 32,
+          "y": 160,
+          "width": 780,
+          "height": 872.734375
+        },
+        ".review-card": {
+          "x": 32,
+          "y": 160,
+          "width": 380,
+          "height": 277.578125
+        },
+        ".review-card__author": {
+          "x": 56,
+          "y": 221.578125,
+          "width": 308,
+          "height": 24
+        },
+        ".review-card__text": {
+          "x": 56,
+          "y": 257.578125,
+          "width": 308,
+          "height": 110
+        },
+        ".review-card__date": {
+          "x": 56,
+          "y": 391.578125,
+          "width": 332,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 32,
+          "y": 1069.15625,
+          "width": 780,
+          "height": 52
+        },
+        ".related-products__heading": {
+          "x": 32,
+          "y": 1185.15625,
+          "width": 780,
+          "height": 58
+        },
+        ".related-products__heading-image": {
+          "x": 133.28125,
+          "y": 1202.436279296875,
+          "width": 578,
+          "height": 36
+        },
+        ".related-products__list": {
+          "x": 32,
+          "y": 1298.15625,
+          "width": 780,
+          "height": 1015.71875
+        },
+        ".product-card__picture": {
+          "x": 32,
+          "y": 1298.15625,
+          "width": 380,
+          "height": 383.859375
+        },
+        ".product-card__title": {
+          "x": 32,
+          "y": 1698.015625,
+          "width": 380,
+          "height": 27
+        },
+        ".product-card__rating": {
+          "x": 32,
+          "y": 1733.015625,
+          "width": 380,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 32,
+          "y": 1760.015625,
+          "width": 380,
+          "height": 32
+        }
+      }
+    }
+  ]
+}

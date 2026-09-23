@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi_regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi_medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi_bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --color-ink: #000;
+  --color-muted: rgb(0 0 0 / 60%);
+  --color-border: rgb(0 0 0 / 10%);
+  --color-control: #f0f0f0;
+  --color-paper: #fff;
+  --color-discount: #f33;
+  --color-discount-bg: rgb(255 51 51 / 10%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.375;
+  color: var(--color-ink);
+  background: var(--color-paper);
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button {
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+}
+
+button:disabled {
+  opacity: 1;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 4px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: 0;
+  clip-path: inset(50%);
+}
+
+.product-detail {
+  width: min(1240px, calc(100% - 64px));
+  margin-inline: auto;
+  padding-bottom: 21px;
+
+  @media (max-width: 767px) {
+    width: calc(100% - 32px);
+  }
+}
