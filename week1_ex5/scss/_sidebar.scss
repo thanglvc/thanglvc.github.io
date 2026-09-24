@@ -1,0 +1,230 @@
+@use "variables" as *;
+
+.side-card {
+  border: 1px solid $color-border;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: $color-white;
+
+  &--checkpoint {
+    padding: 14px 12px;
+    text-align: center;
+
+    .side-card__media {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 10px;
+    }
+
+    .side-card__img {
+      width: 144px;
+      height: 108px;
+      border: 1px solid #e0e0e0;
+    }
+
+    .side-card__title {
+      font-size: 16px;
+      font-weight: bold;
+      color: $color-text-dark;
+      margin-bottom: 6px;
+      line-height: 1.3;
+    }
+
+    .side-card__desc {
+      font-size: 11.6px;
+      color: $color-text-sub;
+      line-height: 1.5;
+    }
+  }
+
+  &--reviews {
+    .side-card__header-bar {
+      background: linear-gradient(to bottom, #ffffff 0%, #ececec 100%);
+      border-bottom: 1px solid #d5d5d5;
+      padding: 10px 12px;
+    }
+
+    .side-card__reviews-title {
+      font-size: 13px;
+      font-weight: bold;
+      color: $color-text;
+      line-height: 1.2;
+    }
+
+    .side-card__reviews-label {
+      background-color: $color-primary-red;
+      color: $color-white;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 6px 12px;
+      text-align: center;
+    }
+
+    .side-card__reviews-list {
+      padding: 12px 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .side-card__review-item {
+      font-size: 12px;
+      color: $color-text-gray;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      line-height: 1.4;
+    }
+
+    .side-card__bullet {
+      color: $color-primary-red;
+      font-size: 8px;
+      flex-shrink: 0;
+    }
+  }
+
+  &--company {
+    .side-card__red-header {
+      background-color: $color-primary-red;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+    .side-card__red-title {
+      color: $color-white;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .side-card__company-body {
+      padding: 14px 14px 16px;
+    }
+
+    .side-card__company-name {
+      font-size: 14px;
+      font-weight: bold;
+      color: $color-text;
+      margin-bottom: 8px;
+    }
+
+    .side-card__info-line {
+      font-size: 12px;
+      color: $color-text-gray;
+      line-height: 1.7;
+    }
+
+    .side-card__company-photo {
+      margin: 12px auto;
+      display: flex;
+      justify-content: center;
+    }
+
+    .side-card__company-img {
+      width: 202px;
+      height: 126px;
+      border: 1px solid #d5d5d5;
+    }
+
+    .side-card__action {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+  }
+
+  &--insurance {
+    border: 2px solid $color-yellow;
+    background-color: #fffbe6;
+    padding: 14px 10px;
+    text-align: center;
+
+    .side-card__insurance-alert {
+      font-size: 15px;
+      font-weight: bold;
+      color: $color-primary-red;
+      margin-bottom: 4px;
+      line-height: 1.2;
+    }
+
+    .side-card__insurance-sub {
+      font-size: 11.6px;
+      font-weight: 500;
+      color: $color-text-dark;
+    }
+  }
+
+  &--area {
+    background-color: #fff8db;
+    border: 1px solid #fae8a4;
+    padding: 14px 12px;
+    text-align: center;
+
+    .side-card__area-title {
+      font-size: 14px;
+      font-weight: bold;
+      color: $color-text;
+      margin-bottom: 4px;
+    }
+
+    .side-card__area-text {
+      font-size: 12px;
+      color: $color-text-gray;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .side-card__banners {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .side-card__banner-img {
+      display: block;
+      border: 1px solid rgba(0, 0, 0, .1);
+      border-radius: 3px;
+    }
+
+    .side-card__group-text {
+      font-size: 12px;
+      color: $color-text-gray;
+    }
+  }
+}
+
+@media (min-width: $bp-desktop) {
+  .sidebar {
+    gap: 0;
+
+    .side-card--checkpoint {
+      height: 97px;
+      margin-bottom: 24px;
+      box-sizing: border-box;
+    }
+
+    .side-card--reviews {
+      height: 118px;
+      margin-bottom: 21px;
+      box-sizing: border-box;
+    }
+
+    .side-card--company {
+      height: 340px;
+      margin-bottom: 13px;
+      box-sizing: border-box;
+    }
+
+    .side-card--insurance {
+      height: 83px;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .side-card--area {
+      height: 294px;
+      box-sizing: border-box;
+    }
+  }
+}

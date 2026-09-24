@@ -1,0 +1,54 @@
+@use "variables" as *;
+
+.layout-body {
+  padding-top: 0;
+  margin-bottom: 41px;
+  background-color: $color-white;
+
+  &__container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    gap: $column-gap;
+    align-items: flex-start;
+  }
+}
+
+.main-content {
+  flex: 0 0 $content-width;
+  width: $content-width;
+  min-width: 0;
+}
+
+.sidebar {
+  flex: 0 0 $sidebar-width;
+  width: $sidebar-width;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: $bp-tablet) {
+  .layout-body {
+    margin-bottom: 35px;
+
+    &__container {
+      padding: 0 15px;
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+
+  .main-content,
+  .sidebar {
+    flex: none;
+    width: 100%;
+  }
+
+  .sidebar {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+}

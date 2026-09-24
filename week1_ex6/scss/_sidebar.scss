@@ -1,0 +1,327 @@
+@use "variables" as *;
+
+.side-card {
+  &--promo {
+    position: relative;
+    width: 100%;
+    height: 165px;
+    border: 1px solid #fed7a3;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fef7ef;
+
+    .side-card__promo-media {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .side-card__promo-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .side-card__promo-badge {
+      position: absolute;
+      top: 78px;
+      left: 18px;
+      background-color: $color-primary-orange;
+      color: $color-white;
+      padding: 1px 12px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 3px;
+      z-index: 2;
+    }
+
+    .side-card__promo-text {
+      position: absolute;
+      bottom: 8px;
+      left: 18px;
+      right: 18px;
+      font-size: 13px;
+      color: $color-deep-brown;
+      line-height: 1.4;
+      z-index: 2;
+    }
+  }
+
+  &--menu {
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    overflow: hidden;
+    height: 290px;
+
+    .side-card__menu-header {
+      background-color: $color-deep-brown;
+      height: 42px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .side-card__menu-title {
+      font-size: 17px;
+      color: $color-white;
+      font-weight: 500;
+    }
+
+    .side-card__menu-body {
+      padding: 12px 16px;
+      background-color: $color-white;
+    }
+
+    .side-card__category {
+      margin-bottom: 10px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &-title {
+        font-size: 14px;
+        font-weight: bold;
+        color: $color-deep-brown;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding-bottom: 3px;
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 4px;
+      }
+    }
+
+    .side-card__dot {
+      color: $color-primary-orange;
+      font-size: 10px;
+    }
+
+    .side-card__link-list {
+      li {
+        line-height: 1.6;
+      }
+
+      a {
+        font-size: 12px;
+        color: $color-brown-text;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        &:hover {
+          color: $color-primary-orange;
+        }
+      }
+    }
+
+    .side-card__arrow {
+      color: $color-primary-orange;
+      font-size: 8px;
+    }
+  }
+
+  &--banner {
+    border-radius: 4px;
+    overflow: hidden;
+    height: 85px;
+
+    .side-card__banner-link {
+      display: block;
+      position: relative;
+      height: 100%;
+    }
+
+    .side-card__banner-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .side-card__campaign-text {
+      position: absolute;
+      top: 50%;
+      left: 20px;
+      transform: translateY(-50%);
+      font-size: 18px;
+      font-weight: bold;
+      color: $color-white;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+    }
+  }
+
+  &--recruit {
+    position: relative;
+    width: 100%;
+    height: 135px;
+    border: 1px solid #fed7a3;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fef7ef;
+
+    .side-card__recruit-media {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .side-card__recruit-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .side-card__recruit-body {
+      position: relative;
+      z-index: 2;
+      padding: 12px 14px;
+    }
+
+    .side-card__recruit-title {
+      font-size: 17px;
+      font-weight: bold;
+      color: $color-deep-brown;
+      margin-bottom: 6px;
+    }
+
+    .side-card__recruit-text {
+      font-size: 13px;
+      color: $color-brown-text;
+      line-height: 1.4;
+    }
+  }
+
+  &--contact {
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    padding: 14px 12px;
+    background-color: $color-white;
+    height: 465px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .side-card__salon-name {
+      font-size: 17px;
+      font-weight: bold;
+      color: $color-deep-brown;
+      margin-bottom: 2px;
+    }
+
+    .side-card__salon-address {
+      font-style: normal;
+      font-size: 12px;
+      color: $color-brown-text;
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+
+    .side-card__hotline {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+
+    .side-card__phone-icon {
+      width: 25px;
+      height: 22px;
+    }
+
+    .side-card__tel {
+      font-family: $font-tel;
+      font-size: 28px;
+      font-weight: bold;
+      color: $color-deep-brown;
+      line-height: 1;
+
+      &:hover {
+        color: $color-primary-orange;
+      }
+    }
+
+    .side-card__salon-hours {
+      font-size: 12px;
+      color: $color-brown-text;
+      line-height: 1.4;
+      margin-bottom: 8px;
+    }
+
+    .side-card__map {
+      margin-bottom: 8px;
+      border: 1px solid #d5d5d5;
+
+      &-img {
+        width: 100%;
+        height: 133px;
+        object-fit: cover;
+      }
+    }
+
+    .side-card__map-action {
+      display: flex;
+      justify-content: center;
+    }
+
+    .btn-access {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      width: 191px;
+      height: 33px;
+      background-color: $color-dark-orange;
+      border-radius: 4px;
+      font-size: 15px;
+      font-weight: 500;
+      color: $color-white;
+
+      &__icon {
+        font-size: 9px;
+      }
+
+      &:hover {
+        background-color: $color-primary-orange;
+      }
+    }
+  }
+}
+
+@media (min-width: $bp-desktop) {
+  .sidebar {
+    gap: 0;
+
+    .side-card--promo {
+      height: 165px;
+      margin-bottom: 17px;
+      box-sizing: border-box;
+    }
+
+    .side-card--menu {
+      height: 290px;
+      margin-bottom: 19px;
+      box-sizing: border-box;
+    }
+
+    .side-card--banner {
+      height: 85px;
+      margin-bottom: 17px;
+      box-sizing: border-box;
+    }
+
+    .side-card--recruit {
+      height: 135px;
+      margin-bottom: 18px;
+      box-sizing: border-box;
+    }
+
+    .side-card--contact {
+      height: 465px;
+      box-sizing: border-box;
+    }
+  }
+}

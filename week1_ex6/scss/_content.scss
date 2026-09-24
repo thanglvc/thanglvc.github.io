@@ -1,0 +1,263 @@
+@use "variables" as *;
+
+.section-block {
+  margin-bottom: 40px;
+
+  &--news {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: $bp-desktop) {
+  #concept {
+    margin-bottom: 14px;
+    transform: translateY(-8px);
+  }
+
+  #menu {
+    margin-bottom: 37px;
+
+    .menu-card {
+      height: 343px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  }
+
+  #news {
+    margin-bottom: 0;
+  }
+}
+
+.heading-gold {
+  position: relative;
+  padding-bottom: 8px;
+  border-bottom: 6px solid $color-dark-orange;
+
+  &__title {
+    font-size: 19px;
+    font-weight: bold;
+    color: $color-deep-brown;
+    line-height: 1.2;
+  }
+
+  &--with-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__btn-all {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    width: 58px;
+    height: 19px;
+    background-color: $color-dark-orange;
+    border-radius: 3px;
+    font-size: 13px;
+    color: $color-white;
+    font-weight: 500;
+    margin-bottom: 4px;
+
+    &:hover {
+      background-color: $color-primary-orange;
+    }
+  }
+
+  &__btn-icon {
+    font-size: 8px;
+  }
+}
+
+.concept-card {
+  display: flex;
+  gap: 22px;
+  padding-top: 18px;
+  align-items: flex-start;
+
+  &__frame {
+    flex: 0 0 263px;
+    width: 263px;
+    height: 191px;
+    border: 3px solid #ffc919;
+    padding: 2px;
+    background-color: $color-white;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__body {
+    flex: 1 1 auto;
+    font-size: 13px;
+    color: $color-brown-text;
+    line-height: 1.65;
+  }
+
+  &__lead {
+    margin-bottom: 12px;
+  }
+
+  &__promises {
+    margin-bottom: 12px;
+
+    &-title {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    &-list {
+      li {
+        line-height: 1.6;
+      }
+    }
+  }
+
+  &__text {
+    line-height: 1.65;
+  }
+}
+
+.menu-grid {
+  display: flex;
+  gap: 16px;
+  padding-top: 24px;
+}
+
+.menu-card {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+
+  &__media {
+    position: relative;
+    width: 100%;
+    height: 162px;
+    overflow: hidden;
+  }
+
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  &__title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 43px;
+    background: rgba(102, 64, 43, .85);
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    font-family: $font-serif;
+    font-size: 17px;
+    color: $color-white;
+    font-weight: normal;
+  }
+
+  &__body {
+    padding: 12px 2px 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__text {
+    font-size: 13px;
+    color: $color-brown-text;
+    line-height: 1.65;
+    margin-bottom: 9px;
+  }
+
+  &__action {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 14px;
+  }
+}
+
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 197px;
+  height: 33px;
+  background-color: $color-dark-orange;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  color: $color-white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
+
+  &__icon {
+    font-size: 9px;
+  }
+
+  &:hover {
+    background-color: $color-primary-orange;
+  }
+}
+
+.news-list {
+  padding-top: 15px;
+}
+
+.news-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 0;
+  border-bottom: 6px solid #e0e0e0;
+
+  &__bullet {
+    color: $color-brown-text;
+    font-size: 9px;
+  }
+
+  &__text {
+    font-size: 14px;
+    color: $color-brown-text;
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .concept-card {
+    flex-direction: column;
+    align-items: center;
+
+    &__frame {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+    }
+  }
+
+  .menu-grid {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .menu-card {
+    flex: 0 0 calc(50% - 10px);
+  }
+}
+
+@media (max-width: $bp-mobile) {
+  .menu-card {
+    flex: 0 0 100%;
+  }
+}

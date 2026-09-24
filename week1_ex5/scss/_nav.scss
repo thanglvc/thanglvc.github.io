@@ -1,0 +1,128 @@
+@use "variables" as *;
+
+.nav {
+  background: linear-gradient(to bottom, #ffffff 0%, #f4f4f4 50%, #e8e8e8 100%);
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 2px solid $color-primary-red;
+  height: 58px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 100;
+
+  &__container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+  }
+
+  &__list {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__item {
+    flex: 1 1 0;
+    text-align: center;
+    border-left: 1px solid #dcdcdc;
+    position: relative;
+
+    &:last-child {
+      border-right: 1px solid #dcdcdc;
+    }
+
+    &--active .nav__link {
+      color: $color-primary-red;
+      font-weight: bold;
+    }
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 500;
+    color: $color-text-dark;
+    white-space: nowrap;
+    padding: 0 4px;
+    transition: background-color .2s, color .2s;
+
+    &:hover {
+      background-color: rgba(218, 4, 16, .06);
+      color: $color-primary-red;
+    }
+  }
+
+  &__submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 138px;
+    background-color: $color-dark-red;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
+    display: block; // Visible in PSD composite
+    z-index: 150;
+    padding: 6px 0;
+    text-align: left;
+  }
+
+  &__subitem {
+    border-bottom: 1px solid rgba(255, 255, 255, .15);
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__sublink {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    font-size: 14px;
+    color: $color-white;
+    white-space: nowrap;
+
+    &-icon {
+      font-size: 9px;
+      color: $color-white;
+    }
+
+    &:hover {
+      background-color: $color-primary-red;
+    }
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+
+    &__container {
+      padding: 0;
+    }
+
+    &__list {
+      min-width: 680px;
+    }
+
+    &__link {
+      height: 48px;
+      font-size: 14px;
+    }
+
+    &__submenu {
+      display: none; // Hidden on mobile unless toggled
+    }
+
+    &__item--has-sub:hover .nav__submenu,
+    &__item--has-sub:focus-within .nav__submenu {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,184 @@
+@use "variables" as *;
+
+.top-bar {
+  background-color: $color-top-red;
+  height: 23px;
+  line-height: 23px;
+
+  &__container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  &__text {
+    font-size: 11px;
+    color: $color-white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.header {
+  background-color: $color-white;
+  height: 124px;
+  box-sizing: border-box;
+
+  &__container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 19px 0 32px;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__brand {
+    position: relative;
+    left: 1px;
+    padding-top: 12px;
+  }
+
+  &__catchphrase {
+    position: absolute;
+    left: 134px;
+    top: 14px;
+    font-size: 13px;
+    color: $color-text-dark;
+    font-weight: 500;
+    line-height: 1;
+  }
+
+  &__logo {
+    display: block;
+    line-height: 1;
+
+    &-link {
+      display: inline-block;
+    }
+
+    &-img {
+      width: 385px;
+      height: 59px;
+      display: block;
+    }
+  }
+
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  &__notice {
+    font-size: 13px;
+    color: $color-text-sub;
+    margin-bottom: 2px;
+  }
+
+  &__hotline {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  &__freedial-icon {
+    width: 35px;
+    height: 23px;
+  }
+
+  &__tel {
+    font-size: 30px;
+    font-weight: bold;
+    color: $color-text-dark;
+    line-height: 1;
+    letter-spacing: -.5px;
+
+    &:hover {
+      color: $color-primary-red;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 6px;
+  }
+
+  &__btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    height: 31px;
+    font-size: 13px;
+    font-weight: 500;
+    color: $color-text;
+    background: linear-gradient(to bottom, #ffffff, #ececec);
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .08);
+
+    &-icon {
+      color: $color-primary-red;
+      font-size: 10px;
+    }
+
+    &--quote {
+      width: 112px;
+    }
+
+    &--online {
+      width: 155px;
+    }
+
+    &:hover {
+      background: linear-gradient(to bottom, #f5f5f5, #dfdfdf);
+    }
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .header {
+    height: auto;
+    padding: 12px 15px;
+
+    &__container {
+      height: auto;
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+
+    &__brand {
+      align-items: center;
+      text-align: center;
+    }
+
+    &__contact {
+      align-items: center;
+    }
+  }
+}
+
+@media (max-width: $bp-mobile) {
+  .header {
+    &__logo-img {
+      width: 280px;
+      height: auto;
+    }
+
+    &__tel {
+      font-size: 24px;
+    }
+
+    &__actions {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

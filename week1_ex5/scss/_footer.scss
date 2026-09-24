@@ -1,0 +1,167 @@
+@use "variables" as *;
+
+.footer {
+  background-color: $color-white;
+
+  &__border-top {
+    height: 6px;
+    background-color: #d9d9d9;
+  }
+
+  &__main {
+    height: 123px;
+    box-sizing: border-box;
+    padding: 16px 0;
+  }
+
+  &__container {
+    max-width: $container-width;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    max-width: 580px;
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 14px;
+    }
+
+    &-item {
+      font-size: 12px;
+      color: $color-text-dark;
+      position: relative;
+
+      &::after {
+        content: "|";
+        margin-left: 14px;
+        color: #999999;
+      }
+
+      &:last-child::after {
+        display: none;
+      }
+
+      a:hover {
+        color: $color-primary-red;
+      }
+    }
+  }
+
+  &__info {
+    text-align: right;
+  }
+
+  &__catchphrase {
+    font-size: 12px;
+    color: $color-text-sub;
+    margin-bottom: 2px;
+  }
+
+  &__logo {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 4px;
+
+    &-img {
+      width: 296px;
+      height: 46px;
+    }
+  }
+
+  &__address {
+    font-style: normal;
+    font-size: 12px;
+    color: $color-text-gray;
+    line-height: 1.5;
+  }
+
+  &__tel {
+    font-weight: bold;
+    color: $color-text-dark;
+
+    &:hover {
+      color: $color-primary-red;
+    }
+  }
+
+  &__copyright {
+    background-color: #000000;
+    height: 29px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &-container {
+      max-width: $container-width;
+      margin: 0 auto;
+      padding: 0;
+      text-align: center;
+    }
+
+    &-text {
+      font-size: 12px;
+      color: $color-white;
+      display: block;
+    }
+  }
+}
+
+@media (max-width: $bp-tablet) {
+  .footer {
+    &__main {
+      height: auto;
+      padding: 20px 15px;
+    }
+
+    &__copyright {
+      height: auto;
+      min-height: 29px;
+      padding: 6px 15px;
+    }
+
+    &__container {
+      height: auto;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      text-align: center;
+    }
+
+    &__nav {
+      max-width: 100%;
+
+      &-list {
+        justify-content: center;
+      }
+    }
+
+    &__info {
+      text-align: center;
+    }
+
+    &__logo {
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: $bp-mobile) {
+  .footer {
+    &__logo-img {
+      width: 220px;
+      height: auto;
+    }
+
+    &__copyright-text {
+      font-size: 10px;
+    }
+  }
+}

@@ -15,7 +15,6 @@ html {
 body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
   background-color: #ffffff;
   color: #000000;
   font-family: "Times New Roman", Times, serif;
@@ -51,7 +50,7 @@ body {
   line-height: 1;
   color: #000000;
   letter-spacing: 0;
-  transform: scaleX(1.2);
+  transform: scaleX(1.2) translateY(-1px);
   transform-origin: left top;
 }
 
@@ -148,19 +147,19 @@ body {
 
 .profile-card__facts-title {
   display: inline-block;
-  margin: 0 0 19px 3px;
+  margin: 0 0 17px 3px;
   font-size: 17px;
   font-weight: normal;
   line-height: 1;
   color: #000000;
   letter-spacing: 0;
-  transform: scaleX(1.2);
+  transform: scaleX(1.2) translateY(-2px);
   transform-origin: left top;
 }
 
 .facts-list {
   list-style: none;
-  margin: 0 0 0 37px;
+  margin: 0 0 0 36px;
   padding: 0;
 }
 
@@ -168,6 +167,10 @@ body {
   display: block;
   margin-bottom: 7px;
   min-height: 16px;
+}
+
+.facts-list__item:first-child {
+  margin-bottom: 6px;
 }
 
 .facts-list__item::after {
@@ -181,21 +184,35 @@ body {
   display: block;
   width: 17px;
   height: 16px;
+  margin-left: 1px;
   margin-right: 4.5px;
 }
 
 .facts-list__text {
   display: block;
-  max-width: 370px;
+  max-width: 374px;
   font-size: 15px;
   line-height: 16px;
-  letter-spacing: -0.2px;
+  letter-spacing: -0.18px;
   color: #000000;
+  transform: translateY(3px);
+}
+
+.facts-list__item:first-child .facts-list__text {
+  transform: translateY(2px);
+}
+
+.facts-list__item:nth-child(4) .facts-list__text {
+  letter-spacing: -.1px;
+}
+
+.facts-list__item:nth-child(5) .facts-list__text {
+  letter-spacing: -.08px;
 }
 
 /* Comments Section */
 .profile-card__comments {
-  margin-top: 63px;
+  margin-top: 66px;
 }
 
 .comment-bubble {
@@ -233,10 +250,12 @@ body {
 }
 
 .comment-bubble__meta {
-  margin: 1px 0 0 50px;
+  margin: 3px 0 0 51px;
   font-size: 13px;
   line-height: 16px;
   color: #000000;
+  transform: translateY(-3px);
+  word-spacing: 0.5px;
 }
 
 .comment-bubble__author-link {
@@ -268,7 +287,7 @@ body {
   line-height: 12px;
   color: #000000;
   letter-spacing: 0;
-  transform: scaleX(1.2);
+  transform: scaleX(1.2) translateY(1px);
   transform-origin: left top;
 }
 
@@ -311,8 +330,8 @@ body {
 
 .feedback-form__label--email {
   width: 106px;
-  line-height: 16px;
-  margin-top: -3px;
+  line-height: 20px;
+  margin-top: -9px;
 }
 
 .feedback-form__label--comment {
@@ -340,7 +359,7 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 15px;
   line-height: 16px;
-  padding: 4px 5px;
+  padding: 2px 4px;
   resize: none;
 }
 
@@ -353,6 +372,38 @@ body {
 .feedback-form__textarea:focus-visible {
   outline: 2px solid #2563eb;
   outline-offset: -1px;
+}
+
+.feedback-form__submit {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.feedback-form__submit:focus-visible {
+  position: absolute;
+  top: 31px;
+  right: 8px;
+  z-index: 10;
+  width: auto;
+  height: auto;
+  clip: auto;
+  margin: 0;
+  padding: 4px 12px;
+  font-family: inherit;
+  font-size: 14px;
+  color: #000000;
+  background-color: #ececec;
+  border: 1px solid #767676;
+  border-radius: 2px;
+  outline: 2px solid #2563eb;
+  cursor: pointer;
 }
 
 /* Responsive Mobile (<= 600px, e.g. 375px) */
@@ -487,5 +538,10 @@ body {
     max-width: 100%;
     margin-left: 0;
     margin-top: 0;
+  }
+
+  .feedback-form__submit:focus-visible {
+    position: static;
+    margin: 10px 0 0 0;
   }
 }

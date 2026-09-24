@@ -64,7 +64,7 @@ a:focus-visible {
   font-weight: bold;
   line-height: 14px;
   color: #000000;
-  padding-left: 1px;
+  padding-left: 0;
   letter-spacing: 0;
 }
 
@@ -75,6 +75,10 @@ a:focus-visible {
 }
 
 /* Section 1: Blogroll */
+.blogroll__title {
+  padding-left: 2px;
+}
+
 .blogroll__content {
   width: 296px;
 }
@@ -96,7 +100,7 @@ a:focus-visible {
 
 .blogroll__info {
   margin-left: 7px;
-  padding-top: 10px;
+  padding-top: 9px;
   padding-right: 8px;
 }
 
@@ -118,12 +122,14 @@ a:focus-visible {
 }
 
 .blogroll__desc {
+  margin-top: 1px;
+  padding-left: 2.5px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 12px;
   line-height: 15px;
+  letter-spacing: .1px;
   color: #000000;
-  margin-top: 2px;
-  padding-left: 2px;
+  transform: translateX(1px);
 }
 
 .blogroll__lead {
@@ -147,17 +153,17 @@ a:focus-visible {
 
 .blogroll__item:nth-child(1) {
   height: 33px;
-  padding: 8px 8px 0 10px;
+  padding: 7px 8px 0 10px;
 }
 
 .blogroll__item:nth-child(2) {
   height: 36px;
-  padding: 12px 8px 0 10px;
+  padding: 11px 8px 0 10px;
 }
 
 .blogroll__item:nth-child(3) {
   height: 37px;
-  padding: 12px 8px 0 10px;
+  padding: 11px 8px 0 10px;
 }
 
 .blogroll__link {
@@ -165,7 +171,7 @@ a:focus-visible {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 15px;
-  letter-spacing: 0.08px;
+  letter-spacing: 0;
   color: #0a6395;
   text-decoration: none;
   white-space: nowrap;
@@ -177,13 +183,26 @@ a:focus-visible {
   font-weight: bold;
 }
 
+/* Keep the bold topic and punctuation anchored while matching the regular run. */
+.blogroll__summary {
+  display: inline-block;
+  letter-spacing: .05px;
+  transform: translateX(-2px);
+}
+
+.blogroll__summary--spaced {
+  letter-spacing: 0;
+  word-spacing: 1px;
+  transform: none;
+}
+
 /* Section 2: Horoscopes */
 .horoscopes {
   margin-top: 5px;
 }
 
 .horoscopes__title {
-  letter-spacing: 0.45px;
+  letter-spacing: 0;
 }
 
 .horoscopes__content {
@@ -230,16 +249,19 @@ a:focus-visible {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   line-height: 15px;
+  letter-spacing: -0.15px;
   color: #595959;
   margin: 1px 0 0 0;
 }
 
 .horoscopes__forecast {
+  margin-top: 5px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   line-height: 14px;
+  letter-spacing: -.05px;
   color: #000000;
-  margin-top: 5px;
+  transform: translateX(1px);
 }
 
 .horoscopes__more-link {
@@ -263,7 +285,7 @@ a:focus-visible {
 .horoscopes__author-text {
   position: absolute;
   left: 23px;
-  top: 13px;
+  top: 10px;
 }
 
 .horoscopes__powered-by {
@@ -291,8 +313,8 @@ a:focus-visible {
 }
 
 .mobile-news__title {
-  padding-left: 2px;
-  letter-spacing: 0.23px;
+  padding-left: 1px;
+  letter-spacing: 0;
 }
 
 .mobile-news .section__accent-bar {
@@ -327,7 +349,7 @@ a:focus-visible {
   line-height: 12px;
   color: #0a6395;
   text-decoration: none;
-  margin-top: 7px;
+  margin-top: 6px;
 }
 
 .mobile-news__image {
@@ -360,7 +382,7 @@ a:focus-visible {
   color: #000000;
   padding-left: 0;
   margin-bottom: 0;
-  letter-spacing: 0.35px;
+  letter-spacing: 0;
 }
 
 .competitions__box {
@@ -368,7 +390,7 @@ a:focus-visible {
   height: 78px;
   background-color: #ffffff;
   border: 1px solid #595959;
-  padding: 11px 48px 0 8px;
+  padding: 9px 48px 0 8px;
   margin-left: 1px;
 }
 

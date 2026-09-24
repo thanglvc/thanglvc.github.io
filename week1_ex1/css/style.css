@@ -114,7 +114,7 @@ a {
 }
 
 .intro-card__content {
-  width: 248px;
+  width: 251px;
   flex-shrink: 0;
 }
 
@@ -122,8 +122,9 @@ a {
   margin: 0 0 11px;
   color: #ffffff;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 12px;
+  transform: translateY(-1px);
 }
 
 .intro-card__text {
@@ -131,12 +132,13 @@ a {
   color: #595959;
   font-size: 12px;
   line-height: 10px;
-  letter-spacing: -0.15px;
+  letter-spacing: -0.05px;
   text-align: left;
+  transform: translateX(-1px);
 }
 
 .intro-card__desc {
-  margin: 2px 0 0 14px;
+  margin: 1px 0 1px 14px;
   color: #595959;
   font-size: 12px;
   line-height: 12px;
@@ -159,7 +161,7 @@ a {
   margin: 0;
   color: #ffffff;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 14px;
 }
 
@@ -172,8 +174,9 @@ a {
 
 .news-list {
   display: grid;
-  grid-template-columns: 189px 195px;
-  row-gap: 12px;
+  grid-template-columns: 191px 195px;
+  grid-template-rows: 23px 24px 23px auto;
+  row-gap: 0;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -202,8 +205,21 @@ a {
   font-size: 12px;
   line-height: 12px;
   text-decoration: underline;
+  text-decoration-skip-ink: none;
   white-space: nowrap;
   transition: color 0.15s ease-in-out;
+}
+
+/* Match the individual text rows in the PSD without moving their icons. */
+@media (min-width: 769px) {
+  .news-list__item:nth-child(-n+2) .news-list__link,
+  .news-list__item:nth-child(5) .news-list__link {
+    transform: translateY(-1px);
+  }
+
+  .news-list__item:nth-child(3) .news-list__link {
+    transform: translateY(-2px);
+  }
 }
 
 .news-list__link:hover {
@@ -235,7 +251,7 @@ a {
 }
 
 .intro-card .divider--dotted {
-  margin: 13px 0 0 11px;
+  margin: 14px 0 0 11px;
   width: calc(100% - 11px);
 }
 
@@ -260,11 +276,9 @@ a {
   display: inline-block;
   width: 12px;
   height: 11px;
-  background-color: #592323;
   background-image: url("../images/icn_more_info.png");
   background-repeat: no-repeat;
   background-position: center center;
-  border-radius: 1px;
   flex-shrink: 0;
 }
 
@@ -273,6 +287,7 @@ a {
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
   line-height: 1;
+  transform: translateY(-1px);
   transition: opacity 0.15s ease-in-out;
 }
 
@@ -333,8 +348,9 @@ a {
   margin: 0 0 7px;
   color: #ffffff;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 14px;
+  transform: translateX(1px);
 }
 
 .sidebar__text {
@@ -342,28 +358,40 @@ a {
   color: #595959;
   font-size: 12px;
   line-height: 12px;
-  letter-spacing: -0.1px;
+  letter-spacing: -.05px;
+  transform: translate(1px, -1px);
 }
 
 .sidebar__text--lead {
   margin: 0;
   color: #767884;
   line-height: 12px;
-  letter-spacing: -0.1px;
+  letter-spacing: -.1px;
+  transform: translate(3px, -1px);
 }
 
 .sidebar__highlight {
   color: #ffffff;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .sidebar__action {
   margin-top: 47px;
+  transform: translateX(1px);
 }
 
 /* ==========================================================================
    Responsive (Mobile & Tablet)
    ========================================================================== */
+
+@media (max-width: 1030px) {
+  .page__container {
+    width: 100%;
+    max-width: 100%;
+    justify-content: center;
+    padding: 22px 20px 34px;
+  }
+}
 
 @media (max-width: 768px) {
   .page__container {
@@ -418,6 +446,7 @@ a {
 
   .news-list {
     grid-template-columns: 1fr;
+    grid-template-rows: auto;
     row-gap: 10px;
   }
 
