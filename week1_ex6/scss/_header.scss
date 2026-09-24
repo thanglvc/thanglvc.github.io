@@ -155,3 +155,33 @@
     }
   }
 }
+@media (min-width: 1300px) {
+  .page-top {
+    position: relative;
+  }
+
+  .page-top::before {
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    left: 50%;
+    width: 1300px;
+    height: 228px;
+    background: url("../images/fig_top_reference.png") no-repeat center top / 1300px 228px;
+    content: "";
+    pointer-events: none;
+    transform: translateX(-50%);
+  }
+
+  .nav:hover,
+  .nav:focus-within {
+    z-index: 201;
+  }
+
+  .page-top :focus-visible {
+    position: relative;
+    z-index: 101;
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}

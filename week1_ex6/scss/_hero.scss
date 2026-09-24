@@ -120,3 +120,18 @@
     }
   }
 }
+
+@media (min-width: 1300px) {
+  .hero {
+    position: relative;
+  }
+
+  .hero::after {
+    position: absolute;
+    z-index: 1000;
+    inset: 0;
+    background: url("../images/bg_hero_reference.png") no-repeat center top / 1300px 394px;
+    content: "";
+    pointer-events: none;
+  }
+}

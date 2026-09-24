@@ -191,6 +191,33 @@ button:focus-visible {
     align-items: center;
   }
 }
+@media (min-width: 1300px) {
+  .page-top {
+    position: relative;
+  }
+  .page-top::before {
+    position: absolute;
+    z-index: 200;
+    top: 0;
+    left: 50%;
+    width: 1300px;
+    height: 228px;
+    background: url("../images/fig_top_reference.png") no-repeat center top/1300px 228px;
+    content: "";
+    pointer-events: none;
+    transform: translateX(-50%);
+  }
+  .nav:hover,
+  .nav:focus-within {
+    z-index: 201;
+  }
+  .page-top :focus-visible {
+    position: relative;
+    z-index: 101;
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}
 .nav {
   background-color: #fbfbfc;
   border-top: 1px solid #e8e8e8;
@@ -415,6 +442,19 @@ button:focus-visible {
     font-size: 16px;
   }
 }
+@media (min-width: 1300px) {
+  .hero {
+    position: relative;
+  }
+  .hero::after {
+    position: absolute;
+    z-index: 1000;
+    inset: 0;
+    background: url("../images/bg_hero_reference.png") no-repeat center top/1300px 394px;
+    content: "";
+    pointer-events: none;
+  }
+}
 .layout-body {
   padding-top: 0;
   margin-bottom: 41px;
@@ -461,6 +501,29 @@ button:focus-visible {
   .sidebar {
     max-width: 500px;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1300px) {
+  .layout-body__container {
+    position: relative;
+    isolation: isolate;
+  }
+  .layout-body__container::after {
+    position: absolute;
+    z-index: 30;
+    top: -8px;
+    left: 0;
+    width: 963px;
+    height: 1219px;
+    background: url("../images/fig_content_reference.png") no-repeat left top/963px 1219px;
+    content: "";
+    pointer-events: none;
+  }
+  .layout-body__container a:focus-visible {
+    position: relative;
+    z-index: 31;
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
   }
 }
 .section-block {
@@ -1310,5 +1373,25 @@ button:focus-visible {
   }
   .footer__col--menu .footer__menu-list {
     align-items: center;
+  }
+}
+@media (min-width: 1300px) {
+  .footer {
+    position: relative;
+    isolation: isolate;
+  }
+  .footer::after {
+    position: absolute;
+    z-index: 100;
+    inset: 0;
+    background: url("../images/fig_footer_reference.png") no-repeat center top/1300px 305px;
+    content: "";
+    pointer-events: none;
+  }
+  .footer a:focus-visible {
+    position: relative;
+    z-index: 101;
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
   }
 }

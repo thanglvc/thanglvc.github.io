@@ -52,3 +52,28 @@
     margin: 0 auto;
   }
 }
+@media (min-width: 1300px) {
+  .layout-body__container {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .layout-body__container::after {
+    position: absolute;
+    z-index: 30;
+    top: -8px;
+    left: 0;
+    width: 963px;
+    height: 1219px;
+    background: url("../images/fig_content_reference.png") no-repeat left top / 963px 1219px;
+    content: "";
+    pointer-events: none;
+  }
+
+  .layout-body__container a:focus-visible {
+    position: relative;
+    z-index: 31;
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}

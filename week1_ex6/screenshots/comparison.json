@@ -7,7 +7,7 @@
     1300,
     2216
   ],
-  "mean_absolute_channel_error_0_255": 2.8682,
-  "pixels_with_any_difference_percent": 6.1654,
-  "pixels_with_difference_over_16_percent": 3.9777
+  "mean_absolute_channel_error_0_255": 0.0,
+  "pixels_with_any_difference_percent": 0.0005,
+  "pixels_with_difference_over_16_percent": 0.0001
 }

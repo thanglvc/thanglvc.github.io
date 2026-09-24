@@ -82,7 +82,7 @@ try {
   await Promise.all(["Page.enable", "Runtime.enable", "Network.enable", "Log.enable"].map(method => send(method, {}, sessionId)));
   const reports = [];
   const viewports = process.argv.includes("--desktop") ? [[1300, 1000]] : [
-    [1300, 1000], [1024, 768], [1023, 768], [1022, 768],
+    [1440, 1000], [1300, 1000], [1024, 768], [1023, 768], [1022, 768],
     [992, 768], [991, 768], [990, 768],
     [768, 1024], [767, 1024], [766, 1024], [390, 844], [375, 812], [844, 390]
   ];
@@ -128,12 +128,27 @@ try {
             hasPseudoBackground: pseudo.backgroundImage !== 'none',
             pseudoContent: pseudo.content
           };
-        })
+        }),
+        interactionChecks: innerWidth === 1300
+          ? Array.from(document.querySelectorAll('.header__logo-link, #online-estimate, .nav__link, .section-block__action .btn-more, .side-card__banner-link, .footer__nav-item a')).map(anchor => {
+            anchor.scrollIntoView({ block: 'center', inline: 'center' });
+            const rect = anchor.getBoundingClientRect();
+            const target = document.elementFromPoint(rect.left + rect.width / 2, rect.top + rect.height / 2);
+            return {
+              selector: anchor.id || anchor.className,
+              href: anchor.getAttribute('href'),
+              hit: Boolean(target && (target === anchor || anchor.contains(target)))
+            };
+          })
+          : []
       })`,
       returnByValue: true
     }, sessionId);
     const parsed = JSON.parse(result.value);
     reports.push(parsed);
+    if (parsed.interactionChecks?.some(check => !check.hit)) {
+      errors.push({ viewport: parsed.viewport, interactionChecks: parsed.interactionChecks.filter(check => !check.hit) });
+    }
 
     if (width === 1300 || width === 390 || width === 375) {
       const metrics = await send("Page.getLayoutMetrics", {}, sessionId);

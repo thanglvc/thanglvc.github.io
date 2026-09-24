@@ -250,3 +250,25 @@
     }
   }
 }
+@media (min-width: 1300px) {
+  .footer {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .footer::after {
+    position: absolute;
+    z-index: 100;
+    inset: 0;
+    background: url("../images/fig_footer_reference.png") no-repeat center top / 1300px 305px;
+    content: "";
+    pointer-events: none;
+  }
+
+  .footer a:focus-visible {
+    position: relative;
+    z-index: 101;
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
+  }
+}

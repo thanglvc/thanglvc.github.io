@@ -318,8 +318,23 @@
     background-image: url("../images/fig_delivery_service_reference.png");
   }
 
+  #moving-service::after,
+  #delivery-service::after {
+    bottom: auto;
+    height: 399px;
+    background-color: #fff;
+    background-size: 688px 370px;
+    background-position: center top;
+  }
+
+
   #news::after {
     background-image: url("../images/fig_news_reference.png");
+    bottom: auto;
+    height: 236px;
+    background-color: #fff;
+    background-size: 688px 219px;
+    background-position: center top;
   }
 
 

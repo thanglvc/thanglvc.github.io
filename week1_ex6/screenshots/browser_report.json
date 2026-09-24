@@ -1,8 +1,153 @@
 {
   "browser": "Chrome/153.0.8010.47",
-  "timestamp": "2026-09-24T04:32:13.877Z",
+  "timestamp": "2026-09-24T05:51:57.096Z",
   "errors": [],
   "reports": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 5,
+          "width": 1440,
+          "height": 165,
+          "top": 5,
+          "right": 1440,
+          "bottom": 170,
+          "left": 0
+        },
+        "nav": {
+          "x": 0,
+          "y": 170,
+          "width": 1440,
+          "height": 58,
+          "top": 170,
+          "right": 1440,
+          "bottom": 228,
+          "left": 0
+        },
+        "hero": {
+          "x": 0,
+          "y": 228,
+          "width": 1440,
+          "height": 394,
+          "top": 228,
+          "right": 1440,
+          "bottom": 622,
+          "left": 0
+        },
+        "main": {
+          "x": 238.5,
+          "y": 659,
+          "width": 702,
+          "height": 932.84375,
+          "top": 659,
+          "right": 940.5,
+          "bottom": 1591.84375,
+          "left": 238.5
+        },
+        "sidebar": {
+          "x": 968.5,
+          "y": 659,
+          "width": 233,
+          "height": 1211,
+          "top": 659,
+          "right": 1201.5,
+          "bottom": 1870,
+          "left": 968.5
+        },
+        "footer": {
+          "x": 0,
+          "y": 1911,
+          "width": 1440,
+          "height": 305,
+          "top": 1911,
+          "right": 1440,
+          "bottom": 2216,
+          "left": 0
+        }
+      },
+      "mediaBoxes": [
+        {
+          "className": "concept-card__frame",
+          "x": 238.5,
+          "y": 705.796875,
+          "width": 263,
+          "height": 191
+        },
+        {
+          "className": "menu-card__media",
+          "x": 238.5,
+          "y": 1049.84375,
+          "width": 223.328125,
+          "height": 162
+        },
+        {
+          "className": "menu-card__body",
+          "x": 238.5,
+          "y": 1211.84375,
+          "width": 223.328125,
+          "height": 181
+        },
+        {
+          "className": "menu-card__media",
+          "x": 477.828125,
+          "y": 1049.84375,
+          "width": 223.34375,
+          "height": 162
+        },
+        {
+          "className": "menu-card__body",
+          "x": 477.828125,
+          "y": 1211.84375,
+          "width": 223.34375,
+          "height": 181
+        },
+        {
+          "className": "menu-card__media",
+          "x": 717.171875,
+          "y": 1049.84375,
+          "width": 223.328125,
+          "height": 162
+        },
+        {
+          "className": "menu-card__body",
+          "x": 717.171875,
+          "y": 1211.84375,
+          "width": 223.328125,
+          "height": 181
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "concept",
+          "x": 238.5,
+          "y": 651,
+          "width": 702,
+          "height": 316.046875
+        },
+        {
+          "id": "menu",
+          "x": 238.5,
+          "y": 989.046875,
+          "width": 702,
+          "height": 403.796875
+        },
+        {
+          "id": "news",
+          "x": 238.5,
+          "y": 1429.84375,
+          "width": 702,
+          "height": 162
+        }
+      ],
+      "interactionChecks": []
+    },
     {
       "viewport": [
         1300,
@@ -144,6 +289,68 @@
           "y": 1429.84375,
           "width": 702,
           "height": 162
+        }
+      ],
+      "interactionChecks": [
+        {
+          "selector": "header__logo-link",
+          "href": "./",
+          "hit": true
+        },
+        {
+          "selector": "nav__link nav__link--home",
+          "href": "./",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#store",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#esthe",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#hair",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#faq",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#voice",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#access",
+          "hit": true
+        },
+        {
+          "selector": "btn-gold",
+          "href": "#facial",
+          "hit": true
+        },
+        {
+          "selector": "btn-gold",
+          "href": "#diet",
+          "hit": true
+        },
+        {
+          "selector": "btn-gold",
+          "href": "#hair-growth",
+          "hit": true
+        },
+        {
+          "selector": "btn-access",
+          "href": "#access",
+          "hit": true
         }
       ]
     },
@@ -289,7 +496,8 @@
           "width": 702,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -433,7 +641,8 @@
           "width": 702,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -577,7 +786,8 @@
           "width": 702,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -721,7 +931,8 @@
           "width": 702,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -865,7 +1076,8 @@
           "width": 933,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1009,7 +1221,8 @@
           "width": 933,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1153,7 +1366,8 @@
           "width": 738,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1297,7 +1511,8 @@
           "width": 737,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1441,7 +1656,8 @@
           "width": 736,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1585,7 +1801,8 @@
           "width": 360,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1729,7 +1946,8 @@
           "width": 345,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1873,7 +2091,8 @@
           "width": 814,
           "height": 162
         }
-      ]
+      ],
+      "interactionChecks": []
     }
   ]
 }

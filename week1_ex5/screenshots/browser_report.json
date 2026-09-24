@@ -1,8 +1,222 @@
 {
   "browser": "Chrome/153.0.8010.47",
-  "timestamp": "2026-09-24T04:35:41.937Z",
+  "timestamp": "2026-09-24T06:08:03.421Z",
   "errors": [],
   "reports": [
+    {
+      "viewport": [
+        1440,
+        1000
+      ],
+      "overflow": false,
+      "brokenImages": [],
+      "boxes": {
+        "header": {
+          "x": 0,
+          "y": 23,
+          "width": 1440,
+          "height": 124,
+          "top": 23,
+          "right": 1440,
+          "bottom": 147,
+          "left": 0
+        },
+        "nav": {
+          "x": 0,
+          "y": 147,
+          "width": 1440,
+          "height": 58,
+          "top": 147,
+          "right": 1440,
+          "bottom": 205,
+          "left": 0
+        },
+        "hero": {
+          "x": 0,
+          "y": 205,
+          "width": 1440,
+          "height": 386,
+          "top": 205,
+          "right": 1440,
+          "bottom": 591,
+          "left": 0
+        },
+        "main": {
+          "x": 238.5,
+          "y": 627,
+          "width": 688,
+          "height": 1369,
+          "top": 627,
+          "right": 926.5,
+          "bottom": 1996,
+          "left": 238.5
+        },
+        "sidebar": {
+          "x": 968.5,
+          "y": 627,
+          "width": 233,
+          "height": 1000,
+          "top": 627,
+          "right": 1201.5,
+          "bottom": 1627,
+          "left": 968.5
+        },
+        "footer": {
+          "x": 0,
+          "y": 2079,
+          "width": 1440,
+          "height": 158,
+          "top": 2079,
+          "right": 1440,
+          "bottom": 2237,
+          "left": 0
+        }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 238.5,
+          "y": 692,
+          "width": 160,
+          "height": 128
+        },
+        {
+          "className": "service-card__media",
+          "x": 239.5,
+          "y": 1050,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 472.828125,
+          "y": 1050,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 706.171875,
+          "y": 1050,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 239.5,
+          "y": 1451,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 472.828125,
+          "y": 1451,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 706.171875,
+          "y": 1451,
+          "width": 219.328125,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 238.5,
+          "y": 627,
+          "width": 688,
+          "height": 323,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 238.5,
+          "y": 979,
+          "width": 688,
+          "height": 370,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 238.5,
+          "y": 1378,
+          "width": 688,
+          "height": 370,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 238.5,
+          "y": 1777,
+          "width": 688,
+          "height": 219,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 968.5,
+          "y": 627,
+          "width": 233,
+          "height": 97,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 968.5,
+          "y": 748,
+          "width": 233,
+          "height": 118,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 968.5,
+          "y": 887,
+          "width": 233,
+          "height": 340,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 968.5,
+          "y": 1240,
+          "width": 233,
+          "height": 83,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 968.5,
+          "y": 1333,
+          "width": 233,
+          "height": 294,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        }
+      ],
+      "interactionChecks": []
+    },
     {
       "viewport": [
         1300,
@@ -213,6 +427,133 @@
           "height": 294,
           "hasPseudoBackground": true,
           "pseudoContent": "\"\""
+        }
+      ],
+      "interactionChecks": [
+        {
+          "selector": "header__logo-link",
+          "href": "./",
+          "hit": true
+        },
+        {
+          "selector": "online-estimate",
+          "href": "#contact",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "./",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#features",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#services",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#price",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#faq",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#recruit",
+          "hit": true
+        },
+        {
+          "selector": "nav__link",
+          "href": "#company",
+          "hit": true
+        },
+        {
+          "selector": "btn-more",
+          "href": "#moving-service",
+          "hit": true
+        },
+        {
+          "selector": "btn-more",
+          "href": "#delivery-service",
+          "hit": true
+        },
+        {
+          "selector": "side-card__banner-link",
+          "href": "#banner-1",
+          "hit": true
+        },
+        {
+          "selector": "side-card__banner-link",
+          "href": "#banner-2",
+          "hit": true
+        },
+        {
+          "selector": "side-card__banner-link",
+          "href": "#banner-3",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "./",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "./",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#features",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#moving-service",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#delivery-service",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#price",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#faq",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#recruit",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#company",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#contact",
+          "hit": true
+        },
+        {
+          "selector": "",
+          "href": "#online-estimate",
+          "hit": true
         }
       ]
     },
@@ -427,7 +768,8 @@
           "hasPseudoBackground": true,
           "pseudoContent": "\"\""
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -640,7 +982,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -853,7 +1196,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1066,7 +1410,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1279,7 +1624,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1492,7 +1838,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1705,7 +2052,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -1918,7 +2266,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -2131,7 +2480,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -2344,7 +2694,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -2557,7 +2908,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     },
     {
       "viewport": [
@@ -2770,7 +3122,8 @@
           "hasPseudoBackground": false,
           "pseudoContent": "none"
         }
-      ]
+      ],
+      "interactionChecks": []
     }
   ]
 }

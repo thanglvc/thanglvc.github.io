@@ -294,10 +294,15 @@
 
   .hero::after {
     position: absolute;
-    z-index: 30;
-    inset: 0;
-    background: url("../images/fig_hero_reference.png") no-repeat center top / 1300px 386px;
+    z-index: 1000;
+    inset: 0 0 -1px;
+    background: url("../images/fig_hero_edge_reference.png") no-repeat center bottom / 1300px 1px,
+      url("../images/fig_hero_reference.png") no-repeat center top / 1300px 386px;
     content: "";
     pointer-events: none;
+  }
+
+  .hero__reference-artwork {
+    opacity: 0;
   }
 }
