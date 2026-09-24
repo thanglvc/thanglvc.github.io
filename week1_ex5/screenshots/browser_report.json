@@ -1,6 +1,6 @@
 {
   "browser": "Chrome/153.0.8010.47",
-  "timestamp": "2026-09-24T03:01:26.640Z",
+  "timestamp": "2026-09-24T04:35:41.937Z",
   "errors": [],
   "reports": [
     {
@@ -71,7 +71,150 @@
           "bottom": 2237,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 168.5,
+          "y": 692,
+          "width": 160,
+          "height": 128
+        },
+        {
+          "className": "service-card__media",
+          "x": 169.5,
+          "y": 1050,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 402.828125,
+          "y": 1050,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 636.171875,
+          "y": 1050,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 169.5,
+          "y": 1451,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 402.828125,
+          "y": 1451,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 636.171875,
+          "y": 1451,
+          "width": 219.328125,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 168.5,
+          "y": 627,
+          "width": 688,
+          "height": 323,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 168.5,
+          "y": 979,
+          "width": 688,
+          "height": 370,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 168.5,
+          "y": 1378,
+          "width": 688,
+          "height": 370,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 168.5,
+          "y": 1777,
+          "width": 688,
+          "height": 219,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 898.5,
+          "y": 627,
+          "width": 233,
+          "height": 97,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 898.5,
+          "y": 748,
+          "width": 233,
+          "height": 118,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 898.5,
+          "y": 887,
+          "width": 233,
+          "height": 340,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 898.5,
+          "y": 1240,
+          "width": 233,
+          "height": 83,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 898.5,
+          "y": 1333,
+          "width": 233,
+          "height": 294,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        }
+      ]
     },
     {
       "viewport": [
@@ -141,7 +284,150 @@
           "bottom": 2237,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 30.5,
+          "y": 692,
+          "width": 160,
+          "height": 128
+        },
+        {
+          "className": "service-card__media",
+          "x": 31.5,
+          "y": 1050,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 264.828125,
+          "y": 1050,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 498.171875,
+          "y": 1050,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 31.5,
+          "y": 1451,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 264.828125,
+          "y": 1451,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 498.171875,
+          "y": 1451,
+          "width": 219.328125,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 30.5,
+          "y": 627,
+          "width": 688,
+          "height": 323,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 30.5,
+          "y": 979,
+          "width": 688,
+          "height": 370,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 30.5,
+          "y": 1378,
+          "width": 688,
+          "height": 370,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 30.5,
+          "y": 1777,
+          "width": 688,
+          "height": 219,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 760.5,
+          "y": 627,
+          "width": 233,
+          "height": 97,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 760.5,
+          "y": 748,
+          "width": 233,
+          "height": 118,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 760.5,
+          "y": 887,
+          "width": 233,
+          "height": 340,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 760.5,
+          "y": 1240,
+          "width": 233,
+          "height": 83,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 760.5,
+          "y": 1333,
+          "width": 233,
+          "height": 294,
+          "hasPseudoBackground": true,
+          "pseudoContent": "\"\""
+        }
+      ]
     },
     {
       "viewport": [
@@ -211,7 +497,150 @@
           "bottom": 2325.421875,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 30,
+          "y": 692,
+          "width": 160,
+          "height": 128
+        },
+        {
+          "className": "service-card__media",
+          "x": 31,
+          "y": 1038.0625,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 264.328125,
+          "y": 1038.0625,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 497.671875,
+          "y": 1038.0625,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 31,
+          "y": 1465.25,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 264.328125,
+          "y": 1465.25,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 497.671875,
+          "y": 1465.25,
+          "width": 219.328125,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 30,
+          "y": 627,
+          "width": 688,
+          "height": 309.0625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 30,
+          "y": 965.0625,
+          "width": 688,
+          "height": 398.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 30,
+          "y": 1392.25,
+          "width": 688,
+          "height": 398.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 30,
+          "y": 1819.4375,
+          "width": 688,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 760,
+          "y": 627,
+          "width": 233,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 760,
+          "y": 852.578125,
+          "width": 233,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 760,
+          "y": 1061.359375,
+          "width": 233,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 760,
+          "y": 1461.3125,
+          "width": 233,
+          "height": 89.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 760,
+          "y": 1566.703125,
+          "width": 233,
+          "height": 322.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -281,7 +710,150 @@
           "bottom": 2325.421875,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 29.5,
+          "y": 692,
+          "width": 160,
+          "height": 128
+        },
+        {
+          "className": "service-card__media",
+          "x": 30.5,
+          "y": 1038.0625,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 263.828125,
+          "y": 1038.0625,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 497.171875,
+          "y": 1038.0625,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 30.5,
+          "y": 1465.25,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 263.828125,
+          "y": 1465.25,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 497.171875,
+          "y": 1465.25,
+          "width": 219.328125,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 29.5,
+          "y": 627,
+          "width": 688,
+          "height": 309.0625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 29.5,
+          "y": 965.0625,
+          "width": 688,
+          "height": 398.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 29.5,
+          "y": 1392.25,
+          "width": 688,
+          "height": 398.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 29.5,
+          "y": 1819.4375,
+          "width": 688,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 759.5,
+          "y": 627,
+          "width": 233,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 759.5,
+          "y": 852.578125,
+          "width": 233,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 759.5,
+          "y": 1061.359375,
+          "width": 233,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 759.5,
+          "y": 1461.3125,
+          "width": 233,
+          "height": 89.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 759.5,
+          "y": 1566.703125,
+          "width": 233,
+          "height": 322.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -351,7 +923,150 @@
           "bottom": 2325.421875,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 14.5,
+          "y": 692,
+          "width": 160,
+          "height": 128
+        },
+        {
+          "className": "service-card__media",
+          "x": 15.5,
+          "y": 1038.0625,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 248.828125,
+          "y": 1038.0625,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 482.171875,
+          "y": 1038.0625,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 15.5,
+          "y": 1465.25,
+          "width": 219.328125,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 248.828125,
+          "y": 1465.25,
+          "width": 219.34375,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 482.171875,
+          "y": 1465.25,
+          "width": 219.328125,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 14.5,
+          "y": 627,
+          "width": 688,
+          "height": 309.0625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 14.5,
+          "y": 965.0625,
+          "width": 688,
+          "height": 398.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 14.5,
+          "y": 1392.25,
+          "width": 688,
+          "height": 398.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 14.5,
+          "y": 1819.4375,
+          "width": 688,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 744.5,
+          "y": 627,
+          "width": 233,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 744.5,
+          "y": 852.578125,
+          "width": 233,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 744.5,
+          "y": 1061.359375,
+          "width": 233,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 744.5,
+          "y": 1461.3125,
+          "width": 233,
+          "height": 89.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 744.5,
+          "y": 1566.703125,
+          "width": 233,
+          "height": 322.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -421,7 +1136,150 @@
           "bottom": 4566.859375,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 415.5,
+          "y": 1098.28125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 30,
+          "y": 1581.46875,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 504.5,
+          "y": 1581.46875,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 30,
+          "y": 1826.0625,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 30,
+          "y": 2211.65625,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 504.5,
+          "y": 2211.65625,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 30,
+          "y": 2456.25,
+          "width": 456.5,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 29,
+          "y": 1033.28125,
+          "width": 933,
+          "height": 446.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 29,
+          "y": 1508.46875,
+          "width": 933,
+          "height": 601.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 29,
+          "y": 2138.65625,
+          "width": 933,
+          "height": 601.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 29,
+          "y": 2768.84375,
+          "width": 933,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 245.5,
+          "y": 3063.828125,
+          "width": 500,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 245.5,
+          "y": 3289.40625,
+          "width": 500,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 245.5,
+          "y": 3498.1875,
+          "width": 500,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 245.5,
+          "y": 3898.140625,
+          "width": 500,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 245.5,
+          "y": 3985.53125,
+          "width": 500,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -491,7 +1349,150 @@
           "bottom": 4566.859375,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 415,
+          "y": 1098.28125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 29.5,
+          "y": 1581.46875,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 504,
+          "y": 1581.46875,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 29.5,
+          "y": 1826.0625,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 29.5,
+          "y": 2211.65625,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 504,
+          "y": 2211.65625,
+          "width": 456.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 29.5,
+          "y": 2456.25,
+          "width": 456.5,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 28.5,
+          "y": 1033.28125,
+          "width": 933,
+          "height": 446.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 28.5,
+          "y": 1508.46875,
+          "width": 933,
+          "height": 601.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 28.5,
+          "y": 2138.65625,
+          "width": 933,
+          "height": 601.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 28.5,
+          "y": 2768.84375,
+          "width": 933,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 245,
+          "y": 3063.828125,
+          "width": 500,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 245,
+          "y": 3289.40625,
+          "width": 500,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 245,
+          "y": 3498.1875,
+          "width": 500,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 245,
+          "y": 3898.140625,
+          "width": 500,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 245,
+          "y": 3985.53125,
+          "width": 500,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -561,7 +1562,150 @@
           "bottom": 4608.453125,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 304,
+          "y": 1098.28125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1581.46875,
+          "width": 359,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 393,
+          "y": 1581.46875,
+          "width": 359,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1846.859375,
+          "width": 359,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2232.453125,
+          "width": 359,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 393,
+          "y": 2232.453125,
+          "width": 359,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2497.84375,
+          "width": 359,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 15,
+          "y": 1033.28125,
+          "width": 738,
+          "height": 446.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 1508.46875,
+          "width": 738,
+          "height": 621.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 2159.453125,
+          "width": 738,
+          "height": 621.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 15,
+          "y": 2810.4375,
+          "width": 738,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 134,
+          "y": 3105.421875,
+          "width": 500,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 134,
+          "y": 3331,
+          "width": 500,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 134,
+          "y": 3539.78125,
+          "width": 500,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 134,
+          "y": 3939.734375,
+          "width": 500,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 134,
+          "y": 4027.125,
+          "width": 500,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -631,7 +1775,150 @@
           "bottom": 4608.453125,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 303.5,
+          "y": 1098.28125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1581.46875,
+          "width": 358.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 392.5,
+          "y": 1581.46875,
+          "width": 358.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1846.859375,
+          "width": 358.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2232.453125,
+          "width": 358.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 392.5,
+          "y": 2232.453125,
+          "width": 358.5,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2497.84375,
+          "width": 358.5,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 15,
+          "y": 1033.28125,
+          "width": 737,
+          "height": 446.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 1508.46875,
+          "width": 737,
+          "height": 621.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 2159.453125,
+          "width": 737,
+          "height": 621.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 15,
+          "y": 2810.4375,
+          "width": 737,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 133.5,
+          "y": 3105.421875,
+          "width": 500,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 133.5,
+          "y": 3331,
+          "width": 500,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 133.5,
+          "y": 3539.78125,
+          "width": 500,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 133.5,
+          "y": 3939.734375,
+          "width": 500,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 133.5,
+          "y": 4027.125,
+          "width": 500,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -701,7 +1988,150 @@
           "bottom": 4608.453125,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 303,
+          "y": 1098.28125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1581.46875,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 392,
+          "y": 1581.46875,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1846.859375,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2232.453125,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 392,
+          "y": 2232.453125,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2497.84375,
+          "width": 358,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 15,
+          "y": 1033.28125,
+          "width": 736,
+          "height": 446.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 1508.46875,
+          "width": 736,
+          "height": 621.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 2159.453125,
+          "width": 736,
+          "height": 621.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 15,
+          "y": 2810.4375,
+          "width": 736,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 133,
+          "y": 3105.421875,
+          "width": 500,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 133,
+          "y": 3331,
+          "width": 500,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 133,
+          "y": 3539.78125,
+          "width": 500,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 133,
+          "y": 3939.734375,
+          "width": 500,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 133,
+          "y": 4027.125,
+          "width": 500,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -771,7 +2201,150 @@
           "bottom": 5394.5625,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 115,
+          "y": 1051.203125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1663.015625,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1928.40625,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2173,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2558.59375,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2803.1875,
+          "width": 358,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 3068.578125,
+          "width": 358,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 15,
+          "y": 986.203125,
+          "width": 360,
+          "height": 574.8125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 1590.015625,
+          "width": 360,
+          "height": 866.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 2485.59375,
+          "width": 360,
+          "height": 866.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 15,
+          "y": 3381.171875,
+          "width": 360,
+          "height": 442.171875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 15,
+          "y": 3882.34375,
+          "width": 360,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 15,
+          "y": 4107.921875,
+          "width": 360,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 15,
+          "y": 4316.703125,
+          "width": 360,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 15,
+          "y": 4716.65625,
+          "width": 360,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 15,
+          "y": 4804.046875,
+          "width": 360,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -841,7 +2414,150 @@
           "bottom": 5450.359375,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 107.5,
+          "y": 1051.203125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1663.015625,
+          "width": 343,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1928.40625,
+          "width": 343,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2173,
+          "width": 343,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2558.59375,
+          "width": 343,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2803.1875,
+          "width": 343,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 3068.578125,
+          "width": 343,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 15,
+          "y": 986.203125,
+          "width": 345,
+          "height": 574.8125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 1590.015625,
+          "width": 345,
+          "height": 866.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 2485.59375,
+          "width": 345,
+          "height": 887.375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 15,
+          "y": 3401.96875,
+          "width": 345,
+          "height": 442.171875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 15,
+          "y": 3903.140625,
+          "width": 345,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 15,
+          "y": 4128.71875,
+          "width": 345,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 15,
+          "y": 4337.5,
+          "width": 345,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 15,
+          "y": 4737.453125,
+          "width": 345,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 15,
+          "y": 4824.84375,
+          "width": 345,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     },
     {
       "viewport": [
@@ -911,7 +2627,150 @@
           "bottom": 4566.859375,
           "left": 0
         }
-      }
+      },
+      "mediaBoxes": [
+        {
+          "className": "feature-box__media",
+          "x": 342,
+          "y": 1098.28125,
+          "width": 160,
+          "height": 160
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1581.46875,
+          "width": 397,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 431,
+          "y": 1581.46875,
+          "width": 397,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 1826.0625,
+          "width": 397,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2211.65625,
+          "width": 397,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 431,
+          "y": 2211.65625,
+          "width": 397,
+          "height": 163
+        },
+        {
+          "className": "service-card__media",
+          "x": 16,
+          "y": 2456.25,
+          "width": 397,
+          "height": 163
+        }
+      ],
+      "sectionBoxes": [
+        {
+          "id": "features",
+          "className": "section-block",
+          "x": 15,
+          "y": 1033.28125,
+          "width": 814,
+          "height": 446.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "moving-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 1508.46875,
+          "width": 814,
+          "height": 601.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "delivery-service",
+          "className": "section-block",
+          "x": 15,
+          "y": 2138.65625,
+          "width": 814,
+          "height": 601.1875,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "news",
+          "className": "section-block",
+          "x": 15,
+          "y": 2768.84375,
+          "width": 814,
+          "height": 235.984375,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "faq",
+          "className": "side-card side-card--checkpoint",
+          "x": 172,
+          "y": 3063.828125,
+          "width": 500,
+          "height": 209.578125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--reviews",
+          "x": 172,
+          "y": 3289.40625,
+          "width": 500,
+          "height": 192.78125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "company",
+          "className": "side-card side-card--company",
+          "x": 172,
+          "y": 3498.1875,
+          "width": 500,
+          "height": 383.953125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--insurance",
+          "x": 172,
+          "y": 3898.140625,
+          "width": 500,
+          "height": 71.390625,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        },
+        {
+          "id": "",
+          "className": "side-card side-card--area",
+          "x": 172,
+          "y": 3985.53125,
+          "width": 500,
+          "height": 304.328125,
+          "hasPseudoBackground": false,
+          "pseudoContent": "none"
+        }
+      ]
     }
   ]
 }

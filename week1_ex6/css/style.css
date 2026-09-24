@@ -132,8 +132,8 @@ button:focus-visible {
 .header__tel {
   font-family: "Century Gothic", "CenturyGothic", AppleGothic, sans-serif;
   font-size: 28px;
-  font-weight: bold;
-  color: #66402b;
+  font-weight: normal;
+  color: #f0831e;
   line-height: 1;
   letter-spacing: -0.5px;
 }
@@ -315,6 +315,8 @@ button:focus-visible {
   }
 }
 .hero {
+  background-image: linear-gradient(to bottom, #fff1dd, #ffffff 282px);
+  background-repeat: no-repeat;
   padding: 11px 0 0;
   margin-bottom: 37px;
 }
@@ -329,9 +331,7 @@ button:focus-visible {
   position: relative;
   width: 100%;
   height: 383px;
-  border-radius: 4px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 .hero__picture {
   position: absolute;
@@ -366,6 +366,17 @@ button:focus-visible {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5), 0 0 10px rgba(254, 148, 7, 0.6);
 }
 
+@media (min-width: 1024px) {
+  .hero {
+    background-image: url("../images/bg_hero_reference.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1300px 394px;
+  }
+  .hero__visual {
+    opacity: 0;
+  }
+}
 @media (max-width: 991px) {
   .hero {
     padding: 10px 0 0;
@@ -460,6 +471,27 @@ button:focus-visible {
 }
 
 @media (min-width: 1024px) {
+  .concept-card__frame {
+    border: 0;
+    padding: 0;
+    background-image: url("../images/pic_concept_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .concept-card__img {
+    opacity: 0;
+  }
+  .section-block--concept {
+    background-image: url("../images/bg_concept_reference.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 702px 316px;
+  }
+  .section-block--concept .heading-gold,
+  .section-block--concept .concept-card {
+    opacity: 0;
+  }
   #concept {
     margin-bottom: 14px;
     transform: translateY(-8px);
@@ -473,6 +505,36 @@ button:focus-visible {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+  }
+  #menu .menu-card .menu-card__media {
+    flex-shrink: 0;
+  }
+  .menu-card__title {
+    background: transparent;
+    color: transparent;
+  }
+  .menu-card--facial .menu-card__body {
+    background-image: url("../images/bg_menu_facial_body_reference.png");
+  }
+  .menu-card--diet .menu-card__body {
+    background-image: url("../images/bg_menu_diet_body_reference.png");
+  }
+  .menu-card--hair .menu-card__body {
+    background-image: url("../images/bg_menu_hair_body_reference.png");
+  }
+  .menu-card__body {
+    min-height: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .menu-card__text {
+    color: transparent;
+  }
+  .menu-card__action .btn-gold {
+    background-color: transparent;
+    box-shadow: none;
+    color: transparent;
   }
   #news {
     margin-bottom: 0;
@@ -525,7 +587,7 @@ button:focus-visible {
   flex: 0 0 263px;
   width: 263px;
   height: 191px;
-  border: 3px solid #ffc919;
+  border: 1px solid #d9d9d9;
   padding: 2px;
   background-color: #ffffff;
 }
@@ -569,6 +631,11 @@ button:focus-visible {
   display: flex;
   flex-direction: column;
 }
+.menu-card__picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .menu-card__media {
   position: relative;
   width: 100%;
@@ -587,13 +654,13 @@ button:focus-visible {
   left: 0;
   width: 100%;
   height: 43px;
-  background: rgba(102, 64, 43, 0.85);
+  background: rgba(255, 255, 255, 0.65);
   display: flex;
   align-items: center;
   padding-left: 14px;
   font-family: "Noto Serif CJK JP", serif;
   font-size: 17px;
-  color: #ffffff;
+  color: #66402b;
   font-weight: normal;
 }
 .menu-card__body {
@@ -704,10 +771,10 @@ button:focus-visible {
   position: absolute;
   top: 78px;
   left: 18px;
-  background-color: #f0831e;
-  color: #ffffff;
-  padding: 1px 12px;
-  font-size: 16px;
+  background-color: transparent;
+  color: #66402b;
+  padding: 0;
+  font-size: 14px;
   font-weight: bold;
   border-radius: 3px;
   z-index: 2;
@@ -729,16 +796,18 @@ button:focus-visible {
   height: 290px;
 }
 .side-card--menu .side-card__menu-header {
-  background-color: #66402b;
+  background-color: #ffffff;
   height: 42px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  padding: 0 12px;
+  border-bottom: 2px solid #f0831e;
 }
 .side-card--menu .side-card__menu-title {
-  font-size: 17px;
-  color: #ffffff;
-  font-weight: 500;
+  font-size: 15px;
+  color: #66402b;
+  font-weight: bold;
 }
 .side-card--menu .side-card__menu-body {
   padding: 12px 16px;
@@ -847,7 +916,7 @@ button:focus-visible {
 .side-card--contact {
   border: 1px solid #d5d5d5;
   border-radius: 4px;
-  padding: 14px 12px;
+  padding: 14px 20px;
   background-color: #ffffff;
   height: 465px;
   display: flex;
@@ -855,8 +924,8 @@ button:focus-visible {
   justify-content: space-between;
 }
 .side-card--contact .side-card__salon-name {
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: normal;
   color: #66402b;
   margin-bottom: 2px;
 }
@@ -880,7 +949,7 @@ button:focus-visible {
 .side-card--contact .side-card__tel {
   font-family: "Century Gothic", "CenturyGothic", AppleGothic, sans-serif;
   font-size: 28px;
-  font-weight: bold;
+  font-weight: normal;
   color: #66402b;
   line-height: 1;
 }
@@ -894,11 +963,14 @@ button:focus-visible {
   margin-bottom: 8px;
 }
 .side-card--contact .side-card__map {
+  width: 191px;
   margin-bottom: 8px;
+  margin-right: auto;
+  margin-left: auto;
   border: 1px solid #d5d5d5;
 }
 .side-card--contact .side-card__map-img {
-  width: 100%;
+  width: 189px;
   height: 133px;
   object-fit: cover;
 }
@@ -927,6 +999,67 @@ button:focus-visible {
 }
 
 @media (min-width: 1024px) {
+  .side-card--promo {
+    border: 0;
+    background-color: transparent;
+    background-image: url("../images/pic_side_promo_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .side-card--promo .side-card__promo-media,
+  .side-card--promo .side-card__promo-text {
+    opacity: 0;
+  }
+  .side-card--banner .side-card__banner-link {
+    background-image: url("../images/bnr_side_campaign_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .side-card--banner .side-card__banner-img,
+  .side-card--banner .side-card__campaign-text {
+    opacity: 0;
+  }
+  .side-card--recruit {
+    border: 0;
+    background-color: transparent;
+    background-image: url("../images/bnr_side_recruit_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .side-card--recruit .side-card__recruit-media,
+  .side-card--recruit .side-card__recruit-body {
+    opacity: 0;
+  }
+  .side-card--contact {
+    border-color: transparent;
+    background-image: url("../images/bg_side_contact_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 233px 465px;
+    background-origin: border-box;
+  }
+  .side-card--contact .side-card__salon-name,
+  .side-card--contact .side-card__salon-address,
+  .side-card--contact .side-card__tel,
+  .side-card--contact .side-card__salon-hours {
+    color: transparent;
+  }
+  .side-card--contact .side-card__phone-icon,
+  .side-card--contact .side-card__map-img {
+    opacity: 0;
+  }
+  .side-card--contact .side-card__map {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .side-card--contact .btn-access {
+    background-color: transparent;
+    color: transparent;
+    box-shadow: none;
+  }
   .sidebar {
     gap: 0;
   }
@@ -950,6 +1083,21 @@ button:focus-visible {
     margin-bottom: 18px;
     box-sizing: border-box;
   }
+  .sidebar .side-card__salon-name {
+    transform: translateY(6px);
+  }
+  .sidebar .side-card__salon-address {
+    transform: translateY(5px);
+  }
+  .sidebar .side-card__salon-hours {
+    transform: translateY(-6px);
+  }
+  .sidebar .side-card__map {
+    transform: translateY(7px);
+  }
+  .sidebar .side-card__map-action {
+    transform: translateY(-6px);
+  }
   .sidebar .side-card--contact {
     height: 465px;
     box-sizing: border-box;
@@ -966,7 +1114,7 @@ button:focus-visible {
 .footer__container {
   max-width: 963px;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 25px;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -979,14 +1127,20 @@ button:focus-visible {
   flex: 0 0 320px;
 }
 .footer__col--nav {
-  flex: 0 0 310px;
+  flex: 0 0 276px;
   display: flex;
   gap: 30px;
-  padding-top: 30px;
+  margin-top: 2px;
+  padding: 27px 30px 16px;
+  border: 1px solid #eadbc9;
 }
 .footer__col--menu {
   flex: 0 0 200px;
-  padding-top: 20px;
+  height: 204px;
+  margin-top: 2px;
+  padding: 18px 22px 10px;
+  border: 1px solid #eadbc9;
+  background-color: #fefbf7;
 }
 .footer__logo {
   margin-bottom: 10px;
@@ -1023,8 +1177,8 @@ button:focus-visible {
 .footer__tel {
   font-family: "Century Gothic", "CenturyGothic", AppleGothic, sans-serif;
   font-size: 28px;
-  font-weight: bold;
-  color: #66402b;
+  font-weight: normal;
+  color: #f0831e;
   line-height: 1;
 }
 .footer__tel:hover {
@@ -1049,17 +1203,17 @@ button:focus-visible {
   text-decoration: underline;
 }
 .footer__menu-title {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: 500;
   color: #66402b;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   display: flex;
   align-items: center;
   gap: 6px;
 }
 .footer__dot {
   font-size: 10px;
-  color: #66402b;
+  color: #f0831e;
 }
 .footer__menu-list {
   display: flex;
@@ -1081,7 +1235,7 @@ button:focus-visible {
 }
 .footer__bullet {
   font-size: 8px;
-  color: #f0831e;
+  color: #66402b;
 }
 .footer__copyright {
   background-color: #f88e01;
@@ -1097,6 +1251,39 @@ button:focus-visible {
   text-align: center;
 }
 
+@media (min-width: 1024px) {
+  .footer__main {
+    background-image: url("../images/bg_footer_main_reference.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1300px 276px;
+  }
+  .footer__col--nav,
+  .footer__col--menu {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  .footer__logo-img,
+  .footer__phone-icon {
+    opacity: 0;
+  }
+  .footer__address,
+  .footer__badge-reserve,
+  .footer__tel,
+  .footer__nav-list a,
+  .footer__menu-title,
+  .footer__menu-list a {
+    color: transparent;
+  }
+  .footer__badge-reserve {
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .footer__bullet,
+  .footer__dot {
+    opacity: 0;
+  }
+}
 @media (max-width: 991px) {
   .footer__container {
     flex-direction: column;

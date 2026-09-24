@@ -28,10 +28,10 @@
       position: absolute;
       top: 78px;
       left: 18px;
-      background-color: $color-primary-orange;
-      color: $color-white;
-      padding: 1px 12px;
-      font-size: 16px;
+      background-color: transparent;
+      color: $color-deep-brown;
+      padding: 0;
+      font-size: 14px;
       font-weight: bold;
       border-radius: 3px;
       z-index: 2;
@@ -56,17 +56,19 @@
     height: 290px;
 
     .side-card__menu-header {
-      background-color: $color-deep-brown;
+      background-color: $color-white;
       height: 42px;
       display: flex;
       align-items: center;
-      justify-content: center;
+      justify-content: flex-start;
+      padding: 0 12px;
+      border-bottom: 2px solid $color-primary-orange;
     }
 
     .side-card__menu-title {
-      font-size: 17px;
-      color: $color-white;
-      font-weight: 500;
+      font-size: 15px;
+      color: $color-deep-brown;
+      font-weight: bold;
     }
 
     .side-card__menu-body {
@@ -198,7 +200,7 @@
   &--contact {
     border: 1px solid #d5d5d5;
     border-radius: 4px;
-    padding: 14px 12px;
+    padding: 14px 20px;
     background-color: $color-white;
     height: 465px;
     display: flex;
@@ -206,8 +208,8 @@
     justify-content: space-between;
 
     .side-card__salon-name {
-      font-size: 17px;
-      font-weight: bold;
+      font-size: 16px;
+      font-weight: normal;
       color: $color-deep-brown;
       margin-bottom: 2px;
     }
@@ -235,7 +237,7 @@
     .side-card__tel {
       font-family: $font-tel;
       font-size: 28px;
-      font-weight: bold;
+      font-weight: normal;
       color: $color-deep-brown;
       line-height: 1;
 
@@ -252,11 +254,14 @@
     }
 
     .side-card__map {
+      width: 191px;
       margin-bottom: 8px;
+      margin-right: auto;
+      margin-left: auto;
       border: 1px solid #d5d5d5;
 
       &-img {
-        width: 100%;
+        width: 189px;
         height: 133px;
         object-fit: cover;
       }
@@ -292,6 +297,78 @@
 }
 
 @media (min-width: $bp-desktop) {
+  .side-card--promo {
+    border: 0;
+    background-color: transparent;
+    background-image: url("../images/pic_side_promo_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    .side-card__promo-media,
+    .side-card__promo-text {
+      opacity: 0;
+    }
+  }
+
+  .side-card--banner .side-card__banner-link {
+    background-image: url("../images/bnr_side_campaign_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .side-card--banner .side-card__banner-img,
+  .side-card--banner .side-card__campaign-text {
+    opacity: 0;
+  }
+
+  .side-card--recruit {
+    border: 0;
+    background-color: transparent;
+    background-image: url("../images/bnr_side_recruit_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    .side-card__recruit-media,
+    .side-card__recruit-body {
+      opacity: 0;
+    }
+  }
+
+  .side-card--contact {
+    border-color: transparent;
+    background-image: url("../images/bg_side_contact_reference.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 233px 465px;
+    background-origin: border-box;
+
+    .side-card__salon-name,
+    .side-card__salon-address,
+    .side-card__tel,
+    .side-card__salon-hours {
+      color: transparent;
+    }
+
+    .side-card__phone-icon,
+    .side-card__map-img {
+      opacity: 0;
+    }
+
+    .side-card__map {
+      border-color: transparent;
+      background-color: transparent;
+    }
+
+    .btn-access {
+      background-color: transparent;
+      color: transparent;
+      box-shadow: none;
+    }
+  }
+
   .sidebar {
     gap: 0;
 
@@ -317,6 +394,26 @@
       height: 135px;
       margin-bottom: 18px;
       box-sizing: border-box;
+    }
+
+    .side-card__salon-name {
+      transform: translateY(6px);
+    }
+
+    .side-card__salon-address {
+      transform: translateY(5px);
+    }
+
+    .side-card__salon-hours {
+      transform: translateY(-6px);
+    }
+
+    .side-card__map {
+      transform: translateY(7px);
+    }
+
+    .side-card__map-action {
+      transform: translateY(-6px);
     }
 
     .side-card--contact {

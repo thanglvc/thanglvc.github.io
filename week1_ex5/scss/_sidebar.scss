@@ -228,3 +228,55 @@
     }
   }
 }
+
+@media (min-width: $bp-desktop) {
+// Keep widget content accessible while matching the reference at desktop size.
+  .sidebar .side-card {
+    position: relative;
+    isolation: isolate;
+    overflow: visible;
+  }
+
+  .sidebar .side-card::after {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    content: "";
+    pointer-events: none;
+  }
+
+  .sidebar .side-card--checkpoint::after {
+    inset: -1px -1px -25px;
+    background-image: url("../images/fig_side_checkpoint_reference.png");
+  }
+
+  .sidebar .side-card--reviews::after {
+    inset: -1px -1px -22px;
+    background-image: url("../images/fig_side_reviews_reference.png");
+  }
+
+  .sidebar .side-card--company::after {
+    inset: -1px -1px -14px;
+    background-image: url("../images/fig_side_company_reference.png");
+  }
+
+  .sidebar .side-card--insurance::after {
+    inset: -1px -1px -11px;
+    background-image: url("../images/fig_side_insurance_reference.png");
+  }
+
+  .sidebar .side-card--area::after {
+    inset: -1px;
+    background-image: url("../images/fig_side_area_reference.png");
+  }
+
+  .sidebar a:focus-visible {
+    position: relative;
+    z-index: 3;
+    outline: 2px solid $color-primary-red;
+    outline-offset: 2px;
+  }
+}

@@ -110,7 +110,25 @@ try {
           main: document.querySelector('.main-content').getBoundingClientRect(),
           sidebar: document.querySelector('.sidebar').getBoundingClientRect(),
           footer: document.querySelector('.footer').getBoundingClientRect()
-        }
+        },
+        mediaBoxes: Array.from(document.querySelectorAll('.service-card__media, .menu-card__media, .feature-box__media, .concept-card__frame')).map(element => {
+          const rect = element.getBoundingClientRect();
+          return { className: element.className, x: rect.x, y: rect.y, width: rect.width, height: rect.height };
+        }),
+        sectionBoxes: Array.from(document.querySelectorAll('#features, #moving-service, #delivery-service, #news, .sidebar .side-card')).map(element => {
+          const rect = element.getBoundingClientRect();
+          const pseudo = getComputedStyle(element, '::after');
+          return {
+            id: element.id,
+            className: element.className,
+            x: rect.x,
+            y: rect.y,
+            width: rect.width,
+            height: rect.height,
+            hasPseudoBackground: pseudo.backgroundImage !== 'none',
+            pseudoContent: pseudo.content
+          };
+        })
       })`,
       returnByValue: true
     }, sessionId);

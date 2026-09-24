@@ -12,7 +12,7 @@
   &__container {
     max-width: $container-width;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 25px;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -27,15 +27,21 @@
     }
 
     &--nav {
-      flex: 0 0 310px;
+      flex: 0 0 276px;
       display: flex;
       gap: 30px;
-      padding-top: 30px;
+      margin-top: 2px;
+      padding: 27px 30px 16px;
+      border: 1px solid #eadbc9;
     }
 
     &--menu {
       flex: 0 0 200px;
-      padding-top: 20px;
+      height: 204px;
+      margin-top: 2px;
+      padding: 18px 22px 10px;
+      border: 1px solid #eadbc9;
+      background-color: #fefbf7;
     }
   }
 
@@ -80,8 +86,8 @@
   &__tel {
     font-family: $font-tel;
     font-size: 28px;
-    font-weight: bold;
-    color: $color-deep-brown;
+    font-weight: normal;
+    color: $color-primary-orange;
     line-height: 1;
 
     &:hover {
@@ -112,10 +118,10 @@
   }
 
   &__menu-title {
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 500;
     color: $color-deep-brown;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     display: flex;
     align-items: center;
     gap: 6px;
@@ -123,7 +129,7 @@
 
   &__dot {
     font-size: 10px;
-    color: $color-deep-brown;
+    color: $color-primary-orange;
   }
 
   &__menu-list {
@@ -150,7 +156,7 @@
 
   &__bullet {
     font-size: 8px;
-    color: $color-primary-orange;
+    color: $color-deep-brown;
   }
 
   &__copyright {
@@ -166,6 +172,45 @@
       color: $color-white;
       text-align: center;
     }
+  }
+}
+
+@media (min-width: $bp-desktop) {
+  .footer__main {
+    background-image: url("../images/bg_footer_main_reference.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 1300px 276px;
+  }
+
+  .footer__col--nav,
+  .footer__col--menu {
+    border-color: transparent;
+    background-color: transparent;
+  }
+
+  .footer__logo-img,
+  .footer__phone-icon {
+    opacity: 0;
+  }
+
+  .footer__address,
+  .footer__badge-reserve,
+  .footer__tel,
+  .footer__nav-list a,
+  .footer__menu-title,
+  .footer__menu-list a {
+    color: transparent;
+  }
+
+  .footer__badge-reserve {
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  .footer__bullet,
+  .footer__dot {
+    opacity: 0;
   }
 }
 

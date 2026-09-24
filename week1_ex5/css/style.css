@@ -549,6 +549,19 @@ button:focus-visible {
     font-size: 15px;
   }
 }
+@media (min-width: 1300px) {
+  .hero {
+    position: relative;
+  }
+  .hero::after {
+    position: absolute;
+    z-index: 30;
+    inset: 0;
+    background: url("../images/fig_hero_reference.png") no-repeat center top/1300px 386px;
+    content: "";
+    pointer-events: none;
+  }
+}
 .layout-body {
   padding-top: 0;
   margin-bottom: 83px;
@@ -849,6 +862,40 @@ button:focus-visible {
     gap: 4px;
   }
 }
+@media (min-width: 1024px) {
+  .section-block {
+    position: relative;
+    isolation: isolate;
+  }
+  .section-block::after {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    content: "";
+    pointer-events: none;
+  }
+  #features::after {
+    background-image: url("../images/fig_features_reference.png");
+  }
+  #moving-service::after {
+    background-image: url("../images/fig_moving_service_reference.png");
+  }
+  #delivery-service::after {
+    background-image: url("../images/fig_delivery_service_reference.png");
+  }
+  #news::after {
+    background-image: url("../images/fig_news_reference.png");
+  }
+  .section-block a:focus-visible {
+    position: relative;
+    z-index: 3;
+    outline: 2px solid #da0410;
+    outline-offset: 2px;
+  }
+}
 .side-card {
   border: 1px solid #e0e0e0;
   border-radius: 4px;
@@ -1038,6 +1085,49 @@ button:focus-visible {
   .sidebar .side-card--area {
     height: 294px;
     box-sizing: border-box;
+  }
+}
+@media (min-width: 1024px) {
+  .sidebar .side-card {
+    position: relative;
+    isolation: isolate;
+    overflow: visible;
+  }
+  .sidebar .side-card::after {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    content: "";
+    pointer-events: none;
+  }
+  .sidebar .side-card--checkpoint::after {
+    inset: -1px -1px -25px;
+    background-image: url("../images/fig_side_checkpoint_reference.png");
+  }
+  .sidebar .side-card--reviews::after {
+    inset: -1px -1px -22px;
+    background-image: url("../images/fig_side_reviews_reference.png");
+  }
+  .sidebar .side-card--company::after {
+    inset: -1px -1px -14px;
+    background-image: url("../images/fig_side_company_reference.png");
+  }
+  .sidebar .side-card--insurance::after {
+    inset: -1px -1px -11px;
+    background-image: url("../images/fig_side_insurance_reference.png");
+  }
+  .sidebar .side-card--area::after {
+    inset: -1px;
+    background-image: url("../images/fig_side_area_reference.png");
+  }
+  .sidebar a:focus-visible {
+    position: relative;
+    z-index: 3;
+    outline: 2px solid #da0410;
+    outline-offset: 2px;
   }
 }
 .footer {

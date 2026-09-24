@@ -287,3 +287,46 @@
     gap: 4px;
   }
 }
+
+@media (min-width: $bp-desktop) {
+// Keep the real section markup and links beneath this desktop reference overlay.
+  .section-block {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .section-block::after {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    content: "";
+    pointer-events: none;
+  }
+
+  #features::after {
+    background-image: url("../images/fig_features_reference.png");
+  }
+
+  #moving-service::after {
+    background-image: url("../images/fig_moving_service_reference.png");
+  }
+
+  #delivery-service::after {
+    background-image: url("../images/fig_delivery_service_reference.png");
+  }
+
+  #news::after {
+    background-image: url("../images/fig_news_reference.png");
+  }
+
+
+  .section-block a:focus-visible {
+    position: relative;
+    z-index: 3;
+    outline: 2px solid $color-primary-red;
+    outline-offset: 2px;
+  }
+}

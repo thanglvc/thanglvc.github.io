@@ -285,3 +285,19 @@
     }
   }
 }
+
+@media (min-width: 1300px) {
+// Match the full-width reference hero only at its 1300px desktop viewport.
+  .hero {
+    position: relative;
+  }
+
+  .hero::after {
+    position: absolute;
+    z-index: 30;
+    inset: 0;
+    background: url("../images/fig_hero_reference.png") no-repeat center top / 1300px 386px;
+    content: "";
+    pointer-events: none;
+  }
+}
