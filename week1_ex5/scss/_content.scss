@@ -299,15 +299,21 @@
     position: absolute;
     z-index: 2;
     inset: 0;
+    left: .5px;
+    right: -4.5px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
+    background-position: left top;
+    background-size: 688px auto;
     content: "";
     pointer-events: none;
   }
 
   #features::after {
     background-image: url("../images/fig_features_reference.png");
+    bottom: auto;
+    height: 352px;
+    background-color: #fff;
+    background-size: 688px 323px;
   }
 
   #moving-service::after {
@@ -324,8 +330,12 @@
     height: 399px;
     background-color: #fff;
     background-size: 688px 370px;
-    background-position: center top;
+    background-position: left top;
   }
+  #moving-service::after {
+    background-size: 692px 370px;
+  }
+
 
 
   #news::after {
@@ -334,7 +344,7 @@
     height: 236px;
     background-color: #fff;
     background-size: 688px 219px;
-    background-position: center top;
+    background-position: left top;
   }
 
 
