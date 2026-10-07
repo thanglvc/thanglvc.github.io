@@ -24,16 +24,6 @@
   background: var(--color-page);
 }
 
-.training-index__title {
-  margin-block-end: .5rem;
-  font-size: 2rem;
-  color: var(--color-heading);
-}
-
-.training-index__intro {
-  margin-block-end: 2rem;
-}
-
 .training-index__section + .training-index__section {
   margin-block-start: 2rem;
 }
@@ -44,10 +34,6 @@
   font-size: 1.25rem;
   color: var(--color-heading);
   border-bottom: 2px solid var(--color-border);
-}
-
-.training-index__note {
-  margin-block-end: 1rem;
 }
 
 .exercise-list {
