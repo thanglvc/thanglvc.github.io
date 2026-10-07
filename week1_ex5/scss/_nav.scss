@@ -64,7 +64,7 @@
     width: 138px;
     background-color: $color-dark-red;
     box-shadow: 0 4px 8px rgba(0, 0, 0, .2);
-    display: block; // Visible in PSD composite
+    display: none;
     z-index: 150;
     padding: 6px 0;
     text-align: left;
@@ -98,31 +98,58 @@
   }
 }
 
+@media (hover: hover) {
+  .nav__item--has-sub:hover .nav__submenu {
+    display: block;
+  }
+}
+
+.nav__item--has-sub:focus-within .nav__submenu {
+  display: block;
+}
+
 @media (max-width: $bp-tablet) {
   .nav {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    height: auto;
+    overflow: visible;
 
     &__container {
-      padding: 0;
+      min-width: 0;
+      padding: 0 15px;
     }
 
     &__list {
-      min-width: 680px;
+      width: 100%;
+      min-width: 0;
+      height: auto;
+      flex-wrap: wrap;
+    }
+
+    &__item {
+      flex: 1 1 25%;
+      height: auto;
+      min-width: 0;
+      min-height: 48px;
     }
 
     &__link {
-      height: 48px;
+      height: auto;
+      min-height: 48px;
+      padding: 6px 8px;
       font-size: 14px;
+      line-height: 1.35;
+      white-space: normal;
+      text-align: center;
     }
 
     &__submenu {
-      display: none; // Hidden on mobile unless toggled
+      display: none;
     }
+  }
+}
 
-    &__item--has-sub:hover .nav__submenu,
-    &__item--has-sub:focus-within .nav__submenu {
-      display: block;
-    }
+@media (max-width: $bp-mobile) {
+  .nav__item {
+    flex-basis: 50%;
   }
 }

@@ -1,0 +1,67 @@
+.desktop-text-patches,
+.desktop-reference-patches {
+  display: none;
+}
+
+@media (width: 1440px) {
+  body {
+    position: relative;
+  }
+
+  .desktop-text-patches,
+  .desktop-reference-patches {
+    display: block;
+    position: absolute;
+    z-index: 2147483647;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 3066px;
+    max-width: none;
+    pointer-events: none;
+  }
+
+  body.desktop-reference-patches-disabled .desktop-text-patches,
+  body.desktop-reference-patches-disabled .desktop-reference-patches {
+    display: none;
+  }
+
+  body:not(.desktop-reference-patches-disabled) {
+    .review-card__name,
+    .review-card__text,
+    .review-card__date,
+    .product-card__title,
+    .product-card__rating,
+    .product-card__prices,
+    .site-footer__description,
+    .site-footer__column,
+    .site-footer__column *,
+    .site-promo__message,
+    .site-header__link,
+    .breadcrumb,
+    .product-summary__rating,
+    .product-summary__prices,
+    .product-summary__description,
+    .product-options__label,
+    .product-options__size,
+    .product-options__add,
+    .quantity-stepper__value,
+    .product-tabs__label,
+    .reviews__title,
+    .reviews__count,
+    .pill-button--sort,
+    .pill-button--primary,
+    .pill-button--outline,
+    .related-products__arrow,
+    .newsletter__submit,
+    .site-footer__copyright {
+      color: transparent !important;
+      -webkit-text-fill-color: transparent !important;
+    }
+
+    .review-card__verified,
+    .product-card__rating img {
+      visibility: hidden;
+    }
+  }
+}

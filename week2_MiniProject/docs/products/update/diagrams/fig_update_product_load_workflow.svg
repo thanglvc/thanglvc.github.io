@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1100" viewBox="0 0 1280 1100" role="img" aria-labelledby="title desc">
+<title id="title">Cập nhật sản phẩm — tải form</title>
+<desc id="desc">Luồng FE và BE. Hình bo tròn: bắt đầu/kết thúc. Hình chữ nhật: xử lý. Hình thoi: điều kiện. Mũi tên nét liền: thứ tự xử lý.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#334155"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="640" y="32" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#0f172a">Cập nhật sản phẩm — tải form</text>
+<path d="M620.0,120 L620.0,155" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M620.0,250 L620.0,300" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M440,370.0 L350,367.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="355" y="360" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Không</text>
+<path d="M620.0,440 L620.0,495" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="650" y="472" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Có</text>
+<path d="M620.0,590 L620.0,640" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M800,710.0 L925,707.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="840" y="701" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Không</text>
+<path d="M620.0,780 L620.0,830" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="650" y="810" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Có</text>
+<path d="M620.0,940 L620.0,1000" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M207.5,430 L207,1032 L440,1032.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1067.5,770 L1067,1032 L800,1032.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="440" y="60" width="360" height="60" rx="30.0" fill="#dbeafe" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="90.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Mở /products/{id}/edit</text>
+<rect x="440" y="155" width="360" height="95" rx="8" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="178.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Khóa Lưu; GET sản phẩm</text>
+<text x="620.0" y="202.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">BE binding + load category</text>
+<text x="620.0" y="226.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">GET không ghi DB</text>
+<polygon points="620.0,300 800,370.0 620.0,440 440,370.0" fill="#fef3c7" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="370.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">200 đúng schema và ID?</text>
+<rect x="65" y="305" width="285" height="125" rx="8" fill="#fee2e2" stroke="#475569" stroke-width="2"/>
+<text x="207.5" y="343.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">404: sản phẩm không tồn tại</text>
+<text x="207.5" y="367.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">500 / mạng / sai: lỗi tải</text>
+<text x="207.5" y="391.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Giữ Lưu khóa</text>
+<rect x="440" y="495" width="360" height="95" rx="8" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="518.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Điền tên/giá/mô tả, mở ô text</text>
+<text x="620.0" y="542.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">GET danh mục, khóa select/Lưu</text>
+<text x="620.0" y="566.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">BE đọc categories; không ghi DB</text>
+<polygon points="620.0,640 800,710.0 620.0,780 440,710.0" fill="#fef3c7" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="710.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">200, schema đúng, có data?</text>
+<rect x="925" y="645" width="285" height="125" rx="8" fill="#fee2e2" stroke="#475569" stroke-width="2"/>
+<text x="1067.5" y="683.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Rỗng hoặc lỗi theo DD danh mục</text>
+<text x="1067.5" y="707.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Giữ ba field đã nhập</text>
+<text x="1067.5" y="731.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Khóa select/Lưu</text>
+<rect x="440" y="830" width="360" height="110" rx="8" fill="#dcfce7" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="849.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Giữ category cũ nếu còn</text>
+<text x="620.0" y="873.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Không còn → placeholder</text>
+<text x="620.0" y="897.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Không tự chọn ID khác</text>
+<text x="620.0" y="921.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Mở Lưu khi lựa chọn hợp lệ</text>
+<rect x="440" y="1000" width="360" height="65" rx="32.5" fill="#dbeafe" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="1032.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Đợi người dùng sửa và Lưu</text>
+</svg>

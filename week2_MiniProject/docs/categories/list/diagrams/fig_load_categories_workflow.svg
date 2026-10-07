@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1100" viewBox="0 0 1280 1100" role="img" aria-labelledby="title desc">
+<title id="title">Danh mục dùng chung — tải lựa chọn</title>
+<desc id="desc">Luồng FE và BE. Hình bo tròn: bắt đầu/kết thúc. Hình chữ nhật: xử lý. Hình thoi: điều kiện. Mũi tên nét liền: thứ tự xử lý.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9 Z" fill="#334155"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<text x="640" y="32" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="700" fill="#0f172a">Danh mục dùng chung — tải lựa chọn</text>
+<path d="M620.0,120 L620.0,165" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M620.0,255 L620.0,305" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M620.0,395 L620.0,445" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M440,515.0 L350,512.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="355" y="506" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Không</text>
+<path d="M620.0,585 L620.0,635" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="650" y="615" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Có</text>
+<path d="M800,705.0 L925,702.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="840" y="696" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Không</text>
+<path d="M620.0,775 L620.0,825" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="650" y="805" font-family="sans-serif" font-size="16" fill="#0f172a" paint-order="stroke" stroke="#fff" stroke-width="5" stroke-linejoin="round">Có</text>
+<path d="M620.0,940 L620.0,1000" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M207.5,575 L207,1032 L440,1032.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1067.5,765 L1067,1032 L800,1032.5" fill="none" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="440" y="60" width="360" height="60" rx="30.0" fill="#dbeafe" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="90.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Form tạo/sửa yêu cầu danh mục</text>
+<rect x="440" y="165" width="360" height="90" rx="8" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="198.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Giữ text theo DD màn sở hữu</text>
+<text x="620.0" y="222.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Khóa select/submit; GET categories</text>
+<rect x="440" y="305" width="360" height="90" rx="8" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="338.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">BE đọc id/name, ID tăng dần</text>
+<text x="620.0" y="362.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Không phân trang, không ghi DB</text>
+<polygon points="620.0,445 800,515.0 620.0,585 440,515.0" fill="#fef3c7" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="515.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">200 và schema đúng?</text>
+<rect x="65" y="450" width="285" height="125" rx="8" fill="#fee2e2" stroke="#475569" stroke-width="2"/>
+<text x="207.5" y="488.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">500 / mạng / JSON/schema sai</text>
+<text x="207.5" y="512.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Không tải được danh mục</text>
+<text x="207.5" y="536.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Khóa select/gửi; giữ text</text>
+<polygon points="620.0,635 800,705.0 620.0,775 440,705.0" fill="#fef3c7" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="705.0" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Có phần tử?</text>
+<rect x="925" y="640" width="285" height="125" rx="8" fill="#f1f5f9" stroke="#475569" stroke-width="2"/>
+<text x="1067.5" y="678.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Chưa có danh mục để chọn</text>
+<text x="1067.5" y="702.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Khóa select và gửi</text>
+<text x="1067.5" y="726.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Không tạo danh mục tự động</text>
+<rect x="440" y="825" width="360" height="115" rx="8" fill="#dcfce7" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="846.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Render option bằng text</text>
+<text x="620.0" y="870.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Tạo: placeholder; sửa: giữ ID cũ</text>
+<text x="620.0" y="894.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Không còn ID → placeholder</text>
+<text x="620.0" y="918.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Không tự gửi POST/PUT</text>
+<rect x="440" y="1000" width="360" height="65" rx="32.5" fill="#dbeafe" stroke="#475569" stroke-width="2"/>
+<text x="620.0" y="1032.5" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="17" fill="#0f172a">Trả quyền điều khiển cho form</text>
+</svg>

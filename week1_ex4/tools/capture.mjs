@@ -90,9 +90,12 @@ try {
   await Promise.all(["Page.enable", "Runtime.enable", "Network.enable", "Log.enable"].map(method => send(method, {}, sessionId)));
   const reports = [];
   let interactionChecks = null;
-  const viewports = process.argv.includes("--desktop") ? [[1440, 1000]] : [
+  const viewports = process.argv.includes("--desktop") ? [[1440, 1000]]
+    : process.argv.includes("--mobile") ? [[390, 844]]
+    : process.argv.includes("--narrow") ? [[320, 740]] : [
     [1440, 1000], [1024, 768], [1023, 768], [1022, 768],
-    [768, 1024], [767, 1024], [766, 1024], [390, 844], [375, 812], [844, 390]
+    [768, 1024], [767, 1024], [766, 1024], [390, 844], [375, 812],
+    [360, 800], [320, 740], [844, 390]
   ];
   for (const [width, height] of viewports) {
     // Resize an empty page so srcset fetches from the previous size are not canceled.
@@ -109,6 +112,17 @@ try {
       expression: `JSON.stringify({
         viewport: [innerWidth, innerHeight],
         overflow: document.documentElement.scrollWidth > innerWidth,
+        overflowingElements: Array.from(document.querySelectorAll("body *")).map(element => {
+          const box = element.getBoundingClientRect();
+          return {element, box};
+        }).filter(({element, box}) => box.width > 0 && (box.left < -1 || box.right > innerWidth + 1)).slice(0, 12).map(({element, box}) => ({
+          tag: element.tagName.toLowerCase(),
+          className: typeof element.className === "string" ? element.className : "",
+          left: Math.round(box.left),
+          right: Math.round(box.right),
+          width: Math.round(box.width),
+          scrollWidth: element.scrollWidth
+        })),
         fonts: [400,500,700].map(weight => document.fonts.check(weight + ' 16px Satoshi')),
         brokenImages: Array.from(document.images).filter(image => !image.complete || !image.naturalWidth).map(image => image.src),
         cards: document.querySelectorAll('.review-card').length,
@@ -117,7 +131,7 @@ try {
           const box = element.getBoundingClientRect();
           return {text:element.textContent,x:box.x,y:box.y,width:box.width,height:box.height};
         }),
-        boxes: Object.fromEntries(['.product-tabs','.reviews__toolbar','.reviews__list','.review-card','.review-card__author','.review-card__text','.review-card__date','.reviews__footer','.related-products__heading','.related-products__heading-image','.related-products__list','.product-card__picture','.product-card__title','.product-card__rating','.product-card__prices'].map(selector => {
+        boxes: Object.fromEntries(['.site-header__inner','.breadcrumb','.product-overview','.product-gallery','.product-gallery__featured','.product-summary','.product-summary__title','.product-summary__rating','.product-summary__prices','.product-summary__description','.product-options__group--colors','.product-options__label','.product-options__choices--colors','.product-options__group--sizes','.product-options__choices--sizes','.product-options__purchase','.product-options__add','.product-tabs','.reviews__toolbar','.reviews__list','.review-card','.review-card__author','.review-card__text','.review-card__date','.reviews__footer','.related-products__heading','.related-products__heading-image','.related-products__list','.product-card__picture','.product-card__title','.product-card__rating','.product-card__prices','.newsletter','.newsletter__inner','.newsletter__title','.site-footer','.site-footer__inner'].map(selector => {
           const box = document.querySelector(selector).getBoundingClientRect();
           return [selector, {x:box.x,y:box.y,width:box.width,height:box.height}];
         }))
@@ -135,7 +149,7 @@ try {
       await mkdir(resolve(projectRoot, "screenshots"), { recursive: true });
       await writeFile(resolve(projectRoot, "screenshots/browser_" + width + ".png"), Buffer.from(screenshot.data, "base64"));
     }
-    if (width === 1440) {
+    if (width === 1440 && !process.argv.includes("--skip-interactions")) {
       const interactionResult = await send("Runtime.evaluate", {
         expression: `JSON.stringify((() => {
           const detailsTab = document.querySelector('#product-details-tab');
@@ -236,7 +250,8 @@ try {
     desktopBoxes: reports[0].boxes,
     interactionChecks
   }, null, 2));
-  const interactionsFailed = !interactionChecks || Object.values(interactionChecks).some(check => !check);
+  const expectsInteractions = viewports.some(([width]) => width === 1440) && !process.argv.includes("--skip-interactions");
+  const interactionsFailed = expectsInteractions && (!interactionChecks || Object.values(interactionChecks).some(check => !check));
   if (errors.length || interactionsFailed || reports.some(report => report.overflow || report.brokenImages.length || report.fonts.some(loaded => !loaded))) {
     process.exitCode = 1;
   }

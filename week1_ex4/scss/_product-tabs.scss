@@ -42,7 +42,7 @@
         position: absolute;
         z-index: 1;
         right: 0;
-        bottom: -1px;
+        bottom: 0;
         left: 0;
         height: 2px;
         background: var(--color-ink);
@@ -56,9 +56,35 @@
     text-box-edge: cap alphabetic;
   }
 
+  @media (min-width: 1280px) {
+    &::after {
+      bottom: 0;
+    }
+  }
+
   @media (max-width: 767px) {
+    &::after {
+      bottom: -1.5px;
+    }
+
+    &__list {
+      display: flex;
+      justify-content: space-between;
+    }
+
     &__button {
-      font-size: .875rem;
+      flex: 0 0 auto;
+      width: auto;
+      padding-top: 34px;
+      font-size: 1rem;
+
+      &--active .product-tabs__label {
+        transform: none;
+      }
+
+      &--active::after {
+        bottom: -1px;
+      }
     }
   }
 }

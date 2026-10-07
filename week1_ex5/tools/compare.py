@@ -14,7 +14,8 @@ act = Image.open(actual_path).convert("RGB")
 
 print(f"Ref size: {ref.size}, Act size: {act.size}")
 
-# Match height for comparison (pad with white if different)
+# Pad the shorter image with white before comparison.
+# 比較前に短い画像の余白を白で埋める。
 max_w = max(ref.width, act.width)
 max_h = max(ref.height, act.height)
 
@@ -24,16 +25,24 @@ ref_canvas.paste(ref, (0, 0))
 act_canvas = Image.new("RGB", (max_w, max_h), (255, 255, 255))
 act_canvas.paste(act, (0, 0))
 
-# 50% overlay
+# Blend the images at equal opacity.
+# 画像を同じ不透明度で重ね合わせる。
 overlay = Image.blend(ref_canvas, act_canvas, 0.5)
 overlay.save(root / "overlay_50.png")
 
-# Difference image
+# Keep the enhanced diff only when it contains different pixels.
+# 強調版の差分に異なる画素がある場合のみ保存する。
 diff = ImageChops.difference(ref_canvas, act_canvas)
 diff.save(root / "diff_content.png")
-ImageEnhance.Contrast(diff).enhance(4).save(root / "diff_4x.png")
+enhanced = ImageEnhance.Contrast(diff).enhance(4)
+enhanced_path = root / "diff_4x.png"
+if ImageChops.difference(diff, enhanced).getbbox():
+    enhanced.save(enhanced_path)
+else:
+    enhanced_path.unlink(missing_ok=True)
 
-# Blink GIF
+# Alternate the reference and rendered image for visual review.
+# 参照画像とレンダリング画像を交互に表示して確認する。
 ref_canvas.save(
     root / "blink_comparison.gif",
     save_all=True,
@@ -42,7 +51,8 @@ ref_canvas.save(
     loop=0
 )
 
-# Comparison statistics
+# Measure absolute pixel differences.
+# 画素ごとの差の絶対値を計測する。
 delta = ImageChops.difference(ref_canvas, act_canvas)
 red, green, blue = delta.split()
 maximum = ImageChops.lighter(ImageChops.lighter(red, green), blue)

@@ -1,0 +1,312 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 2430" width="1400" height="2430" role="img" aria-labelledby="title description">
+  <title id="title">Workflow tạo sản phẩm — EVENT_SUBMIT</title>
+  <desc id="description">Luồng submit từ FE qua API và DB, gồm guard gửi lặp, validation FE, lỗi 415, 422, exception trước/sau insert, thành công 201 và lỗi mạng. Không có rollback hoặc tự gửi lại.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155" />
+    </marker>
+  </defs>
+  <rect width="1400" height="2430" fill="#fff" />
+  <g id="connectors">
+    <path d="M 700 149.0 L 700 189.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_start" data-to="create_input" />
+    <path d="M 700 271.0 L 700 300.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_input" data-to="create_busy" />
+    <path d="M 565.0 355 L 425.0 355" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_busy" data-to="create_ignore" />
+    <path d="M 240 396.0 L 240 451.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_ignore" data-to="create_ignore_end" />
+    <path d="M 700 410.0 L 700 442.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_busy" data-to="create_normalize" />
+    <path d="M 700 528.0 L 700 567.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_normalize" data-to="create_fe_valid" />
+    <path d="M 845.0 625 L 984.0 625" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_fe_valid" data-to="create_fe_error" />
+    <path d="M 1160 669.0 L 1160 726.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_fe_error" data-to="create_fe_error_end" />
+    <path d="M 700 683.0 L 700 717.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_fe_valid" data-to="create_lock" />
+    <path d="M 700 803.0 L 700 850.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_lock" data-to="create_request" />
+    <path d="M 700 940.0 L 700 982.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_request" data-to="create_json" />
+    <path d="M 845.0 1040 L 984.0 1040" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_json" data-to="create_415" />
+    <path d="M 1160 1084.0 L 1160 1136.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_415" data-to="create_415_ui" />
+    <path d="M 1160 1224.0 L 1160 1281.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_415_ui" data-to="create_415_end" />
+    <path d="M 700 1098.0 L 700 1136.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_json" data-to="create_validate" />
+    <path d="M 700 1224.0 L 700 1262.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_validate" data-to="create_be_valid" />
+    <path d="M 845.0 1320 L 940 1320 L 940 1440 L 984.0 1440" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_be_valid" data-to="create_422" />
+    <path d="M 1160 1485.0 L 1160 1524.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_422" data-to="create_422_ui" />
+    <path d="M 1160 1636.0 L 1160 1711.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_422_ui" data-to="create_422_end" />
+    <path d="M 700 1378.0 L 700 1436.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_be_valid" data-to="create_insert" />
+    <path d="M 515.0 1180 L 240 1180 L 240 1485.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_validate" data-to="create_before_500" />
+    <path d="M 515.0 1480 L 450 1480 L 450 1530 L 416.0 1530" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_insert" data-to="create_before_500" />
+    <path d="M 700 1524.0 L 700 1575.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_insert" data-to="create_database" />
+    <path d="M 700 1675.0 L 700 1726.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_database" data-to="create_resource" />
+    <path d="M 515.0 1770 L 240 1770 L 240 1790.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_resource" data-to="create_after_500" />
+    <path d="M 700 1814.0 L 700 1865.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_resource" data-to="create_201" />
+    <path d="M 700 1955.0 L 700 2005.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_201" data-to="create_success_ui" />
+    <path d="M 700 2115.0 L 700 2171.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_success_ui" data-to="create_success_end" />
+    <path d="M 64.0 1530 L 25 1530 L 25 2070 L 55.0 2070" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_before_500" data-to="create_failure_ui" />
+    <path d="M 240 1890.0 L 240 2015.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_after_500" data-to="create_failure_ui" />
+    <path d="M 240 2125.0 L 240 2171.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_failure_ui" data-to="create_failure_end" />
+    <path d="M 896.0 895 L 1375 895 L 1375 2050 L 1345.0 2050" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_request" data-to="create_network_ui" />
+    <path d="M 1160 2105.0 L 1160 2171.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="create_network_ui" data-to="create_network_end" />
+  </g>
+  <g id="nodes">
+    <g id="create_start" data-shape="terminal">
+      <rect x="525.0" y="91.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="700" y="120" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="126.8">Bắt đầu thao tác tạo</tspan>
+      </text>
+    </g>
+    <g id="create_input" data-shape="io">
+      <polygon points="513.0,189.0 905.0,189.0 887.0,271.0 495.0,271.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="700" y="230" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="224.3">Người dùng nhập dữ liệu</tspan>
+        <tspan x="700" y="249.3">Bấm Tạo sản phẩm / Enter</tspan>
+      </text>
+    </g>
+    <g id="create_busy" data-shape="decision">
+      <polygon points="700,300.0 835.0,355 700,410.0 565.0,355" fill="#fffbeb" stroke="#475569" stroke-width="2" />
+      <text x="700" y="355" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="361.8">FE: đang gửi?</tspan>
+      </text>
+    </g>
+    <g id="create_ignore" data-shape="process">
+      <rect x="55.0" y="314.0" width="370" height="82" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="240" y="355" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="361.46">FE: bỏ qua thao tác mới</tspan>
+      </text>
+    </g>
+    <g id="create_ignore_end" data-shape="terminal">
+      <rect x="65.0" y="451.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="240" y="480" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="486.8">Không gửi thêm request</tspan>
+      </text>
+    </g>
+    <g id="create_normalize" data-shape="process">
+      <rect x="515.0" y="442.0" width="370" height="86" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="485" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="479.3">FE: kiểm tra danh mục</tspan>
+        <tspan x="700" y="504.3">Chuẩn hóa bốn trường</tspan>
+      </text>
+    </g>
+    <g id="create_fe_valid" data-shape="decision">
+      <polygon points="700,567.0 845.0,625 700,683.0 555.0,625" fill="#fffbeb" stroke="#475569" stroke-width="2" />
+      <text x="700" y="625" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="619.3">FE: đủ điều kiện</tspan>
+        <tspan x="700" y="644.3">và input hợp lệ?</tspan>
+      </text>
+    </g>
+    <g id="create_fe_error" data-shape="io">
+      <polygon points="993.0,581.0 1345.0,581.0 1327.0,669.0 975.0,669.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="625" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="618.62">FE: báo trạng thái / lỗi trường</tspan>
+        <tspan x="1160" y="643.62">Không gửi POST</tspan>
+      </text>
+    </g>
+    <g id="create_fe_error_end" data-shape="terminal">
+      <rect x="985.0" y="726.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="1160" y="755" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="761.12">Chờ sửa — DB không đổi</tspan>
+      </text>
+    </g>
+    <g id="create_lock" data-shape="process">
+      <rect x="515.0" y="717.0" width="370" height="86" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="760" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="754.3">FE: khóa form và nút</tspan>
+        <tspan x="700" y="779.3">Hiện Đang tạo…</tspan>
+      </text>
+    </g>
+    <g id="create_request" data-shape="io">
+      <polygon points="513.0,850.0 905.0,850.0 887.0,940.0 495.0,940.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="700" y="895" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="889.3">POST /api/products</tspan>
+        <tspan x="700" y="914.3">FE chờ response</tspan>
+      </text>
+    </g>
+    <g id="create_json" data-shape="decision">
+      <polygon points="700,982.0 845.0,1040 700,1098.0 555.0,1040" fill="#fffbeb" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1040" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1034.3">BE: Content-Type</tspan>
+        <tspan x="700" y="1059.3">là JSON?</tspan>
+      </text>
+    </g>
+    <g id="create_415" data-shape="io">
+      <polygon points="993.0,996.0 1345.0,996.0 1327.0,1084.0 975.0,1084.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="1040" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="1034.3">BE: 415</tspan>
+        <tspan x="1160" y="1059.3">Chưa insert sản phẩm</tspan>
+      </text>
+    </g>
+    <g id="create_415_ui" data-shape="process">
+      <rect x="975.0" y="1136.0" width="370" height="88" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="1180" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="1173.62">FE: báo lỗi gửi dữ liệu</tspan>
+        <tspan x="1160" y="1198.62">Giữ dữ liệu, mở lại form</tspan>
+      </text>
+    </g>
+    <g id="create_415_end" data-shape="terminal">
+      <rect x="985.0" y="1281.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="1160" y="1310" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="1316.8">Chờ thao tác mới</tspan>
+      </text>
+    </g>
+    <g id="create_validate" data-shape="process">
+      <rect x="515.0" y="1136.0" width="370" height="88" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1180" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1173.96">BE: validate bốn trường</tspan>
+        <tspan x="700" y="1198.96">Kiểm tra danh mục trong DB</tspan>
+      </text>
+    </g>
+    <g id="create_be_valid" data-shape="decision">
+      <polygon points="700,1262.0 845.0,1320 700,1378.0 555.0,1320" fill="#fffbeb" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1320" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1326.8">BE: dữ liệu hợp lệ?</tspan>
+      </text>
+    </g>
+    <g id="create_422" data-shape="io">
+      <polygon points="993.0,1395.0 1345.0,1395.0 1327.0,1485.0 975.0,1485.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="1440" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="1433.62">BE: 422 — lỗi theo field</tspan>
+        <tspan x="1160" y="1458.62">Chưa insert sản phẩm</tspan>
+      </text>
+    </g>
+    <g id="create_422_ui" data-shape="process">
+      <rect x="975.0" y="1524.0" width="370" height="112" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="1580" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="1560.78">FE: giữ dữ liệu, hiện lỗi</tspan>
+        <tspan x="1160" y="1585.78">Lỗi category_id: tải lại danh mục</tspan>
+        <tspan x="1160" y="1610.78">Không tự gửi POST lại</tspan>
+      </text>
+    </g>
+    <g id="create_422_end" data-shape="terminal">
+      <rect x="985.0" y="1711.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="1160" y="1740" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="1746.8">Chờ sửa / chọn lại</tspan>
+      </text>
+    </g>
+    <g id="create_insert" data-shape="process">
+      <rect x="515.0" y="1436.0" width="370" height="88" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1480" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1473.96">BE: insert dữ liệu đã validate</tspan>
+        <tspan x="700" y="1498.96">Không kiểm tra trùng tên</tspan>
+      </text>
+    </g>
+    <g id="create_before_500" data-shape="io">
+      <polygon points="73.0,1485.0 425.0,1485.0 407.0,1575.0 55.0,1575.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="240" y="1530" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="1523.96">BE: 500 — lỗi trước ghi</tspan>
+        <tspan x="240" y="1548.96">Chưa tạo sản phẩm</tspan>
+      </text>
+    </g>
+    <g id="create_database" data-shape="database">
+      <path d="M 530.0 1588.0 A 170.0 13 0 0 1 870.0 1588.0 V 1662.0 A 170.0 13 0 0 1 530.0 1662.0 Z" fill="#f0fdf4" stroke="#475569" stroke-width="2" />
+      <ellipse cx="700" cy="1588.0" rx="170.0" ry="13" fill="#f0fdf4" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1632" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1626.3">DB: products</tspan>
+        <tspan x="700" y="1651.3">Một bản ghi mới</tspan>
+      </text>
+    </g>
+    <g id="create_resource" data-shape="process">
+      <rect x="515.0" y="1726.0" width="370" height="88" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1770" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="19" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1763.96">BE: load danh mục liên quan</tspan>
+        <tspan x="700" y="1788.96">Dựng ProductResource</tspan>
+      </text>
+    </g>
+    <g id="create_after_500" data-shape="io">
+      <polygon points="73.0,1790.0 425.0,1790.0 407.0,1890.0 55.0,1890.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="240" y="1840" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="1833.62">BE: 500 — lỗi sau insert</tspan>
+        <tspan x="240" y="1858.62">Sản phẩm có thể đã tồn tại</tspan>
+      </text>
+    </g>
+    <g id="create_201" data-shape="io">
+      <polygon points="518.0,1865.0 900.0,1865.0 882.0,1955.0 500.0,1955.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1910" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1904.3">BE: 201</tspan>
+        <tspan x="700" y="1929.3">data là sản phẩm vừa tạo</tspan>
+      </text>
+    </g>
+    <g id="create_success_ui" data-shape="process">
+      <rect x="515.0" y="2005.0" width="370" height="110" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="2060" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="2041.12">FE: báo tạo thành công</tspan>
+        <tspan x="700" y="2066.12">Reset form, giữ danh mục</tspan>
+        <tspan x="700" y="2091.12">Mở form, không chuyển trang</tspan>
+      </text>
+    </g>
+    <g id="create_success_end" data-shape="terminal">
+      <rect x="525.0" y="2171.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="700" y="2200" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="2206.8">Chờ tạo sản phẩm tiếp</tspan>
+      </text>
+    </g>
+    <g id="create_failure_ui" data-shape="process">
+      <rect x="55.0" y="2015.0" width="370" height="110" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="240" y="2070" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="2051.12">FE: chưa xác nhận kết quả</tspan>
+        <tspan x="240" y="2076.12">Giữ dữ liệu, mở lại form</tspan>
+        <tspan x="240" y="2101.12">Không tự gửi lại</tspan>
+      </text>
+    </g>
+    <g id="create_failure_end" data-shape="terminal">
+      <rect x="65.0" y="2171.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="240" y="2200" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="2206.8">Kết quả chưa xác nhận</tspan>
+      </text>
+    </g>
+    <g id="create_network_ui" data-shape="process">
+      <rect x="975.0" y="1995.0" width="370" height="110" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="2050" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="2031.12">FE: chưa xác nhận kết quả</tspan>
+        <tspan x="1160" y="2056.12">Giữ dữ liệu, mở lại form</tspan>
+        <tspan x="1160" y="2081.12">Không tự gửi lại</tspan>
+      </text>
+    </g>
+    <g id="create_network_end" data-shape="terminal">
+      <rect x="985.0" y="2171.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="1160" y="2200" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="2206.8">DB có thể đã ghi</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="labels">
+    <text x="700.0" y="35" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" fill="#0f172a" font-weight="600">
+      <tspan x="700.0" y="43.84">Workflow tạo sản phẩm — EVENT_SUBMIT</tspan>
+    </text>
+    <text x="455" y="331" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="455" y="336.78">Có</tspan>
+    </text>
+    <text x="745" y="430" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="745" y="435.78">Không</tspan>
+    </text>
+    <text x="915" y="602" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="915" y="607.78">Không</tspan>
+    </text>
+    <text x="730" y="701" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="730" y="706.78">Có</tspan>
+    </text>
+    <text x="915" y="1017" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="915" y="1022.78">Không</tspan>
+    </text>
+    <text x="730" y="1118" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="730" y="1123.78">Có</tspan>
+    </text>
+    <text x="906" y="1295" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="906" y="1300.78">Không</tspan>
+    </text>
+    <text x="730" y="1401" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="730" y="1406.78">Có</tspan>
+    </text>
+    <text x="375" y="1153" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="375" y="1158.78">Exception truy vấn</tspan>
+    </text>
+    <text x="365" y="1450" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="365" y="1455.78">Exception insert</tspan>
+    </text>
+    <text x="375" y="1739" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="375" y="1744.78">Exception sau insert</tspan>
+    </text>
+    <text x="1130" y="864" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="1130" y="869.78">Lỗi mạng / timeout / response không đọc được</tspan>
+    </text>
+    <text x="700" y="2310" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="700" y="2290.78">Bo tròn: bắt đầu/kết thúc · Chữ nhật: xử lý · Hình thoi: điều kiện</tspan>
+      <tspan x="700" y="2315.78">Bình hành: input/output · Hình trụ: DB · Mũi tên nét liền: thứ tự xử lý</tspan>
+      <tspan x="700" y="2340.78">415/422: không insert · 500/lỗi mạng: kết quả DB phụ thuộc thời điểm lỗi</tspan>
+    </text>
+  </g>
+</svg>

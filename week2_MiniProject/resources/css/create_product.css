@@ -1,0 +1,296 @@
+/* Create product page styles - BEM convention */
+
+:root {
+  --color-bg-page: #f8fafc;
+  --color-bg-card: #ffffff;
+  --color-border-default: #cbd5e1;
+  --color-border-focus: #2563eb;
+  --color-border-error: #dc2626;
+  --color-text-main: #0f172a;
+  --color-text-label: #334155;
+  --color-text-muted: #64748b;
+  --color-text-error: #dc2626;
+  --color-btn-primary: #2563eb;
+  --color-btn-hover: #1d4ed8;
+  --color-btn-disabled: #94a3b8;
+  --color-success-bg: #f0fdf4;
+  --color-success-border: #bbf7d0;
+  --color-success-text: #15803d;
+  --color-error-bg: #fef2f2;
+  --color-error-border: #fecaca;
+  --color-error-text: #b91c1c;
+  --font-base: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg-page);
+  color: var(--color-text-main);
+  font-family: var(--font-base);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.u-visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link:focus {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 100;
+  width: auto;
+  height: auto;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  background-color: var(--color-bg-card);
+  color: var(--color-btn-primary);
+  border: 2px solid var(--color-btn-primary);
+  border-radius: 0.375rem;
+  white-space: normal;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.product-create {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+}
+
+.product-create__container {
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto;
+  padding: 2rem;
+  background-color: var(--color-bg-card);
+  border: 1px solid var(--color-border-default);
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+
+.product-create__title {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--color-text-main);
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.product-form__group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.375rem;
+  min-width: 0;
+}
+
+.product-form__label {
+  color: var(--color-text-label);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.product-form__required {
+  color: var(--color-text-error);
+}
+
+.product-form__help {
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+}
+
+.product-form__input,
+.product-form__select,
+.product-form__textarea {
+  width: 100%;
+  padding: 0.625rem 0.75rem;
+  background-color: var(--color-bg-card);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border-default);
+  border-radius: 0.375rem;
+  font-family: inherit;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.product-form__input:focus,
+.product-form__select:focus,
+.product-form__textarea:focus {
+  outline: none;
+  border-color: var(--color-border-focus);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+.product-form__input:disabled,
+.product-form__select:disabled,
+.product-form__textarea:disabled {
+  background-color: #f1f5f9;
+  color: #94a3b8;
+  cursor: not-allowed;
+  opacity: 0.8;
+}
+
+.product-form__input[aria-invalid="true"],
+.product-form__select[aria-invalid="true"],
+.product-form__textarea[aria-invalid="true"] {
+  border-color: var(--color-border-error);
+}
+
+.product-form__input[aria-invalid="true"]:focus,
+.product-form__select[aria-invalid="true"]:focus,
+.product-form__textarea[aria-invalid="true"]:focus {
+  border-color: var(--color-border-error);
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.2);
+}
+
+.product-form__textarea {
+  min-height: 6rem;
+  resize: vertical;
+}
+
+.product-form__error {
+  min-height: 1.25rem;
+  color: var(--color-text-error);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.product-form__error:empty {
+  min-height: 0;
+  display: none;
+}
+
+.product-form__status {
+  min-height: 1.25rem;
+  color: var(--color-text-muted);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.product-form__status:empty {
+  min-height: 0;
+  display: none;
+}
+
+.product-form__status--error {
+  color: var(--color-text-error);
+}
+
+.product-form__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.product-form__button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--color-btn-primary);
+  color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.15s ease, opacity 0.15s ease, box-shadow 0.15s ease;
+}
+
+.product-form__button:hover:not(:disabled) {
+  background-color: var(--color-btn-hover);
+}
+
+.product-form__button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.4);
+}
+
+.product-form__button:disabled {
+  background-color: var(--color-btn-disabled);
+  color: #f8fafc;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.product-form__result {
+  margin-top: 0.75rem;
+  padding: 0.75rem 1rem;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+  box-sizing: border-box;
+}
+
+.product-form__result:empty {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product-form__result--success {
+  background-color: var(--color-success-bg);
+  color: var(--color-success-text);
+  border: 1px solid var(--color-success-border);
+}
+
+.product-form__result--error {
+  background-color: var(--color-error-bg);
+  color: var(--color-error-text);
+  border: 1px solid var(--color-error-border);
+}
+
+@media (max-width: 480px) {
+  .product-create {
+    padding: 1rem 0.5rem;
+  }
+
+  .product-create__container {
+    padding: 1.25rem 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .product-create__title {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+}

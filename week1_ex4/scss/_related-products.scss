@@ -15,6 +15,28 @@
     height: 36px;
   }
 
+  &__heading-lines {
+    display: none;
+  }
+
+  &__heading-line {
+    display: block;
+    height: 24px;
+    background-image: url("../images/ttl_related_products.svg");
+    background-repeat: no-repeat;
+    background-size: 385.333333px 24px;
+  }
+
+  &__heading-line--first {
+    width: 194px;
+    background-position: 0 0;
+  }
+
+  &__heading-line--second {
+    width: 182px;
+    background-position: -202.666667px 0;
+  }
+
   &__list {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -30,16 +52,41 @@
   }
 
   @media (max-width: 767px) {
-    margin-top: 48px;
+    margin-top: 13.734375px;
+
+    &__list {
+      display: flex;
+      width: calc(100% + 16px);
+      gap: 16px;
+      overflow: hidden;
+    }
+
+    &__item {
+      flex: 0 0 198px;
+    }
+
+    &__heading {
+      position: relative;
+      height: 80px;
+    }
 
     &__heading-image {
-      width: min(100%, 400px);
-      height: auto;
+      display: none;
+    }
+
+    &__heading-lines {
+      position: absolute;
+      top: 45px;
+      margin-left: -1px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
     }
 
     &__list {
       gap: 24px 16px;
-      margin-top: 32px;
+      margin-top: 67px;
     }
   }
 }
@@ -72,25 +119,12 @@
 
   &__stars {
     flex-shrink: 0;
-    height: 18.489876px;
-    object-fit: none;
-    object-position: left top;
+    width: auto;
+    height: auto;
 
-    &--40 {
-      width: 89.895531px;
-    }
 
-    &--35 {
-      width: 80.198112px;
-    }
 
-    &--45 {
-      width: 104px;
-    }
 
-    &--50 {
-      width: 113.697411px;
-    }
   }
 
   &__rating-max {
@@ -133,17 +167,49 @@
   }
 
   @media (max-width: 767px) {
+    &__picture {
+      position: relative;
+      overflow: hidden;
+      aspect-ratio: 295 / 298;
+      background: var(--color-control);
+      border-radius: 12px;
+    }
+
+    &__image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: auto;
+      height: 100%;
+      max-width: none;
+    }
+
     &__title {
+      position: relative;
+      top: 1px;
+      margin-top: 11px;
       font-size: 1rem;
+      line-height: 19px;
+    }
+
+    &__prices {
+      margin-top: 0;
     }
 
     &__rating {
       gap: 8px;
+      margin-top: 6px;
       font-size: .75rem;
+    }
+
+    &__stars {
+      width: 78px;
+      height: auto;
     }
 
     &__prices {
       gap: 5px;
+      margin-top: 2px;
       font-size: 1.25rem;
     }
 

@@ -1,0 +1,17 @@
+/* Keep the narrow PSD layout aligned with the original panel inset.
+   狭いPSDレイアウトの余白を元のパネルに合わせる。 */
+@media (max-width: 362px) {
+  .widget-panel {
+    padding-left: 9px;
+  }
+
+  .horoscopes__author-banner {
+    width: min(100%, 297px);
+  }
+
+  .mobile-news,
+  .mobile-news__title,
+  .competitions__list {
+    width: 100%;
+  }
+}

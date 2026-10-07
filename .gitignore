@@ -1,0 +1,6 @@
+# Local dependencies, including symlinks shared between exercises.
+node_modules
+
+# Backups and terminal output created while working locally.
+*.orig
+/week2_MiniProject/->*

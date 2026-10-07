@@ -1,0 +1,51 @@
+{
+  "reference": "../design-references/figma/9KY9hfTbbqUj3Cz8Mo19EG/screens/product-detail-mobile-35-1062.png",
+  "reference_encoding": "PNG screenshot export from editable Figma node 35:1062",
+  "regions": {
+    "all": {
+      "mean_absolute_channel_error_0_255": 2.9411,
+      "pixels_with_any_difference_percent": 11.743,
+      "pixels_with_difference_over_16_percent": 4.1714
+    },
+    "promo_header_and_breadcrumb": {
+      "mean_absolute_channel_error_0_255": 3.3456,
+      "pixels_with_any_difference_percent": 6.3692,
+      "pixels_with_difference_over_16_percent": 4.7009
+    },
+    "gallery": {
+      "mean_absolute_channel_error_0_255": 0.5563,
+      "pixels_with_any_difference_percent": 29.1194,
+      "pixels_with_difference_over_16_percent": 0.4798
+    },
+    "product_summary": {
+      "mean_absolute_channel_error_0_255": 3.1777,
+      "pixels_with_any_difference_percent": 6.8578,
+      "pixels_with_difference_over_16_percent": 3.7399
+    },
+    "tabs_and_toolbar": {
+      "mean_absolute_channel_error_0_255": 3.3391,
+      "pixels_with_any_difference_percent": 5.7708,
+      "pixels_with_difference_over_16_percent": 3.9506
+    },
+    "reviews": {
+      "mean_absolute_channel_error_0_255": 3.7284,
+      "pixels_with_any_difference_percent": 10.1933,
+      "pixels_with_difference_over_16_percent": 6.0673
+    },
+    "related_products": {
+      "mean_absolute_channel_error_0_255": 2.4342,
+      "pixels_with_any_difference_percent": 17.8112,
+      "pixels_with_difference_over_16_percent": 3.5396
+    },
+    "newsletter": {
+      "mean_absolute_channel_error_0_255": 2.7883,
+      "pixels_with_any_difference_percent": 5.066,
+      "pixels_with_difference_over_16_percent": 4.2883
+    },
+    "footer": {
+      "mean_absolute_channel_error_0_255": 3.5627,
+      "pixels_with_any_difference_percent": 7.592,
+      "pixels_with_difference_over_16_percent": 4.7027
+    }
+  }
+}

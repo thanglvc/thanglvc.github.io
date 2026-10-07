@@ -3,17 +3,50 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Customer reviews and recommended styles for the One Life Graphic T-shirt at SHOP.CO.">
-  <title>Product Reviews | SHOP.CO</title>
+  <meta name="description" content="Shop the One Life Graphic T-shirt and read customer reviews at SHOP.CO.">
+  <title>One Life Graphic T-shirt | SHOP.CO</title>
   <link rel="preload" href="fonts/satoshi_regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/satoshi_medium.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/satoshi_bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="css/style.css?v=20260923-filter-hover-1">
-  <script src="js/main.js?v=20260923-day3" defer></script>
+  <link rel="stylesheet" href="css/style.css?v=20260925-product-page-2">
+  <script src="js/main.js?v=20260925-product-page-2" defer></script>
 </head>
 <body>
+  <div class="site-promo"><p class="site-promo__message">Sign up and get 20% off to your first order. <a class="site-promo__link" href="#newsletter">Sign Up Now</a></p><button class="site-promo__close" type="button" aria-label="Dismiss promotion"><img src="images/figma/promo-close.svg" alt="" width="20" height="20"></button></div>
+  <header class="site-header" id="top"><div class="site-header__inner">
+    <button class="site-header__menu js-menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="primary-navigation"><span></span><span></span><span></span></button>
+    <a class="site-header__logo" href="#top" aria-label="SHOP.CO home">SHOP.CO</a>
+    <nav class="site-header__navigation" id="primary-navigation" aria-label="Main navigation"><ul class="site-header__links">
+      <li><a class="site-header__link site-header__link--shop" href="#shop">Shop<img class="site-header__chevron" src="images/figma/chevron-down.svg" alt="" width="16" height="16"></a></li><li><a class="site-header__link" href="#sale">On Sale</a></li><li><a class="site-header__link" href="#new-arrivals">New Arrivals</a></li><li><a class="site-header__link" href="#brands">Brands</a></li>
+    </ul></nav>
+    <form class="site-header__search" role="search"><label class="visually-hidden" for="site-search">Search for products</label><button class="site-header__search-submit" type="submit" aria-label="Search products"><img class="site-header__search-icon" src="images/figma/search.svg" alt="" width="24" height="24"></button><input id="site-search" name="q" type="search" placeholder="Search for products..."></form>
+    <div class="site-header__actions"><button class="site-header__action site-header__action--search js-search-toggle" type="button" aria-label="Open search"><span class="site-header__search-icon" aria-hidden="true"></span></button><a class="site-header__action site-header__action--cart" href="#cart" aria-label="Shopping cart, 0 items"><img class="site-header__cart-icon" src="images/figma/shopping-cart.svg" alt="" width="24" height="24"></a><a class="site-header__action site-header__action--account" href="#account" aria-label="Your account"><img class="site-header__account-icon" src="images/figma/user-account.svg" alt="" width="24" height="24"></a></div>
+  </div></header>
   <main class="product-detail">
-    <h1 class="visually-hidden">One Life Graphic T-shirt: reviews and recommended products</h1>
+    <nav class="breadcrumb" aria-label="Breadcrumb"><ol class="breadcrumb__list">
+      <li class="breadcrumb__item"><a href="#home">Home</a><img class="breadcrumb__chevron" src="images/figma/chevron.svg" alt="" width="16" height="16"></li><li class="breadcrumb__item"><a href="#shop">Shop</a><img class="breadcrumb__chevron" src="images/figma/chevron.svg" alt="" width="16" height="16"></li><li class="breadcrumb__item"><a href="#men">Men</a><img class="breadcrumb__chevron" src="images/figma/chevron.svg" alt="" width="16" height="16"></li><li class="breadcrumb__item" aria-current="page">T-shirts</li>
+    </ol></nav>
+    <section class="product-overview" aria-labelledby="product-title">
+      <div class="product-gallery js-product-gallery"><div class="product-gallery__thumbnails" role="group" aria-label="Choose a product image">
+        <button class="product-gallery__thumbnail product-gallery__thumbnail--front js-product-image is-selected" type="button" aria-label="Front view" aria-pressed="true" data-view="front"></button><button class="product-gallery__thumbnail product-gallery__thumbnail--back js-product-image" type="button" aria-label="Back view" aria-pressed="false" data-view="back"></button><button class="product-gallery__thumbnail product-gallery__thumbnail--model js-product-image" type="button" aria-label="Model wearing the T-shirt" aria-pressed="false" data-view="model"></button>
+      </div><div class="product-gallery__featured product-gallery__featured--front js-product-featured" role="img" aria-label="Front view of the dark green One Life Graphic T-shirt"></div></div>
+      <div class="product-summary">
+        <h1 class="product-summary__title" id="product-title">One Life Graphic T&#8209;shirt</h1>
+        <p class="product-summary__rating" role="img" aria-label="Rated 4.5 out of 5"><img class="product-summary__stars" src="images/figma/summary-stars-45.svg" alt=""><span>4.5/<span class="product-summary__rating-max">5</span></span></p>
+        <p class="product-summary__prices"><span class="product-summary__price">$260</span><del class="product-summary__old-price">$300</del><span class="product-summary__discount">-40%</span></p>
+        <p class="product-summary__description">This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.</p>
+        <div class="product-options">
+          <fieldset class="product-options__group product-options__group--colors"><legend class="product-options__label">Select Colors</legend><div class="product-options__choices product-options__choices--colors js-product-colors" role="group" aria-label="Available colors">
+            <button class="product-options__color product-options__color--olive js-product-color is-selected" type="button" aria-label="Olive green" aria-pressed="true"></button><button class="product-options__color product-options__color--green js-product-color" type="button" aria-label="Dark teal" aria-pressed="false"></button><button class="product-options__color product-options__color--navy js-product-color" type="button" aria-label="Navy blue" aria-pressed="false"></button>
+          </div></fieldset>
+          <fieldset class="product-options__group product-options__group--sizes"><legend class="product-options__label">Choose Size</legend><div class="product-options__choices product-options__choices--sizes" role="group" aria-label="Available sizes">
+            <button class="product-options__size js-product-size" type="button" aria-pressed="false">Small</button><button class="product-options__size js-product-size" type="button" aria-pressed="false">Medium</button><button class="product-options__size js-product-size is-selected" type="button" aria-pressed="true">Large</button><button class="product-options__size js-product-size" type="button" aria-pressed="false">X-Large</button>
+          </div></fieldset>
+          <div class="product-options__purchase"><div class="quantity-stepper" role="group" aria-label="Quantity"><button class="quantity-stepper__button js-quantity-decrease" type="button" aria-label="Decrease quantity"><img src="images/figma/quantity-minus.svg" alt="" width="24" height="24"></button><output class="quantity-stepper__value js-quantity-value" aria-live="polite">1</output><button class="quantity-stepper__button js-quantity-increase" type="button" aria-label="Increase quantity"><img src="images/figma/quantity-plus.svg" alt="" width="24" height="24"></button></div><button class="product-options__add js-add-to-cart" type="button">Add to Cart</button></div>
+          <p class="product-options__status js-cart-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
     <div class="product-tabs">
       <ul class="product-tabs__list" role="tablist" aria-label="Product information">
         <li class="product-tabs__item">
@@ -27,13 +60,15 @@
         </li>
       </ul>
     </div>
-    <section class="product-tab-panel product-tab-panel--placeholder js-product-panel" id="product-details-panel" role="tabpanel" aria-labelledby="product-details-tab" tabindex="0" hidden>
+    <section class="product-tab-panel product-tab-panel--content js-product-panel" id="product-details-panel" role="tabpanel" aria-labelledby="product-details-tab" tabindex="0" hidden>
       <h2 class="product-tab-panel__heading">Product Details</h2>
-      <p class="product-tab-panel__text">Product information will be updated here.</p>
+      <p class="product-tab-panel__text">This graphic t-shirt is made for everyday wear, with a distinctive front print and a soft, breathable feel.</p>
+      <dl class="product-tab-panel__facts"><div><dt>Style</dt><dd>One Life Graphic T-shirt</dd></div><div><dt>Available colors</dt><dd>Olive green, dark teal and navy blue</dd></div><div><dt>Available sizes</dt><dd>Small, Medium, Large and X-Large</dd></div></dl>
     </section>
-    <section class="product-tab-panel product-tab-panel--placeholder js-product-panel" id="faqs-panel" role="tabpanel" aria-labelledby="faqs-tab" tabindex="0" hidden>
+    <section class="product-tab-panel product-tab-panel--content js-product-panel" id="faqs-panel" role="tabpanel" aria-labelledby="faqs-tab" tabindex="0" hidden>
       <h2 class="product-tab-panel__heading">FAQs</h2>
-      <p class="product-tab-panel__text">Frequently asked questions will be updated here.</p>
+      <div class="product-tab-panel__faq"><h3>Which sizes are available?</h3><p class="product-tab-panel__text">Choose from Small, Medium, Large or X-Large.</p></div>
+      <div class="product-tab-panel__faq"><h3>Which colors can I choose?</h3><p class="product-tab-panel__text">This style is shown in olive green, dark teal and navy blue.</p></div>
     </section>
     <section class="reviews product-tab-panel js-product-panel" id="reviews-panel" role="tabpanel" aria-labelledby="reviews-tab" tabindex="0">
       <div class="reviews__toolbar">
@@ -62,7 +97,7 @@
           <li class="reviews__item">
             <article class="review-card">
               <div class="review-card__content">
-                <img class="review-card__stars review-card__stars--45" src="images/icn_review_stars_45.svg" alt="4.5 out of 5 stars">
+                <img class="review-card__stars review-card__stars--45" src="images/figma/review-stars-45.svg" alt="4.5 out of 5 stars">
                 <h3 class="review-card__author">
                   <span class="review-card__name">Samantha D.</span>
                   <img class="review-card__verified" src="images/icn_verified.svg" alt="Verified buyer" width="24" height="24">
@@ -78,7 +113,7 @@
           <li class="reviews__item">
             <article class="review-card">
               <div class="review-card__content">
-                <img class="review-card__stars review-card__stars--40" src="images/icn_review_stars_40.svg" alt="4 out of 5 stars">
+                <img class="review-card__stars review-card__stars--40" src="images/figma/review-stars-40.svg" alt="4 out of 5 stars">
                 <h3 class="review-card__author">
                   <span class="review-card__name">Alex M.</span>
                   <img class="review-card__verified" src="images/icn_verified.svg" alt="Verified buyer" width="24" height="24">
@@ -94,7 +129,7 @@
           <li class="reviews__item">
             <article class="review-card">
               <div class="review-card__content">
-                <img class="review-card__stars review-card__stars--35" src="images/icn_review_stars_35.svg" alt="3.5 out of 5 stars">
+                <img class="review-card__stars review-card__stars--35" src="images/figma/review-stars-35.svg" alt="3.5 out of 5 stars">
                 <h3 class="review-card__author">
                   <span class="review-card__name">Ethan R.</span>
                   <img class="review-card__verified" src="images/icn_verified.svg" alt="Verified buyer" width="24" height="24">
@@ -110,7 +145,7 @@
           <li class="reviews__item">
             <article class="review-card">
               <div class="review-card__content">
-                <img class="review-card__stars review-card__stars--40" src="images/icn_review_stars_40.svg" alt="4 out of 5 stars">
+                <img class="review-card__stars review-card__stars--40" src="images/figma/review-stars-40.svg" alt="4 out of 5 stars">
                 <h3 class="review-card__author">
                   <span class="review-card__name">Olivia P.</span>
                   <img class="review-card__verified" src="images/icn_verified.svg" alt="Verified buyer" width="24" height="24">
@@ -126,7 +161,7 @@
           <li class="reviews__item">
             <article class="review-card">
               <div class="review-card__content">
-                <img class="review-card__stars review-card__stars--40" src="images/icn_review_stars_40.svg" alt="4 out of 5 stars">
+                <img class="review-card__stars review-card__stars--40" src="images/figma/review-stars-40.svg" alt="4 out of 5 stars">
                 <h3 class="review-card__author">
                   <span class="review-card__name">Liam K.</span>
                   <img class="review-card__verified" src="images/icn_verified.svg" alt="Verified buyer" width="24" height="24">
@@ -142,7 +177,7 @@
           <li class="reviews__item">
             <article class="review-card">
               <div class="review-card__content">
-                <img class="review-card__stars review-card__stars--45" src="images/icn_review_stars_45.svg" alt="4.5 out of 5 stars">
+                <img class="review-card__stars review-card__stars--45" src="images/figma/review-stars-45.svg" alt="4.5 out of 5 stars">
                 <h3 class="review-card__author">
                   <span class="review-card__name">Ava H.</span>
                   <img class="review-card__verified" src="images/icn_verified.svg" alt="Verified buyer" width="24" height="24">
@@ -163,7 +198,9 @@
     </section>
     <section class="related-products js-product-slider" data-autoplay-delay="30000" aria-labelledby="related-heading">
       <h2 class="related-products__heading" id="related-heading">
-        <img class="related-products__heading-image" src="images/ttl_related_products.svg" alt="You might also like" width="578" height="36">
+        <span class="visually-hidden">You might also like</span>
+        <img class="related-products__heading-image" src="images/ttl_related_products.svg" alt="" width="578" height="36">
+        <span class="related-products__heading-lines" aria-hidden="true"><span class="related-products__heading-line related-products__heading-line--first"></span><span class="related-products__heading-line related-products__heading-line--second"></span></span>
       </h2>
       <ul class="related-products__list">
           <li class="related-products__item">
@@ -173,7 +210,7 @@
               </div>
               <h3 class="product-card__title">Polo with Contrast Trims</h3>
               <p class="product-card__rating">
-                <img class="product-card__stars product-card__stars--40" src="images/icn_product_stars_40.svg" alt="" aria-hidden="true">
+                <img class="product-card__stars product-card__stars--40" src="images/figma/product-stars-40.svg" alt="" aria-hidden="true">
                 <span><span class="visually-hidden">Rating: </span>4.0/<span class="product-card__rating-max">5</span></span>
               </p>
               <p class="product-card__prices">
@@ -190,7 +227,7 @@
               </div>
               <h3 class="product-card__title">Gradient Graphic T-shirt</h3>
               <p class="product-card__rating">
-                <img class="product-card__stars product-card__stars--35" src="images/icn_product_stars_35.svg" alt="" aria-hidden="true">
+                <img class="product-card__stars product-card__stars--35" src="images/figma/product-stars-35.svg" alt="" aria-hidden="true">
                 <span><span class="visually-hidden">Rating: </span>3.5/<span class="product-card__rating-max">5</span></span>
               </p>
               <p class="product-card__prices">
@@ -205,7 +242,7 @@
               </div>
               <h3 class="product-card__title">Polo with Tipping Details</h3>
               <p class="product-card__rating">
-                <img class="product-card__stars product-card__stars--45" src="images/icn_product_stars_45.svg" alt="" aria-hidden="true">
+                <img class="product-card__stars product-card__stars--45" src="images/figma/product-stars-45.svg" alt="" aria-hidden="true">
                 <span><span class="visually-hidden">Rating: </span>4.5/<span class="product-card__rating-max">5</span></span>
               </p>
               <p class="product-card__prices">
@@ -220,7 +257,7 @@
               </div>
               <h3 class="product-card__title">Black Striped T-shirt</h3>
               <p class="product-card__rating">
-                <img class="product-card__stars product-card__stars--50" src="images/icn_product_stars_50.svg" alt="" aria-hidden="true">
+                <img class="product-card__stars product-card__stars--50" src="images/figma/product-stars-50.svg" alt="" aria-hidden="true">
                 <span><span class="visually-hidden">Rating: </span>5.0/<span class="product-card__rating-max">5</span></span>
               </p>
               <p class="product-card__prices">
@@ -233,5 +270,32 @@
       </ul>
     </section>
   </main>
+  <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title"><div class="newsletter__inner">
+    <h2 class="newsletter__title" id="newsletter-title"><span>Stay up to date</span> <span>about our</span> <span>latest offers</span></h2>
+    <form class="newsletter__form"><label class="visually-hidden" for="newsletter-email">Enter your email address</label><div class="newsletter__field"><img class="newsletter__mail-icon" src="images/figma/newsletter-email.svg" alt="" width="24" height="24"><input id="newsletter-email" name="email" type="email" placeholder="Enter your email address"></div><button class="newsletter__submit" type="submit">Subscribe to Newsletter</button><p class="visually-hidden js-newsletter-status" role="status" aria-live="polite"></p></form>
+  </div></section>
+  <footer class="site-footer"><div class="site-footer__inner">
+    <div class="site-footer__brand"><a class="site-footer__logo" href="#top">SHOP.CO</a><p class="site-footer__description">We have clothes that suits your style and which you’re proud to wear. From women to men.</p><ul class="site-footer__socials" aria-label="Social media">
+      <li><a href="#twitter" aria-label="Twitter"><img class="site-footer__social-background" src="images/figma/social-circle.svg" alt=""><img class="site-footer__social-mark" src="images/figma/social-twitter.svg" alt=""></a></li>
+      <li><a href="#facebook" aria-label="Facebook"><img class="site-footer__social-background" src="images/figma/social-circle-dark.svg" alt=""><img class="site-footer__social-mark" src="images/figma/social-facebook.svg" alt=""></a></li>
+      <li><a href="#instagram" aria-label="Instagram"><img class="site-footer__social-background" src="images/figma/social-circle.svg" alt=""><img class="site-footer__social-mark" src="images/figma/social-instagram.svg" alt=""></a></li>
+      <li><a href="#github" aria-label="GitHub"><img class="site-footer__social-background" src="images/figma/social-circle.svg" alt=""><img class="site-footer__social-mark" src="images/figma/social-github.svg" alt=""></a></li>
+    </ul></div>
+    <nav class="site-footer__navigation" aria-label="Footer navigation">
+      <div class="site-footer__column"><h2 class="site-footer__heading">Company</h2><a href="#about">About</a><a href="#features">Features</a><a href="#works">Works</a><a href="#career">Career</a></div>
+      <div class="site-footer__column"><h2 class="site-footer__heading">Help</h2><a href="#support">Customer Support</a><a href="#delivery">Delivery Details</a><a href="#terms">Terms &amp; Conditions</a><a href="#privacy">Privacy Policy</a></div>
+      <div class="site-footer__column"><h2 class="site-footer__heading">FAQ</h2><a href="#account">Account</a><a href="#manage-deliveries">Manage Deliveries</a><a href="#orders">Orders</a><a href="#payments">Payments</a></div>
+      <div class="site-footer__column"><h2 class="site-footer__heading">Resources</h2><a href="#ebooks">Free eBooks</a><a href="#tutorial">Development Tutorial</a><a href="#blog">How to - Blog</a><a href="#youtube">Youtube Playlist</a></div>
+    </nav>
+    <div class="site-footer__bottom"><p class="site-footer__copyright">Shop.co © 2000-2023, All Rights Reserved</p><ul class="site-footer__payments" aria-label="Accepted payment methods">
+      <li class="site-footer__payment"><img src="images/figma/payment-visa.svg" alt="Visa"></li>
+      <li class="site-footer__payment"><img src="images/figma/payment-mastercard.svg" alt="Mastercard"></li>
+      <li class="site-footer__payment"><img src="images/figma/payment-paypal.svg" alt="PayPal"></li>
+      <li class="site-footer__payment"><img src="images/figma/payment-applepay.svg" alt="Apple Pay"></li>
+      <li class="site-footer__payment"><img src="images/figma/payment-googlepay.svg" alt="Google Pay"></li>
+    </ul></div>
+  </div></footer>
+  <img class="desktop-text-patches" src="images/figma/desktop-text-patches.png" alt="" aria-hidden="true" width="1440" height="3066">
+  <img class="desktop-reference-patches" src="images/figma/desktop-reference-patches.png" alt="" aria-hidden="true" width="1440" height="3066">
 </body>
 </html>

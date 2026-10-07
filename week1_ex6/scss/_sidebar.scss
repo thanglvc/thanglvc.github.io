@@ -422,3 +422,25 @@
     }
   }
 }
+
+@media (max-width: $bp-tablet) {
+  .side-card--menu,
+  .side-card--contact {
+    height: auto;
+  }
+
+  .side-card--contact {
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .side-card__map {
+    width: 100%;
+    max-width: 191px;
+  }
+
+  .side-card__map-img {
+    width: 100%;
+    height: auto;
+  }
+}

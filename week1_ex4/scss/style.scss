@@ -1,6 +1,11 @@
 @use "base";
+@use "site-header";
+@use "product-summary";
 @use "product-tabs";
 @use "pill-button";
 @use "reviews";
 @use "related-products";
 @use "interactions";
+@use "footer";
+
+@use "desktop-text-layer";

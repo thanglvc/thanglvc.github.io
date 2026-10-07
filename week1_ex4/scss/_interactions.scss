@@ -86,6 +86,12 @@
 }
 
 .reviews {
+  @media (max-width: 767px) {
+    &__item:nth-child(n + 4) {
+      display: none;
+    }
+  }
+
   &__item[hidden],
   &__empty[hidden] {
     display: none;
@@ -156,15 +162,22 @@
   }
 
   @media (max-width: 767px) {
+    &__viewport {
+      width: calc(100% + 16px);
+    }
+
     &__controls {
-      position: static;
-      justify-content: flex-end;
-      margin-top: 16px;
+      display: none;
     }
 
     &.is-enhanced {
       .related-products__list {
-        margin-top: 16px;
+        width: 100%;
+        margin-top: 67px;
+      }
+
+      .related-products__item {
+        flex-basis: 198px;
       }
     }
   }

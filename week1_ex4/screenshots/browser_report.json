@@ -1,6 +1,6 @@
 {
-  "browser": "Chrome/153.0.8010.47",
-  "timestamp": "2026-09-23T07:29:21.523Z",
+  "browser": "Chrome/154.0.8037.57",
+  "timestamp": "2026-09-25T08:57:45.997Z",
   "errors": [],
   "interactionChecks": {
     "detailsTabWorks": true,
@@ -26,6 +26,104 @@
         1000
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 1360,
+          "right": 1655,
+          "width": 295,
+          "scrollWidth": 295
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 1360,
+          "right": 1655,
+          "width": 295,
+          "scrollWidth": 295
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 1360,
+          "right": 1655,
+          "width": 295,
+          "scrollWidth": 295
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 1360,
+          "right": 1655,
+          "width": 295,
+          "scrollWidth": 295
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 1360,
+          "right": 1655,
+          "width": 295,
+          "scrollWidth": 295
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 1360,
+          "right": 1655,
+          "width": 295,
+          "scrollWidth": 295
+        },
+        {
+          "tag": "img",
+          "className": "product-card__stars product-card__stars--40",
+          "left": 1360,
+          "right": 1450,
+          "width": 90,
+          "scrollWidth": 90
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 1463,
+          "right": 1496,
+          "width": 33,
+          "scrollWidth": 33
+        },
+        {
+          "tag": "span",
+          "className": "visually-hidden",
+          "left": 1463,
+          "right": 1464,
+          "width": 1,
+          "scrollWidth": 43
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 1488,
+          "right": 1496,
+          "width": 8,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 1360,
+          "right": 1655,
+          "width": 295,
+          "scrollWidth": 295
+        },
+        {
+          "tag": "del",
+          "className": "product-card__original-price",
+          "left": 1423,
+          "right": 1481,
+          "width": 58,
+          "scrollWidth": 58
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -38,255 +136,387 @@
         {
           "text": "(451)",
           "x": 233,
-          "y": 104,
+          "y": 904,
           "width": 32.453125,
           "height": 22
         },
         {
           "text": "Samantha D.",
           "x": 132,
-          "y": 230.078125,
+          "y": 1030.078125,
           "width": 118,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 762,
-          "y": 230.078125,
+          "y": 1030.078125,
           "width": 69,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 132,
-          "y": 492.078125,
+          "y": 1292.078125,
           "width": 78,
           "height": 15
         },
         {
           "text": "Olivia P.",
           "x": 762,
-          "y": 492.078125,
+          "y": 1292.078125,
           "width": 75,
           "height": 15
         },
         {
           "text": "Liam K.",
           "x": 132,
-          "y": 754.078125,
+          "y": 1554.078125,
           "width": 70,
           "height": 15
         },
         {
           "text": "Ava H.",
           "x": 762,
-          "y": 754.078125,
+          "y": 1554.078125,
           "width": 61,
           "height": 15
         },
         {
           "text": "Price: $212",
           "x": 100,
-          "y": 1567,
+          "y": 2367,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 163,
-          "y": 1567,
+          "y": 2367,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 231,
-          "y": 1569,
+          "y": 2369,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 415,
-          "y": 1567,
+          "y": 2367,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 730,
-          "y": 1567,
+          "y": 2367,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 1045,
-          "y": 1567,
+          "y": 2367,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 1110,
-          "y": 1567,
+          "y": 2367,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 1175,
-          "y": 1569,
+          "y": 2369,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $212",
           "x": 1360,
-          "y": 1567,
+          "y": 2367,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 1423,
-          "y": 1567,
+          "y": 2367,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 1491,
-          "y": 1569,
+          "y": 2369,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 1675,
-          "y": 1567,
+          "y": 2367,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 1990,
-          "y": 1567,
+          "y": 2367,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 2305,
-          "y": 1567,
+          "y": 2367,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 2370,
-          "y": 1567,
+          "y": 2367,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 2435,
-          "y": 1569,
+          "y": 2369,
           "width": 58,
           "height": 28
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 100,
+          "y": 38,
+          "width": 1240,
+          "height": 76
+        },
+        ".breadcrumb": {
+          "x": 100,
+          "y": 164,
+          "width": 1240,
+          "height": 22
+        },
+        ".product-overview": {
+          "x": 100,
+          "y": 216,
+          "width": 1240,
+          "height": 530
+        },
+        ".product-gallery": {
+          "x": 100,
+          "y": 216,
+          "width": 610,
+          "height": 530
+        },
+        ".product-gallery__featured": {
+          "x": 266,
+          "y": 216,
+          "width": 444,
+          "height": 530
+        },
+        ".product-summary": {
+          "x": 750,
+          "y": 216,
+          "width": 590,
+          "height": 530
+        },
+        ".product-summary__title": {
+          "x": 750,
+          "y": 224,
+          "width": 590,
+          "height": 42
+        },
+        ".product-summary__rating": {
+          "x": 750,
+          "y": 278,
+          "width": 590,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 750,
+          "y": 316.6875,
+          "width": 590,
+          "height": 40
+        },
+        ".product-summary__description": {
+          "x": 750,
+          "y": 373.6875,
+          "width": 590,
+          "height": 63
+        },
+        ".product-options__group--colors": {
+          "x": 750,
+          "y": 436.6875,
+          "width": 590,
+          "height": 112.25
+        },
+        ".product-options__label": {
+          "x": 750,
+          "y": 456.6875,
+          "width": 96.75,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 750,
+          "y": 485.9375,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 750,
+          "y": 548.9375,
+          "width": 590,
+          "height": 120.0625
+        },
+        ".product-options__choices--sizes": {
+          "x": 750,
+          "y": 600,
+          "width": 590,
+          "height": 48
+        },
+        ".product-options__purchase": {
+          "x": 750,
+          "y": 669,
+          "width": 590,
+          "height": 77
+        },
+        ".product-options__add": {
+          "x": 940,
+          "y": 694,
+          "width": 400,
+          "height": 52
+        },
         ".product-tabs": {
           "x": 100,
-          "y": 0,
+          "y": 800,
           "width": 1240,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 100,
-          "y": 88,
+          "y": 888,
           "width": 1240,
           "height": 48
         },
         ".reviews__list": {
           "x": 100,
-          "y": 160,
+          "y": 960,
           "width": 1240,
           "height": 765.578125
         },
         ".review-card": {
           "x": 100,
-          "y": 160,
+          "y": 960,
           "width": 610,
           "height": 241.578125
         },
         ".review-card__author": {
           "x": 132,
-          "y": 225.578125,
+          "y": 1025.578125,
           "width": 522,
           "height": 24
         },
         ".review-card__text": {
           "x": 132,
-          "y": 261.578125,
+          "y": 1061.578125,
           "width": 522,
           "height": 66
         },
         ".review-card__date": {
           "x": 132,
-          "y": 351.578125,
+          "y": 1151.578125,
           "width": 546,
           "height": 22
         },
         ".reviews__footer": {
           "x": 100,
-          "y": 962,
+          "y": 1762,
           "width": 1240,
           "height": 52
         },
         ".related-products__heading": {
           "x": 100,
-          "y": 1078,
+          "y": 1878,
           "width": 1240,
           "height": 58
         },
         ".related-products__heading-image": {
           "x": 431.28125,
-          "y": 1095.280029296875,
+          "y": 1895.280029296875,
           "width": 578,
           "height": 36
         },
         ".related-products__list": {
           "x": 100,
-          "y": 1191,
+          "y": 1991,
           "width": 1240,
           "height": 408
         },
         ".product-card__picture": {
           "x": 100,
-          "y": 1191,
+          "y": 1991,
           "width": 295,
           "height": 298
         },
         ".product-card__title": {
           "x": 100,
-          "y": 1505,
+          "y": 2305,
           "width": 295,
           "height": 27
         },
         ".product-card__rating": {
           "x": 100,
-          "y": 1540,
+          "y": 2340,
           "width": 295,
           "height": 19
         },
         ".product-card__prices": {
           "x": 100,
-          "y": 1567,
+          "y": 2367,
           "width": 295,
           "height": 32
+        },
+        ".newsletter": {
+          "x": 100,
+          "y": 2476,
+          "width": 1240,
+          "height": 180
+        },
+        ".newsletter__inner": {
+          "x": 100,
+          "y": 2476,
+          "width": 1240,
+          "height": 180
+        },
+        ".newsletter__title": {
+          "x": 162,
+          "y": 2521,
+          "width": 600,
+          "height": 90
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2567,
+          "width": 1440,
+          "height": 499
+        },
+        ".site-footer__inner": {
+          "x": 100,
+          "y": 2706,
+          "width": 1240,
+          "height": 280
         }
       }
     },
@@ -296,6 +526,104 @@
         768
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 1012,
+          "right": 1237,
+          "width": 225,
+          "scrollWidth": 225
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 1012,
+          "right": 1237,
+          "width": 225,
+          "scrollWidth": 225
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 1012,
+          "right": 1237,
+          "width": 225,
+          "scrollWidth": 225
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 1012,
+          "right": 1237,
+          "width": 225,
+          "scrollWidth": 225
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 1012,
+          "right": 1237,
+          "width": 225,
+          "scrollWidth": 225
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 1012,
+          "right": 1237,
+          "width": 225,
+          "scrollWidth": 225
+        },
+        {
+          "tag": "img",
+          "className": "product-card__stars product-card__stars--40",
+          "left": 1012,
+          "right": 1102,
+          "width": 90,
+          "scrollWidth": 90
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 1115,
+          "right": 1148,
+          "width": 33,
+          "scrollWidth": 33
+        },
+        {
+          "tag": "span",
+          "className": "visually-hidden",
+          "left": 1115,
+          "right": 1116,
+          "width": 1,
+          "scrollWidth": 43
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 1140,
+          "right": 1148,
+          "width": 8,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 1012,
+          "right": 1237,
+          "width": 225,
+          "scrollWidth": 225
+        },
+        {
+          "tag": "span",
+          "className": "product-card__price",
+          "left": 1012,
+          "right": 1065,
+          "width": 53,
+          "scrollWidth": 53
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -308,255 +636,387 @@
         {
           "text": "(451)",
           "x": 165,
-          "y": 104,
+          "y": 904,
           "width": 32.453125,
           "height": 22
         },
         {
           "text": "Samantha D.",
           "x": 64,
-          "y": 230.078125,
+          "y": 1030.078125,
           "width": 118,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 554,
-          "y": 230.078125,
+          "y": 1030.078125,
           "width": 69,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 64,
-          "y": 536.078125,
+          "y": 1336.078125,
           "width": 78,
           "height": 15
         },
         {
           "text": "Olivia P.",
           "x": 554,
-          "y": 536.078125,
+          "y": 1336.078125,
           "width": 75,
           "height": 15
         },
         {
           "text": "Liam K.",
           "x": 64,
-          "y": 842.078125,
+          "y": 1642.078125,
           "width": 70,
           "height": 15
         },
         {
           "text": "Ava H.",
           "x": 554,
-          "y": 842.078125,
+          "y": 1642.078125,
           "width": 61,
           "height": 15
         },
         {
           "text": "Price: $212",
           "x": 32,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 95,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 163,
-          "y": 1635.28125,
+          "y": 2435.28125,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 277,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 522,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 767,
-          "y": 1606.28125,
+          "y": 2406.28125,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 832,
-          "y": 1606.28125,
+          "y": 2406.28125,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 897,
-          "y": 1608.28125,
+          "y": 2408.28125,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $212",
           "x": 1012,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 1075,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 1143,
-          "y": 1635.28125,
+          "y": 2435.28125,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 1257,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 1502,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 1747,
-          "y": 1606.28125,
+          "y": 2406.28125,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 1812,
-          "y": 1606.28125,
+          "y": 2406.28125,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 1877,
-          "y": 1608.28125,
+          "y": 2408.28125,
           "width": 58,
           "height": 28
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 32,
+          "y": 38,
+          "width": 960,
+          "height": 76
+        },
+        ".breadcrumb": {
+          "x": 32,
+          "y": 164,
+          "width": 960,
+          "height": 22
+        },
+        ".product-overview": {
+          "x": 32,
+          "y": 216,
+          "width": 960,
+          "height": 530
+        },
+        ".product-gallery": {
+          "x": 32,
+          "y": 216,
+          "width": 610,
+          "height": 530
+        },
+        ".product-gallery__featured": {
+          "x": 200,
+          "y": 216,
+          "width": 442,
+          "height": 530
+        },
+        ".product-summary": {
+          "x": 682,
+          "y": 216,
+          "width": 310,
+          "height": 630
+        },
+        ".product-summary__title": {
+          "x": 682,
+          "y": 224,
+          "width": 310,
+          "height": 42
+        },
+        ".product-summary__rating": {
+          "x": 682,
+          "y": 278,
+          "width": 310,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 682,
+          "y": 316.6875,
+          "width": 310,
+          "height": 40
+        },
+        ".product-summary__description": {
+          "x": 682,
+          "y": 373.6875,
+          "width": 310,
+          "height": 107
+        },
+        ".product-options__group--colors": {
+          "x": 682,
+          "y": 480.6875,
+          "width": 310,
+          "height": 112.25
+        },
+        ".product-options__label": {
+          "x": 682,
+          "y": 500.6875,
+          "width": 96.75,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 682,
+          "y": 529.9375,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 682,
+          "y": 592.9375,
+          "width": 310,
+          "height": 176.0625
+        },
+        ".product-options__choices--sizes": {
+          "x": 682,
+          "y": 644,
+          "width": 310,
+          "height": 104
+        },
+        ".product-options__purchase": {
+          "x": 682,
+          "y": 769,
+          "width": 310,
+          "height": 77
+        },
+        ".product-options__add": {
+          "x": 872,
+          "y": 794,
+          "width": 120,
+          "height": 52
+        },
         ".product-tabs": {
           "x": 32,
-          "y": 0,
+          "y": 800,
           "width": 960,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 32,
-          "y": 88,
+          "y": 888,
           "width": 960,
           "height": 48
         },
         ".reviews__list": {
           "x": 32,
-          "y": 160,
+          "y": 960,
           "width": 960,
           "height": 875.578125
         },
         ".review-card": {
           "x": 32,
-          "y": 160,
+          "y": 960,
           "width": 470,
           "height": 285.578125
         },
         ".review-card__author": {
           "x": 64,
-          "y": 225.578125,
+          "y": 1025.578125,
           "width": 382,
           "height": 24
         },
         ".review-card__text": {
           "x": 64,
-          "y": 261.578125,
+          "y": 1061.578125,
           "width": 382,
           "height": 88
         },
         ".review-card__date": {
           "x": 64,
-          "y": 395.578125,
+          "y": 1195.578125,
           "width": 406,
           "height": 22
         },
         ".reviews__footer": {
           "x": 32,
-          "y": 1072,
+          "y": 1872,
           "width": 960,
           "height": 52
         },
         ".related-products__heading": {
           "x": 32,
-          "y": 1188,
+          "y": 1988,
           "width": 960,
           "height": 58
         },
         ".related-products__heading-image": {
           "x": 223.28125,
-          "y": 1205.280029296875,
+          "y": 2005.280029296875,
           "width": 578,
           "height": 36
         },
         ".related-products__list": {
           "x": 32,
-          "y": 1301,
+          "y": 2101,
           "width": 960,
           "height": 364.28125
         },
         ".product-card__picture": {
           "x": 32,
-          "y": 1301,
+          "y": 2101,
           "width": 225,
           "height": 227.28125
         },
         ".product-card__title": {
           "x": 32,
-          "y": 1544.28125,
+          "y": 2344.28125,
           "width": 225,
           "height": 54
         },
         ".product-card__rating": {
           "x": 32,
-          "y": 1606.28125,
+          "y": 2406.28125,
           "width": 225,
           "height": 19
         },
         ".product-card__prices": {
           "x": 32,
-          "y": 1633.28125,
+          "y": 2433.28125,
           "width": 225,
           "height": 32
+        },
+        ".newsletter": {
+          "x": 32,
+          "y": 2542.28125,
+          "width": 960,
+          "height": 180
+        },
+        ".newsletter__inner": {
+          "x": 32,
+          "y": 2542.28125,
+          "width": 960,
+          "height": 180
+        },
+        ".newsletter__title": {
+          "x": 94,
+          "y": 2587.28125,
+          "width": 600,
+          "height": 90
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2633.28125,
+          "width": 1024,
+          "height": 499
+        },
+        ".site-footer__inner": {
+          "x": 32,
+          "y": 2772.28125,
+          "width": 960,
+          "height": 279.890625
         }
       }
     },
@@ -566,6 +1026,104 @@
         768
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 1011,
+          "right": 1481,
+          "width": 470,
+          "scrollWidth": 470
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 1011,
+          "right": 1481,
+          "width": 470,
+          "scrollWidth": 470
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 1011,
+          "right": 1481,
+          "width": 470,
+          "scrollWidth": 470
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 1011,
+          "right": 1481,
+          "width": 470,
+          "scrollWidth": 470
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 1011,
+          "right": 1481,
+          "width": 470,
+          "scrollWidth": 470
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 1011,
+          "right": 1481,
+          "width": 470,
+          "scrollWidth": 470
+        },
+        {
+          "tag": "img",
+          "className": "product-card__stars product-card__stars--45",
+          "left": 1011,
+          "right": 1115,
+          "width": 104,
+          "scrollWidth": 104
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 1128,
+          "right": 1161,
+          "width": 33,
+          "scrollWidth": 33
+        },
+        {
+          "tag": "span",
+          "className": "visually-hidden",
+          "left": 1128,
+          "right": 1129,
+          "width": 1,
+          "scrollWidth": 43
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 1152,
+          "right": 1161,
+          "width": 8,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 1011,
+          "right": 1481,
+          "width": 470,
+          "scrollWidth": 470
+        },
+        {
+          "tag": "span",
+          "className": "product-card__price",
+          "left": 1011,
+          "right": 1067,
+          "width": 56,
+          "scrollWidth": 56
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -578,255 +1136,387 @@
         {
           "text": "(451)",
           "x": 165,
-          "y": 104,
+          "y": 904,
           "width": 32.453125,
           "height": 22
         },
         {
           "text": "Samantha D.",
           "x": 56,
-          "y": 226.078125,
+          "y": 1026.078125,
           "width": 118,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 545.5,
-          "y": 226.078125,
+          "y": 1026.078125,
           "width": 69,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 56,
-          "y": 501.65625,
+          "y": 1301.65625,
           "width": 78,
           "height": 15
         },
         {
           "text": "Olivia P.",
           "x": 545.5,
-          "y": 501.65625,
+          "y": 1301.65625,
           "width": 75,
           "height": 15
         },
         {
           "text": "Liam K.",
           "x": 56,
-          "y": 799.234375,
+          "y": 1599.234375,
           "width": 70,
           "height": 15
         },
         {
           "text": "Ava H.",
           "x": 545.5,
-          "y": 799.234375,
+          "y": 1599.234375,
           "width": 61,
           "height": 15
         },
         {
           "text": "Price: $212",
           "x": 32,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 95,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 163,
-          "y": 1808.421875,
+          "y": 2608.421875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 521.5,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 1011,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 1500.5,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 1565.5,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 1630.5,
-          "y": 1808.421875,
+          "y": 2608.421875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $212",
           "x": 1990,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 2053,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 2121,
-          "y": 1808.421875,
+          "y": 2608.421875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 2479.5,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 2969,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 3458.5,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 3523.5,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 3588.5,
-          "y": 1808.421875,
+          "y": 2608.421875,
           "width": 58,
           "height": 28
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 32,
+          "y": 38,
+          "width": 959,
+          "height": 76
+        },
+        ".breadcrumb": {
+          "x": 32,
+          "y": 164,
+          "width": 959,
+          "height": 22
+        },
+        ".product-overview": {
+          "x": 32,
+          "y": 216,
+          "width": 959,
+          "height": 530
+        },
+        ".product-gallery": {
+          "x": 32,
+          "y": 216,
+          "width": 465.5,
+          "height": 530
+        },
+        ".product-gallery__featured": {
+          "x": 156,
+          "y": 216,
+          "width": 341.5,
+          "height": 460
+        },
+        ".product-summary": {
+          "x": 525.5,
+          "y": 216,
+          "width": 465.5,
+          "height": 530
+        },
+        ".product-summary__title": {
+          "x": 525.5,
+          "y": 224,
+          "width": 465.5,
+          "height": 42
+        },
+        ".product-summary__rating": {
+          "x": 525.5,
+          "y": 278,
+          "width": 465.5,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 525.5,
+          "y": 316.6875,
+          "width": 465.5,
+          "height": 35
+        },
+        ".product-summary__description": {
+          "x": 525.5,
+          "y": 368.6875,
+          "width": 465.5,
+          "height": 63
+        },
+        ".product-options__group--colors": {
+          "x": 525.5,
+          "y": 431.6875,
+          "width": 465.5,
+          "height": 112.25
+        },
+        ".product-options__label": {
+          "x": 525.5,
+          "y": 451.6875,
+          "width": 96.75,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 525.5,
+          "y": 480.9375,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 525.5,
+          "y": 543.9375,
+          "width": 465.5,
+          "height": 120.0625
+        },
+        ".product-options__choices--sizes": {
+          "x": 525.5,
+          "y": 595,
+          "width": 465.5,
+          "height": 48
+        },
+        ".product-options__purchase": {
+          "x": 525.5,
+          "y": 664,
+          "width": 465.5,
+          "height": 77
+        },
+        ".product-options__add": {
+          "x": 677.5,
+          "y": 689,
+          "width": 313.5,
+          "height": 52
+        },
         ".product-tabs": {
           "x": 32,
-          "y": 0,
+          "y": 800,
           "width": 959,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 32,
-          "y": 88,
+          "y": 888,
           "width": 959,
           "height": 48
         },
         ".reviews__list": {
           "x": 32,
-          "y": 160,
+          "y": 960,
           "width": 959,
           "height": 828.734375
         },
         ".review-card": {
           "x": 32,
-          "y": 160,
+          "y": 960,
           "width": 469.5,
           "height": 255.578125
         },
         ".review-card__author": {
           "x": 56,
-          "y": 221.578125,
+          "y": 1021.578125,
           "width": 397.5,
           "height": 24
         },
         ".review-card__text": {
           "x": 56,
-          "y": 257.578125,
+          "y": 1057.578125,
           "width": 397.5,
           "height": 88
         },
         ".review-card__date": {
           "x": 56,
-          "y": 369.578125,
+          "y": 1169.578125,
           "width": 421.5,
           "height": 22
         },
         ".reviews__footer": {
           "x": 32,
-          "y": 1025.15625,
+          "y": 1825.15625,
           "width": 959,
           "height": 52
         },
         ".related-products__heading": {
           "x": 32,
-          "y": 1141.15625,
+          "y": 1941.15625,
           "width": 959,
           "height": 58
         },
         ".related-products__heading-image": {
           "x": 222.78125,
-          "y": 1158.436279296875,
+          "y": 1958.436279296875,
           "width": 578,
           "height": 36
         },
         ".related-products__list": {
           "x": 32,
-          "y": 1254.15625,
+          "y": 2054.15625,
           "width": 959,
           "height": 584.265625
         },
         ".product-card__picture": {
           "x": 32,
-          "y": 1254.15625,
+          "y": 2054.15625,
           "width": 469.5,
           "height": 474.265625
         },
         ".product-card__title": {
           "x": 32,
-          "y": 1744.421875,
+          "y": 2544.421875,
           "width": 469.5,
           "height": 27
         },
         ".product-card__rating": {
           "x": 32,
-          "y": 1779.421875,
+          "y": 2579.421875,
           "width": 469.5,
           "height": 19
         },
         ".product-card__prices": {
           "x": 32,
-          "y": 1806.421875,
+          "y": 2606.421875,
           "width": 469.5,
           "height": 32
+        },
+        ".newsletter": {
+          "x": 32,
+          "y": 2715.421875,
+          "width": 959,
+          "height": 180
+        },
+        ".newsletter__inner": {
+          "x": 32,
+          "y": 2715.421875,
+          "width": 959,
+          "height": 180
+        },
+        ".newsletter__title": {
+          "x": 94,
+          "y": 2760.421875,
+          "width": 600,
+          "height": 90
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2806.421875,
+          "width": 1023,
+          "height": 499
+        },
+        ".site-footer__inner": {
+          "x": 32,
+          "y": 2945.421875,
+          "width": 959,
+          "height": 282.890625
         }
       }
     },
@@ -836,6 +1526,104 @@
         768
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 1010,
+          "right": 1479,
+          "width": 469,
+          "scrollWidth": 469
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 1010,
+          "right": 1479,
+          "width": 469,
+          "scrollWidth": 469
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 1010,
+          "right": 1479,
+          "width": 469,
+          "scrollWidth": 469
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 1010,
+          "right": 1479,
+          "width": 469,
+          "scrollWidth": 469
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 1010,
+          "right": 1479,
+          "width": 469,
+          "scrollWidth": 469
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 1010,
+          "right": 1479,
+          "width": 469,
+          "scrollWidth": 469
+        },
+        {
+          "tag": "img",
+          "className": "product-card__stars product-card__stars--45",
+          "left": 1010,
+          "right": 1114,
+          "width": 104,
+          "scrollWidth": 104
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 1127,
+          "right": 1160,
+          "width": 33,
+          "scrollWidth": 33
+        },
+        {
+          "tag": "span",
+          "className": "visually-hidden",
+          "left": 1127,
+          "right": 1128,
+          "width": 1,
+          "scrollWidth": 43
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 1151,
+          "right": 1160,
+          "width": 8,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 1010,
+          "right": 1479,
+          "width": 469,
+          "scrollWidth": 469
+        },
+        {
+          "tag": "span",
+          "className": "product-card__price",
+          "left": 1010,
+          "right": 1066,
+          "width": 56,
+          "scrollWidth": 56
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -848,255 +1636,387 @@
         {
           "text": "(451)",
           "x": 165,
-          "y": 104,
+          "y": 904,
           "width": 32.453125,
           "height": 22
         },
         {
           "text": "Samantha D.",
           "x": 56,
-          "y": 226.078125,
+          "y": 1026.078125,
           "width": 118,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 545,
-          "y": 226.078125,
+          "y": 1026.078125,
           "width": 69,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 56,
-          "y": 501.65625,
+          "y": 1301.65625,
           "width": 78,
           "height": 15
         },
         {
           "text": "Olivia P.",
           "x": 545,
-          "y": 501.65625,
+          "y": 1301.65625,
           "width": 75,
           "height": 15
         },
         {
           "text": "Liam K.",
           "x": 56,
-          "y": 799.234375,
+          "y": 1599.234375,
           "width": 70,
           "height": 15
         },
         {
           "text": "Ava H.",
           "x": 545,
-          "y": 799.234375,
+          "y": 1599.234375,
           "width": 61,
           "height": 15
         },
         {
           "text": "Price: $212",
           "x": 32,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 95,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 163,
-          "y": 1807.921875,
+          "y": 2607.921875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 521,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 1010,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 1499,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 1564,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 1629,
-          "y": 1807.921875,
+          "y": 2607.921875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $212",
           "x": 1988,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 2051,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 2119,
-          "y": 1807.921875,
+          "y": 2607.921875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 2477,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 2966,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 3455,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 3520,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 3585,
-          "y": 1807.921875,
+          "y": 2607.921875,
           "width": 58,
           "height": 28
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 32,
+          "y": 38,
+          "width": 958,
+          "height": 76
+        },
+        ".breadcrumb": {
+          "x": 32,
+          "y": 164,
+          "width": 958,
+          "height": 22
+        },
+        ".product-overview": {
+          "x": 32,
+          "y": 216,
+          "width": 958,
+          "height": 530
+        },
+        ".product-gallery": {
+          "x": 32,
+          "y": 216,
+          "width": 465,
+          "height": 530
+        },
+        ".product-gallery__featured": {
+          "x": 156,
+          "y": 216,
+          "width": 341,
+          "height": 460
+        },
+        ".product-summary": {
+          "x": 525,
+          "y": 216,
+          "width": 465,
+          "height": 530
+        },
+        ".product-summary__title": {
+          "x": 525,
+          "y": 224,
+          "width": 465,
+          "height": 42
+        },
+        ".product-summary__rating": {
+          "x": 525,
+          "y": 278,
+          "width": 465,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 525,
+          "y": 316.6875,
+          "width": 465,
+          "height": 35
+        },
+        ".product-summary__description": {
+          "x": 525,
+          "y": 368.6875,
+          "width": 465,
+          "height": 63
+        },
+        ".product-options__group--colors": {
+          "x": 525,
+          "y": 431.6875,
+          "width": 465,
+          "height": 112.25
+        },
+        ".product-options__label": {
+          "x": 525,
+          "y": 451.6875,
+          "width": 96.75,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 525,
+          "y": 480.9375,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 525,
+          "y": 543.9375,
+          "width": 465,
+          "height": 120.0625
+        },
+        ".product-options__choices--sizes": {
+          "x": 525,
+          "y": 595,
+          "width": 465,
+          "height": 48
+        },
+        ".product-options__purchase": {
+          "x": 525,
+          "y": 664,
+          "width": 465,
+          "height": 77
+        },
+        ".product-options__add": {
+          "x": 677,
+          "y": 689,
+          "width": 313,
+          "height": 52
+        },
         ".product-tabs": {
           "x": 32,
-          "y": 0,
+          "y": 800,
           "width": 958,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 32,
-          "y": 88,
+          "y": 888,
           "width": 958,
           "height": 48
         },
         ".reviews__list": {
           "x": 32,
-          "y": 160,
+          "y": 960,
           "width": 958,
           "height": 828.734375
         },
         ".review-card": {
           "x": 32,
-          "y": 160,
+          "y": 960,
           "width": 469,
           "height": 255.578125
         },
         ".review-card__author": {
           "x": 56,
-          "y": 221.578125,
+          "y": 1021.578125,
           "width": 397,
           "height": 24
         },
         ".review-card__text": {
           "x": 56,
-          "y": 257.578125,
+          "y": 1057.578125,
           "width": 397,
           "height": 88
         },
         ".review-card__date": {
           "x": 56,
-          "y": 369.578125,
+          "y": 1169.578125,
           "width": 421,
           "height": 22
         },
         ".reviews__footer": {
           "x": 32,
-          "y": 1025.15625,
+          "y": 1825.15625,
           "width": 958,
           "height": 52
         },
         ".related-products__heading": {
           "x": 32,
-          "y": 1141.15625,
+          "y": 1941.15625,
           "width": 958,
           "height": 58
         },
         ".related-products__heading-image": {
           "x": 222.28125,
-          "y": 1158.436279296875,
+          "y": 1958.436279296875,
           "width": 578,
           "height": 36
         },
         ".related-products__list": {
           "x": 32,
-          "y": 1254.15625,
+          "y": 2054.15625,
           "width": 958,
           "height": 583.765625
         },
         ".product-card__picture": {
           "x": 32,
-          "y": 1254.15625,
+          "y": 2054.15625,
           "width": 469,
           "height": 473.765625
         },
         ".product-card__title": {
           "x": 32,
-          "y": 1743.921875,
+          "y": 2543.921875,
           "width": 469,
           "height": 27
         },
         ".product-card__rating": {
           "x": 32,
-          "y": 1778.921875,
+          "y": 2578.921875,
           "width": 469,
           "height": 19
         },
         ".product-card__prices": {
           "x": 32,
-          "y": 1805.921875,
+          "y": 2605.921875,
           "width": 469,
           "height": 32
+        },
+        ".newsletter": {
+          "x": 32,
+          "y": 2714.921875,
+          "width": 958,
+          "height": 180
+        },
+        ".newsletter__inner": {
+          "x": 32,
+          "y": 2714.921875,
+          "width": 958,
+          "height": 180
+        },
+        ".newsletter__title": {
+          "x": 94,
+          "y": 2759.921875,
+          "width": 600,
+          "height": 90
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2805.921875,
+          "width": 1022,
+          "height": 499
+        },
+        ".site-footer__inner": {
+          "x": 32,
+          "y": 2944.921875,
+          "width": 958,
+          "height": 282.890625
         }
       }
     },
@@ -1106,6 +2026,104 @@
         1024
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 756,
+          "right": 1098,
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 756,
+          "right": 1098,
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 756,
+          "right": 1098,
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 756,
+          "right": 1098,
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 756,
+          "right": 1098,
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 756,
+          "right": 1098,
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "tag": "img",
+          "className": "product-card__stars product-card__stars--45",
+          "left": 756,
+          "right": 860,
+          "width": 104,
+          "scrollWidth": 104
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 873,
+          "right": 906,
+          "width": 33,
+          "scrollWidth": 33
+        },
+        {
+          "tag": "span",
+          "className": "visually-hidden",
+          "left": 873,
+          "right": 874,
+          "width": 1,
+          "scrollWidth": 43
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 897,
+          "right": 906,
+          "width": 8,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 756,
+          "right": 1098,
+          "width": 342,
+          "scrollWidth": 342
+        },
+        {
+          "tag": "span",
+          "className": "product-card__price",
+          "left": 756,
+          "right": 812,
+          "width": 56,
+          "scrollWidth": 56
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -1118,255 +2136,387 @@
         {
           "text": "(451)",
           "x": 165,
-          "y": 104,
+          "y": 1318.796875,
           "width": 32.453125,
           "height": 22
         },
         {
           "text": "Samantha D.",
           "x": 56,
-          "y": 226.078125,
+          "y": 1440.875,
           "width": 118,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 418,
-          "y": 226.078125,
+          "y": 1440.875,
           "width": 69,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 56,
-          "y": 567.65625,
+          "y": 1782.453125,
           "width": 78,
           "height": 15
         },
         {
           "text": "Olivia P.",
           "x": 418,
-          "y": 567.65625,
+          "y": 1782.453125,
           "width": 75,
           "height": 15
         },
         {
           "text": "Liam K.",
           "x": 56,
-          "y": 909.234375,
+          "y": 2124.03125,
           "width": 70,
           "height": 15
         },
         {
           "text": "Ava H.",
           "x": 418,
-          "y": 909.234375,
+          "y": 2124.03125,
           "width": 61,
           "height": 15
         },
         {
           "text": "Price: $212",
           "x": 32,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 95,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 163,
-          "y": 1833.625,
+          "y": 3048.421875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 394,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 756,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 1118,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 1183,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 1248,
-          "y": 1833.625,
+          "y": 3048.421875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $212",
           "x": 1480,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 1543,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 1611,
-          "y": 1833.625,
+          "y": 3048.421875,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 1842,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 2204,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 2566,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 2631,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 2696,
-          "y": 1833.625,
+          "y": 3048.421875,
           "width": 58,
           "height": 28
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 736,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 32,
+          "y": 144,
+          "width": 704,
+          "height": 22
+        },
+        ".product-overview": {
+          "x": 32,
+          "y": 196,
+          "width": 704,
+          "height": 970.796875
+        },
+        ".product-gallery": {
+          "x": 32,
+          "y": 196,
+          "width": 704,
+          "height": 430
+        },
+        ".product-gallery__featured": {
+          "x": 166,
+          "y": 196,
+          "width": 570,
+          "height": 430
+        },
+        ".product-summary": {
+          "x": 32,
+          "y": 654,
+          "width": 680,
+          "height": 512.796875
+        },
+        ".product-summary__title": {
+          "x": 32,
+          "y": 654,
+          "width": 680,
+          "height": 37.796875
+        },
+        ".product-summary__rating": {
+          "x": 32,
+          "y": 703.796875,
+          "width": 680,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 32,
+          "y": 742.484375,
+          "width": 680,
+          "height": 35
+        },
+        ".product-summary__description": {
+          "x": 32,
+          "y": 794.484375,
+          "width": 590,
+          "height": 63
+        },
+        ".product-options__group--colors": {
+          "x": 32,
+          "y": 857.484375,
+          "width": 680,
+          "height": 112.25
+        },
+        ".product-options__label": {
+          "x": 32,
+          "y": 877.484375,
+          "width": 96.75,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 32,
+          "y": 906.734375,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 32,
+          "y": 969.734375,
+          "width": 680,
+          "height": 120.0625
+        },
+        ".product-options__choices--sizes": {
+          "x": 32,
+          "y": 1020.796875,
+          "width": 680,
+          "height": 48
+        },
+        ".product-options__purchase": {
+          "x": 32,
+          "y": 1089.796875,
+          "width": 680,
+          "height": 77
+        },
+        ".product-options__add": {
+          "x": 184,
+          "y": 1114.796875,
+          "width": 528,
+          "height": 52
+        },
         ".product-tabs": {
           "x": 32,
-          "y": 0,
+          "y": 1214.796875,
           "width": 704,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 32,
-          "y": 88,
+          "y": 1302.796875,
           "width": 704,
           "height": 48
         },
         ".reviews__list": {
           "x": 32,
-          "y": 160,
+          "y": 1374.796875,
           "width": 704,
           "height": 982.734375
         },
         ".review-card": {
           "x": 32,
-          "y": 160,
+          "y": 1374.796875,
           "width": 342,
           "height": 321.578125
         },
         ".review-card__author": {
           "x": 56,
-          "y": 221.578125,
+          "y": 1436.375,
           "width": 270,
           "height": 24
         },
         ".review-card__text": {
           "x": 56,
-          "y": 257.578125,
+          "y": 1472.375,
           "width": 270,
           "height": 110
         },
         ".review-card__date": {
           "x": 56,
-          "y": 435.578125,
+          "y": 1650.375,
           "width": 294,
           "height": 22
         },
         ".reviews__footer": {
           "x": 32,
-          "y": 1179.15625,
+          "y": 2393.953125,
           "width": 704,
           "height": 52
         },
         ".related-products__heading": {
           "x": 32,
-          "y": 1295.15625,
+          "y": 2509.953125,
           "width": 704,
           "height": 58
         },
         ".related-products__heading-image": {
           "x": 95.28125,
-          "y": 1312.436279296875,
+          "y": 2527.233154296875,
           "width": 578,
           "height": 36
         },
         ".related-products__list": {
           "x": 32,
-          "y": 1408.15625,
+          "y": 2622.953125,
           "width": 704,
           "height": 455.46875
         },
         ".product-card__picture": {
           "x": 32,
-          "y": 1408.15625,
+          "y": 2622.953125,
           "width": 342,
           "height": 345.46875
         },
         ".product-card__title": {
           "x": 32,
-          "y": 1769.625,
+          "y": 2984.421875,
           "width": 342,
           "height": 27
         },
         ".product-card__rating": {
           "x": 32,
-          "y": 1804.625,
+          "y": 3019.421875,
           "width": 342,
           "height": 19
         },
         ".product-card__prices": {
           "x": 32,
-          "y": 1831.625,
+          "y": 3046.421875,
           "width": 342,
           "height": 32
+        },
+        ".newsletter": {
+          "x": 32,
+          "y": 3155.421875,
+          "width": 704,
+          "height": 180
+        },
+        ".newsletter__inner": {
+          "x": 32,
+          "y": 3155.421875,
+          "width": 704,
+          "height": 180
+        },
+        ".newsletter__title": {
+          "x": 94,
+          "y": 3200.421875,
+          "width": 600,
+          "height": 90
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 3246.421875,
+          "width": 768,
+          "height": 499
+        },
+        ".site-footer__inner": {
+          "x": 32,
+          "y": 3385.421875,
+          "width": 704,
+          "height": 306
         }
       }
     },
@@ -1376,6 +2526,104 @@
         1024
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 744,
+          "right": 772,
+          "width": 28,
+          "scrollWidth": 28
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 765,
+          "right": 772,
+          "width": 7,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "span",
+          "className": "product-card__discount",
+          "left": 760,
+          "right": 802,
+          "width": 42,
+          "scrollWidth": 42
+        },
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 872,
+          "right": 1070,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 872,
+          "right": 1070,
+          "width": 198,
+          "scrollWidth": 198
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -1388,255 +2636,387 @@
         {
           "text": "(451)",
           "x": 126,
-          "y": 103.671875,
+          "y": 1502.75,
           "width": 28.40625,
           "height": 19.25
         },
         {
           "text": "Samantha D.",
           "x": 40,
-          "y": 226.078125,
-          "width": 118,
+          "y": 1610.15625,
+          "width": 95,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 40,
-          "y": 487.65625,
-          "width": 69,
+          "y": 1810.734375,
+          "width": 55,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 40,
-          "y": 749.234375,
-          "width": 78,
+          "y": 2011.3125,
+          "width": 63,
           "height": 15
         },
         {
           "text": "Olivia P.",
-          "x": 40,
-          "y": 1010.8125,
-          "width": 75,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Liam K.",
-          "x": 40,
-          "y": 1272.390625,
-          "width": 70,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Ava H.",
-          "x": 40,
-          "y": 1533.96875,
-          "width": 61,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2405.609375,
+          "y": 2621.546875,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2405.609375,
+          "y": 2621.546875,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2407.9375,
+          "y": 2623.875,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 389.5,
-          "y": 2405.609375,
+          "x": 230,
+          "y": 2621.546875,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 763,
-          "y": 2405.609375,
+          "x": 444,
+          "y": 2621.546875,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 1136.5,
-          "y": 2405.609375,
+          "x": 658,
+          "y": 2621.546875,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 1187.5,
-          "y": 2405.609375,
+          "x": 709,
+          "y": 2621.546875,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 1238.5,
-          "y": 2407.9375,
+          "x": 760,
+          "y": 2623.875,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $212",
-          "x": 1510,
-          "y": 2405.609375,
+          "x": 872,
+          "y": 2621.546875,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
-          "x": 1559,
-          "y": 2405.609375,
+          "x": 921,
+          "y": 2621.546875,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
-          "x": 1612,
-          "y": 2407.9375,
+          "x": 974,
+          "y": 2623.875,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 1883.5,
-          "y": 2405.609375,
+          "x": 1086,
+          "y": 2621.546875,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 2257,
-          "y": 2405.609375,
+          "x": 1300,
+          "y": 2621.546875,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 2630.5,
-          "y": 2405.609375,
+          "x": 1514,
+          "y": 2621.546875,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 2681.5,
-          "y": 2405.609375,
+          "x": 1565,
+          "y": 2621.546875,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 2732.5,
-          "y": 2407.9375,
+          "x": 1616,
+          "y": 2623.875,
           "width": 42,
           "height": 22
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 735,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 16,
+          "y": 116,
+          "width": 735,
+          "height": 20
+        },
+        ".product-overview": {
+          "x": 16,
+          "y": 156,
+          "width": 735,
+          "height": 1233.078125
+        },
+        ".product-gallery": {
+          "x": 16,
+          "y": 156,
+          "width": 735,
+          "height": 714.390625
+        },
+        ".product-gallery__featured": {
+          "x": 16,
+          "y": 157,
+          "width": 735,
+          "height": 595.390625
+        },
+        ".product-summary": {
+          "x": 16,
+          "y": 895.390625,
+          "width": 680,
+          "height": 493.6875
+        },
+        ".product-summary__title": {
+          "x": 16,
+          "y": 895.390625,
+          "width": 260,
+          "height": 56
+        },
+        ".product-summary__rating": {
+          "x": 16,
+          "y": 959.390625,
+          "width": 680,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 16,
+          "y": 989.078125,
+          "width": 680,
+          "height": 30
+        },
+        ".product-summary__description": {
+          "x": 16,
+          "y": 1036.078125,
+          "width": 590,
+          "height": 59
+        },
+        ".product-options__group--colors": {
+          "x": 16,
+          "y": 1095.078125,
+          "width": 680,
+          "height": 113
+        },
+        ".product-options__label": {
+          "x": 16,
+          "y": 1114.078125,
+          "width": 85.15625,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 16,
+          "y": 1145.078125,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 16,
+          "y": 1208.078125,
+          "width": 680,
+          "height": 113
+        },
+        ".product-options__choices--sizes": {
+          "x": 16,
+          "y": 1258.078125,
+          "width": 680,
+          "height": 44
+        },
+        ".product-options__purchase": {
+          "x": 16,
+          "y": 1321.078125,
+          "width": 680,
+          "height": 68
+        },
+        ".product-options__add": {
+          "x": 225.8125,
+          "y": 1345.078125,
+          "width": 470.1875,
+          "height": 44
+        },
         ".product-tabs": {
           "x": 16,
-          "y": 0,
+          "y": 1406.078125,
           "width": 735,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 16,
-          "y": 88,
+          "y": 1487.078125,
           "width": 735,
           "height": 48
         },
         ".reviews__list": {
           "x": 16,
-          "y": 160,
+          "y": 1551.078125,
           "width": 735,
-          "height": 1549.46875
+          "height": 584.734375
         },
         ".review-card": {
           "x": 16,
-          "y": 160,
+          "y": 1551.078125,
           "width": 735,
-          "height": 241.578125
+          "height": 184.578125
         },
         ".review-card__author": {
           "x": 40,
-          "y": 221.578125,
-          "width": 663,
-          "height": 24
+          "y": 1607.65625,
+          "width": 687,
+          "height": 20
         },
         ".review-card__text": {
           "x": 40,
-          "y": 257.578125,
-          "width": 663,
-          "height": 44
+          "y": 1633.90625,
+          "width": 687,
+          "height": 40
         },
         ".review-card__date": {
           "x": 40,
-          "y": 355.578125,
+          "y": 1689.78125,
           "width": 687,
           "height": 22
         },
         ".reviews__footer": {
           "x": 16,
-          "y": 1745.890625,
+          "y": 2155.8125,
           "width": 735,
           "height": 48
         },
         ".related-products__heading": {
           "x": 16,
-          "y": 1841.890625,
+          "y": 2217.546875,
           "width": 735,
-          "height": 58
+          "height": 80
         },
         ".related-products__heading-image": {
-          "x": 183.78125,
-          "y": 1864.717529296875,
-          "width": 400,
-          "height": 24.90625
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         ".related-products__list": {
           "x": 16,
-          "y": 1971.890625,
-          "width": 735,
-          "height": 460.375
+          "y": 2364.546875,
+          "width": 751,
+          "height": 283.65625
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 1971.890625,
-          "width": 357.5,
-          "height": 361.125
+          "y": 2364.546875,
+          "width": 198,
+          "height": 200
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2349.015625,
-          "width": 357.5,
-          "height": 21.59375
+          "y": 2576.546875,
+          "width": 198,
+          "height": 19
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2378.609375,
-          "width": 357.5,
+          "y": 2600.546875,
+          "width": 198,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2405.609375,
-          "width": 357.5,
+          "y": 2621.546875,
+          "width": 198,
           "height": 26.65625
+        },
+        ".newsletter": {
+          "x": 16,
+          "y": 2697.203125,
+          "width": 735,
+          "height": 293
+        },
+        ".newsletter__inner": {
+          "x": 16,
+          "y": 2697.203125,
+          "width": 735,
+          "height": 293
+        },
+        ".newsletter__title": {
+          "x": 40,
+          "y": 2729.203125,
+          "width": 297,
+          "height": 105
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2832.203125,
+          "width": 767,
+          "height": 825.796875
+        },
+        ".site-footer__inner": {
+          "x": 16,
+          "y": 3017.203125,
+          "width": 735,
+          "height": 571.796875
         }
       }
     },
@@ -1646,6 +3026,104 @@
         1024
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 744,
+          "right": 772,
+          "width": 28,
+          "scrollWidth": 28
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 765,
+          "right": 772,
+          "width": 7,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 658,
+          "right": 856,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "span",
+          "className": "product-card__discount",
+          "left": 760,
+          "right": 802,
+          "width": 42,
+          "scrollWidth": 42
+        },
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 872,
+          "right": 1070,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 872,
+          "right": 1070,
+          "width": 198,
+          "scrollWidth": 198
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -1658,255 +3136,387 @@
         {
           "text": "(451)",
           "x": 126,
-          "y": 103.671875,
+          "y": 1501.9375,
           "width": 28.40625,
           "height": 19.25
         },
         {
           "text": "Samantha D.",
           "x": 40,
-          "y": 226.078125,
-          "width": 118,
+          "y": 1609.34375,
+          "width": 95,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 40,
-          "y": 487.65625,
-          "width": 69,
+          "y": 1809.921875,
+          "width": 55,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 40,
-          "y": 749.234375,
-          "width": 78,
+          "y": 2010.5,
+          "width": 63,
           "height": 15
         },
         {
           "text": "Olivia P.",
-          "x": 40,
-          "y": 1010.8125,
-          "width": 75,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Liam K.",
-          "x": 40,
-          "y": 1272.390625,
-          "width": 70,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Ava H.",
-          "x": 40,
-          "y": 1533.96875,
-          "width": 61,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2405.109375,
+          "y": 2620.734375,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2405.109375,
+          "y": 2620.734375,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2407.4375,
+          "y": 2623.0625,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 389,
-          "y": 2405.109375,
+          "x": 230,
+          "y": 2620.734375,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 762,
-          "y": 2405.109375,
+          "x": 444,
+          "y": 2620.734375,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 1135,
-          "y": 2405.109375,
+          "x": 658,
+          "y": 2620.734375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 1186,
-          "y": 2405.109375,
+          "x": 709,
+          "y": 2620.734375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 1237,
-          "y": 2407.4375,
+          "x": 760,
+          "y": 2623.0625,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $212",
-          "x": 1508,
-          "y": 2405.109375,
+          "x": 872,
+          "y": 2620.734375,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
-          "x": 1557,
-          "y": 2405.109375,
+          "x": 921,
+          "y": 2620.734375,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
-          "x": 1610,
-          "y": 2407.4375,
+          "x": 974,
+          "y": 2623.0625,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 1881,
-          "y": 2405.109375,
+          "x": 1086,
+          "y": 2620.734375,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 2254,
-          "y": 2405.109375,
+          "x": 1300,
+          "y": 2620.734375,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 2627,
-          "y": 2405.109375,
+          "x": 1514,
+          "y": 2620.734375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 2678,
-          "y": 2405.109375,
+          "x": 1565,
+          "y": 2620.734375,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 2729,
-          "y": 2407.4375,
+          "x": 1616,
+          "y": 2623.0625,
           "width": 42,
           "height": 22
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 734,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 16,
+          "y": 116,
+          "width": 734,
+          "height": 20
+        },
+        ".product-overview": {
+          "x": 16,
+          "y": 156,
+          "width": 734,
+          "height": 1232.265625
+        },
+        ".product-gallery": {
+          "x": 16,
+          "y": 156,
+          "width": 734,
+          "height": 713.578125
+        },
+        ".product-gallery__featured": {
+          "x": 16,
+          "y": 157,
+          "width": 734,
+          "height": 594.578125
+        },
+        ".product-summary": {
+          "x": 16,
+          "y": 894.578125,
+          "width": 680,
+          "height": 493.6875
+        },
+        ".product-summary__title": {
+          "x": 16,
+          "y": 894.578125,
+          "width": 260,
+          "height": 56
+        },
+        ".product-summary__rating": {
+          "x": 16,
+          "y": 958.578125,
+          "width": 680,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 16,
+          "y": 988.265625,
+          "width": 680,
+          "height": 30
+        },
+        ".product-summary__description": {
+          "x": 16,
+          "y": 1035.265625,
+          "width": 590,
+          "height": 59
+        },
+        ".product-options__group--colors": {
+          "x": 16,
+          "y": 1094.265625,
+          "width": 680,
+          "height": 113
+        },
+        ".product-options__label": {
+          "x": 16,
+          "y": 1113.265625,
+          "width": 85.15625,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 16,
+          "y": 1144.265625,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 16,
+          "y": 1207.265625,
+          "width": 680,
+          "height": 113
+        },
+        ".product-options__choices--sizes": {
+          "x": 16,
+          "y": 1257.265625,
+          "width": 680,
+          "height": 44
+        },
+        ".product-options__purchase": {
+          "x": 16,
+          "y": 1320.265625,
+          "width": 680,
+          "height": 68
+        },
+        ".product-options__add": {
+          "x": 225.8125,
+          "y": 1344.265625,
+          "width": 470.1875,
+          "height": 44
+        },
         ".product-tabs": {
           "x": 16,
-          "y": 0,
+          "y": 1405.265625,
           "width": 734,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 16,
-          "y": 88,
+          "y": 1486.265625,
           "width": 734,
           "height": 48
         },
         ".reviews__list": {
           "x": 16,
-          "y": 160,
+          "y": 1550.265625,
           "width": 734,
-          "height": 1549.46875
+          "height": 584.734375
         },
         ".review-card": {
           "x": 16,
-          "y": 160,
+          "y": 1550.265625,
           "width": 734,
-          "height": 241.578125
+          "height": 184.578125
         },
         ".review-card__author": {
           "x": 40,
-          "y": 221.578125,
-          "width": 662,
-          "height": 24
+          "y": 1606.84375,
+          "width": 686,
+          "height": 20
         },
         ".review-card__text": {
           "x": 40,
-          "y": 257.578125,
-          "width": 662,
-          "height": 44
+          "y": 1633.09375,
+          "width": 686,
+          "height": 40
         },
         ".review-card__date": {
           "x": 40,
-          "y": 355.578125,
+          "y": 1688.96875,
           "width": 686,
           "height": 22
         },
         ".reviews__footer": {
           "x": 16,
-          "y": 1745.890625,
+          "y": 2155,
           "width": 734,
           "height": 48
         },
         ".related-products__heading": {
           "x": 16,
-          "y": 1841.890625,
+          "y": 2216.734375,
           "width": 734,
-          "height": 58
+          "height": 80
         },
         ".related-products__heading-image": {
-          "x": 183.28125,
-          "y": 1864.717529296875,
-          "width": 400,
-          "height": 24.90625
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         ".related-products__list": {
           "x": 16,
-          "y": 1971.890625,
-          "width": 734,
-          "height": 459.875
+          "y": 2363.734375,
+          "width": 750,
+          "height": 283.65625
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 1971.890625,
-          "width": 357,
-          "height": 360.625
+          "y": 2363.734375,
+          "width": 198,
+          "height": 200
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2348.515625,
-          "width": 357,
-          "height": 21.59375
+          "y": 2575.734375,
+          "width": 198,
+          "height": 19
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2378.109375,
-          "width": 357,
+          "y": 2599.734375,
+          "width": 198,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2405.109375,
-          "width": 357,
+          "y": 2620.734375,
+          "width": 198,
           "height": 26.65625
+        },
+        ".newsletter": {
+          "x": 16,
+          "y": 2696.390625,
+          "width": 734,
+          "height": 293
+        },
+        ".newsletter__inner": {
+          "x": 16,
+          "y": 2696.390625,
+          "width": 734,
+          "height": 293
+        },
+        ".newsletter__title": {
+          "x": 40,
+          "y": 2728.390625,
+          "width": 297,
+          "height": 105
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2831.390625,
+          "width": 766,
+          "height": 825.796875
+        },
+        ".site-footer__inner": {
+          "x": 16,
+          "y": 3016.390625,
+          "width": 734,
+          "height": 571.796875
         }
       }
     },
@@ -1916,6 +3526,104 @@
         844
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -1928,255 +3636,387 @@
         {
           "text": "(451)",
           "x": 126,
-          "y": 103.671875,
+          "y": 1217.359375,
           "width": 28.40625,
           "height": 19.25
         },
         {
           "text": "Samantha D.",
           "x": 40,
-          "y": 226.078125,
-          "width": 118,
+          "y": 1324.765625,
+          "width": 95,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 40,
-          "y": 523.65625,
-          "width": 69,
+          "y": 1565.34375,
+          "width": 55,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 40,
-          "y": 843.234375,
-          "width": 78,
+          "y": 1825.921875,
+          "width": 63,
           "height": 15
         },
         {
           "text": "Olivia P.",
-          "x": 40,
-          "y": 1162.8125,
-          "width": 75,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Liam K.",
-          "x": 40,
-          "y": 1482.390625,
-          "width": 70,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Ava H.",
-          "x": 40,
-          "y": 1801.96875,
-          "width": 61,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2540.78125,
+          "y": 2496.15625,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2540.78125,
+          "y": 2496.15625,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2543.109375,
+          "y": 2498.484375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 201,
-          "y": 2540.78125,
+          "x": 230,
+          "y": 2496.15625,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 386,
-          "y": 2540.78125,
+          "x": 444,
+          "y": 2496.15625,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 571,
-          "y": 2519.1875,
+          "x": 658,
+          "y": 2496.15625,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 622,
-          "y": 2519.1875,
+          "x": 709,
+          "y": 2496.15625,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 673,
-          "y": 2521.515625,
+          "x": 760,
+          "y": 2498.484375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $212",
-          "x": 756,
-          "y": 2540.78125,
+          "x": 872,
+          "y": 2496.15625,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
-          "x": 805,
-          "y": 2540.78125,
+          "x": 921,
+          "y": 2496.15625,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
-          "x": 858,
-          "y": 2543.109375,
+          "x": 974,
+          "y": 2498.484375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 941,
-          "y": 2540.78125,
+          "x": 1086,
+          "y": 2496.15625,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 1126,
-          "y": 2540.78125,
+          "x": 1300,
+          "y": 2496.15625,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 1311,
-          "y": 2519.1875,
+          "x": 1514,
+          "y": 2496.15625,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 1362,
-          "y": 2519.1875,
+          "x": 1565,
+          "y": 2496.15625,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 1413,
-          "y": 2521.515625,
+          "x": 1616,
+          "y": 2498.484375,
           "width": 42,
           "height": 22
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 358,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 16,
+          "y": 116,
+          "width": 358,
+          "height": 20
+        },
+        ".product-overview": {
+          "x": 16,
+          "y": 156,
+          "width": 358,
+          "height": 947.6875
+        },
+        ".product-gallery": {
+          "x": 16,
+          "y": 156,
+          "width": 358,
+          "height": 409
+        },
+        ".product-gallery__featured": {
+          "x": 16,
+          "y": 157,
+          "width": 358,
+          "height": 290
+        },
+        ".product-summary": {
+          "x": 16,
+          "y": 590,
+          "width": 358,
+          "height": 513.6875
+        },
+        ".product-summary__title": {
+          "x": 16,
+          "y": 590,
+          "width": 260,
+          "height": 56
+        },
+        ".product-summary__rating": {
+          "x": 16,
+          "y": 654,
+          "width": 358,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 16,
+          "y": 683.6875,
+          "width": 358,
+          "height": 30
+        },
+        ".product-summary__description": {
+          "x": 16,
+          "y": 730.6875,
+          "width": 358,
+          "height": 79
+        },
+        ".product-options__group--colors": {
+          "x": 16,
+          "y": 809.6875,
+          "width": 358,
+          "height": 113
+        },
+        ".product-options__label": {
+          "x": 16,
+          "y": 828.6875,
+          "width": 85.15625,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 16,
+          "y": 859.6875,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 16,
+          "y": 922.6875,
+          "width": 358,
+          "height": 113
+        },
+        ".product-options__choices--sizes": {
+          "x": 16,
+          "y": 972.6875,
+          "width": 358,
+          "height": 44
+        },
+        ".product-options__purchase": {
+          "x": 16,
+          "y": 1035.6875,
+          "width": 358,
+          "height": 68
+        },
+        ".product-options__add": {
+          "x": 138,
+          "y": 1059.6875,
+          "width": 236,
+          "height": 44
+        },
         ".product-tabs": {
           "x": 16,
-          "y": 0,
+          "y": 1120.6875,
           "width": 358,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 16,
-          "y": 88,
+          "y": 1201.6875,
           "width": 358,
           "height": 48
         },
         ".reviews__list": {
           "x": 16,
-          "y": 160,
+          "y": 1265.6875,
           "width": 358,
-          "height": 1853.46875
+          "height": 744.734375
         },
         ".review-card": {
           "x": 16,
-          "y": 160,
+          "y": 1265.6875,
           "width": 358,
-          "height": 277.578125
+          "height": 224.578125
         },
         ".review-card__author": {
           "x": 40,
-          "y": 221.578125,
-          "width": 286,
-          "height": 24
+          "y": 1322.265625,
+          "width": 310,
+          "height": 20
         },
         ".review-card__text": {
           "x": 40,
-          "y": 257.578125,
-          "width": 286,
-          "height": 110
+          "y": 1348.515625,
+          "width": 310,
+          "height": 80
         },
         ".review-card__date": {
           "x": 40,
-          "y": 391.578125,
+          "y": 1444.390625,
           "width": 310,
           "height": 22
         },
         ".reviews__footer": {
           "x": 16,
-          "y": 2049.890625,
+          "y": 2030.421875,
           "width": 358,
           "height": 48
         },
         ".related-products__heading": {
           "x": 16,
-          "y": 2145.890625,
+          "y": 2092.15625,
           "width": 358,
-          "height": 58
+          "height": 80
         },
         ".related-products__heading-image": {
-          "x": 16.28125,
-          "y": 2170.014404296875,
-          "width": 358,
-          "height": 22.296875
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         ".related-products__list": {
           "x": 16,
-          "y": 2275.890625,
-          "width": 358,
-          "height": 291.546875
+          "y": 2239.15625,
+          "width": 374,
+          "height": 283.65625
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 2275.890625,
-          "width": 169,
-          "height": 170.703125
+          "y": 2239.15625,
+          "width": 198,
+          "height": 200
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2462.59375,
-          "width": 169,
-          "height": 43.1875
+          "y": 2451.15625,
+          "width": 198,
+          "height": 19
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2513.78125,
-          "width": 169,
+          "y": 2475.15625,
+          "width": 198,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2540.78125,
-          "width": 169,
+          "y": 2496.15625,
+          "width": 198,
           "height": 26.65625
+        },
+        ".newsletter": {
+          "x": 16,
+          "y": 2571.8125,
+          "width": 358,
+          "height": 293
+        },
+        ".newsletter__inner": {
+          "x": 16,
+          "y": 2571.8125,
+          "width": 358,
+          "height": 293
+        },
+        ".newsletter__title": {
+          "x": 40,
+          "y": 2603.8125,
+          "width": 297,
+          "height": 105
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2706.8125,
+          "width": 390,
+          "height": 846.09375
+        },
+        ".site-footer__inner": {
+          "x": 16,
+          "y": 2891.8125,
+          "width": 358,
+          "height": 592.09375
         }
       }
     },
@@ -2186,6 +4026,104 @@
         812
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -2198,255 +4136,1387 @@
         {
           "text": "(451)",
           "x": 126,
-          "y": 103.671875,
+          "y": 1252.734375,
           "width": 28.40625,
           "height": 19.25
         },
         {
           "text": "Samantha D.",
           "x": 40,
-          "y": 226.078125,
-          "width": 118,
+          "y": 1360.140625,
+          "width": 95,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 40,
-          "y": 523.65625,
-          "width": 69,
+          "y": 1600.71875,
+          "width": 55,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 40,
-          "y": 843.234375,
-          "width": 78,
+          "y": 1861.296875,
+          "width": 63,
           "height": 15
         },
         {
           "text": "Olivia P.",
-          "x": 40,
-          "y": 1162.8125,
-          "width": 75,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Liam K.",
-          "x": 40,
-          "y": 1504.390625,
-          "width": 70,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Ava H.",
-          "x": 40,
-          "y": 1823.96875,
-          "width": 61,
-          "height": 15
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         {
           "text": "Price: $212",
           "x": 16,
-          "y": 2555.21875,
+          "y": 2531.53125,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
           "x": 65,
-          "y": 2555.21875,
+          "y": 2531.53125,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
           "x": 118,
-          "y": 2557.546875,
+          "y": 2533.859375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 193.5,
-          "y": 2555.21875,
+          "x": 230,
+          "y": 2531.53125,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 371,
-          "y": 2555.21875,
+          "x": 444,
+          "y": 2531.53125,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 548.5,
-          "y": 2533.625,
+          "x": 658,
+          "y": 2531.53125,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 599.5,
-          "y": 2533.625,
+          "x": 709,
+          "y": 2531.53125,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 650.5,
-          "y": 2535.953125,
+          "x": 760,
+          "y": 2533.859375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $212",
-          "x": 726,
-          "y": 2555.21875,
+          "x": 872,
+          "y": 2531.53125,
           "width": 44,
           "height": 26.65625
         },
         {
           "text": "Original price: $242",
-          "x": 775,
-          "y": 2555.21875,
+          "x": 921,
+          "y": 2531.53125,
           "width": 48,
           "height": 26.65625
         },
         {
           "text": "-20%",
-          "x": 828,
-          "y": 2557.546875,
+          "x": 974,
+          "y": 2533.859375,
           "width": 42,
           "height": 22
         },
         {
           "text": "Price: $145",
-          "x": 903.5,
-          "y": 2555.21875,
+          "x": 1086,
+          "y": 2531.53125,
           "width": 45,
           "height": 26.65625
         },
         {
           "text": "Price: $180",
-          "x": 1081,
-          "y": 2555.21875,
+          "x": 1300,
+          "y": 2531.53125,
           "width": 47,
           "height": 26.65625
         },
         {
           "text": "Price: $120",
-          "x": 1258.5,
-          "y": 2533.625,
+          "x": 1514,
+          "y": 2531.53125,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "Original price: $150",
-          "x": 1309.5,
-          "y": 2533.625,
+          "x": 1565,
+          "y": 2531.53125,
           "width": 46,
           "height": 26.65625
         },
         {
           "text": "-30%",
-          "x": 1360.5,
-          "y": 2535.953125,
+          "x": 1616,
+          "y": 2533.859375,
           "width": 42,
           "height": 22
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 343,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 16,
+          "y": 116,
+          "width": 343,
+          "height": 20
+        },
+        ".product-overview": {
+          "x": 16,
+          "y": 156,
+          "width": 343,
+          "height": 983.0625
+        },
+        ".product-gallery": {
+          "x": 16,
+          "y": 156,
+          "width": 343,
+          "height": 392.375
+        },
+        ".product-gallery__featured": {
+          "x": 16,
+          "y": 157,
+          "width": 343,
+          "height": 277.84375
+        },
+        ".product-summary": {
+          "x": 16,
+          "y": 573.375,
+          "width": 343,
+          "height": 565.6875
+        },
+        ".product-summary__title": {
+          "x": 16,
+          "y": 573.375,
+          "width": 260,
+          "height": 56
+        },
+        ".product-summary__rating": {
+          "x": 16,
+          "y": 637.375,
+          "width": 343,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 16,
+          "y": 667.0625,
+          "width": 343,
+          "height": 30
+        },
+        ".product-summary__description": {
+          "x": 16,
+          "y": 714.0625,
+          "width": 343,
+          "height": 79
+        },
+        ".product-options__group--colors": {
+          "x": 16,
+          "y": 793.0625,
+          "width": 343,
+          "height": 113
+        },
+        ".product-options__label": {
+          "x": 16,
+          "y": 812.0625,
+          "width": 85.15625,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 16,
+          "y": 843.0625,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 16,
+          "y": 906.0625,
+          "width": 343,
+          "height": 165
+        },
+        ".product-options__choices--sizes": {
+          "x": 16,
+          "y": 956.0625,
+          "width": 343,
+          "height": 96
+        },
+        ".product-options__purchase": {
+          "x": 16,
+          "y": 1071.0625,
+          "width": 343,
+          "height": 68
+        },
+        ".product-options__add": {
+          "x": 138,
+          "y": 1095.0625,
+          "width": 221,
+          "height": 44
+        },
         ".product-tabs": {
           "x": 16,
-          "y": 0,
+          "y": 1156.0625,
           "width": 343,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 16,
-          "y": 88,
+          "y": 1237.0625,
           "width": 343,
           "height": 48
         },
         ".reviews__list": {
           "x": 16,
-          "y": 160,
+          "y": 1301.0625,
           "width": 343,
-          "height": 1875.46875
+          "height": 744.734375
         },
         ".review-card": {
           "x": 16,
-          "y": 160,
+          "y": 1301.0625,
           "width": 343,
-          "height": 277.578125
+          "height": 224.578125
         },
         ".review-card__author": {
           "x": 40,
-          "y": 221.578125,
-          "width": 271,
-          "height": 24
+          "y": 1357.640625,
+          "width": 295,
+          "height": 20
         },
         ".review-card__text": {
           "x": 40,
-          "y": 257.578125,
-          "width": 271,
-          "height": 110
+          "y": 1383.890625,
+          "width": 295,
+          "height": 80
         },
         ".review-card__date": {
           "x": 40,
-          "y": 391.578125,
+          "y": 1479.765625,
           "width": 295,
           "height": 22
         },
         ".reviews__footer": {
           "x": 16,
-          "y": 2071.890625,
+          "y": 2065.796875,
           "width": 343,
           "height": 48
         },
         ".related-products__heading": {
           "x": 16,
-          "y": 2167.890625,
+          "y": 2127.53125,
           "width": 343,
-          "height": 58
+          "height": 80
         },
         ".related-products__heading-image": {
-          "x": 16.28125,
-          "y": 2192.483154296875,
-          "width": 343,
-          "height": 21.359375
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
         },
         ".related-products__list": {
           "x": 16,
-          "y": 2297.890625,
-          "width": 343,
-          "height": 283.984375
+          "y": 2274.53125,
+          "width": 359,
+          "height": 283.65625
         },
         ".product-card__picture": {
           "x": 16,
-          "y": 2297.890625,
-          "width": 161.5,
-          "height": 163.140625
+          "y": 2274.53125,
+          "width": 198,
+          "height": 200
         },
         ".product-card__title": {
           "x": 16,
-          "y": 2477.03125,
-          "width": 161.5,
-          "height": 43.1875
+          "y": 2486.53125,
+          "width": 198,
+          "height": 19
         },
         ".product-card__rating": {
           "x": 16,
-          "y": 2528.21875,
-          "width": 161.5,
+          "y": 2510.53125,
+          "width": 198,
           "height": 19
         },
         ".product-card__prices": {
           "x": 16,
-          "y": 2555.21875,
-          "width": 161.5,
+          "y": 2531.53125,
+          "width": 198,
           "height": 26.65625
+        },
+        ".newsletter": {
+          "x": 16,
+          "y": 2607.1875,
+          "width": 343,
+          "height": 293
+        },
+        ".newsletter__inner": {
+          "x": 16,
+          "y": 2607.1875,
+          "width": 343,
+          "height": 293
+        },
+        ".newsletter__title": {
+          "x": 40,
+          "y": 2639.1875,
+          "width": 297,
+          "height": 105
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2742.1875,
+          "width": 375,
+          "height": 846.09375
+        },
+        ".site-footer__inner": {
+          "x": 16,
+          "y": 2927.1875,
+          "width": 343,
+          "height": 592.09375
+        }
+      }
+    },
+    {
+      "viewport": [
+        360,
+        800
+      ],
+      "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        }
+      ],
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 8,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 126,
+          "y": 1183.796875,
+          "width": 28.40625,
+          "height": 19.25
+        },
+        {
+          "text": "Samantha D.",
+          "x": 40,
+          "y": 1291.203125,
+          "width": 95,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 40,
+          "y": 1551.78125,
+          "width": 55,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 40,
+          "y": 1812.359375,
+          "width": 63,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "text": "Liam K.",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "text": "Ava H.",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "text": "Price: $212",
+          "x": 16,
+          "y": 2482.59375,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 65,
+          "y": 2482.59375,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 118,
+          "y": 2484.921875,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 230,
+          "y": 2482.59375,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 444,
+          "y": 2482.59375,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 658,
+          "y": 2482.59375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 709,
+          "y": 2482.59375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 760,
+          "y": 2484.921875,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $212",
+          "x": 872,
+          "y": 2482.59375,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 921,
+          "y": 2482.59375,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 974,
+          "y": 2484.921875,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 1086,
+          "y": 2482.59375,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 1300,
+          "y": 2482.59375,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 1514,
+          "y": 2482.59375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 1565,
+          "y": 2482.59375,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 1616,
+          "y": 2484.921875,
+          "width": 42,
+          "height": 22
+        }
+      ],
+      "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 328,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 16,
+          "y": 116,
+          "width": 328,
+          "height": 20
+        },
+        ".product-overview": {
+          "x": 16,
+          "y": 156,
+          "width": 328,
+          "height": 914.125
+        },
+        ".product-gallery": {
+          "x": 16,
+          "y": 156,
+          "width": 328,
+          "height": 375.4375
+        },
+        ".product-gallery__featured": {
+          "x": 16,
+          "y": 157,
+          "width": 328,
+          "height": 265.6875
+        },
+        ".product-summary": {
+          "x": 16,
+          "y": 556.4375,
+          "width": 328,
+          "height": 513.6875
+        },
+        ".product-summary__title": {
+          "x": 16,
+          "y": 556.4375,
+          "width": 260,
+          "height": 56
+        },
+        ".product-summary__rating": {
+          "x": 16,
+          "y": 620.4375,
+          "width": 328,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 16,
+          "y": 650.125,
+          "width": 328,
+          "height": 30
+        },
+        ".product-summary__description": {
+          "x": 16,
+          "y": 697.125,
+          "width": 328,
+          "height": 79
+        },
+        ".product-options__group--colors": {
+          "x": 16,
+          "y": 776.125,
+          "width": 328,
+          "height": 113
+        },
+        ".product-options__label": {
+          "x": 16,
+          "y": 795.125,
+          "width": 85.15625,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 16,
+          "y": 826.125,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 16,
+          "y": 889.125,
+          "width": 328,
+          "height": 113
+        },
+        ".product-options__choices--sizes": {
+          "x": 16,
+          "y": 939.125,
+          "width": 328,
+          "height": 44
+        },
+        ".product-options__purchase": {
+          "x": 16,
+          "y": 1002.125,
+          "width": 328,
+          "height": 68
+        },
+        ".product-options__add": {
+          "x": 138,
+          "y": 1026.125,
+          "width": 206,
+          "height": 44
+        },
+        ".product-tabs": {
+          "x": 16,
+          "y": 1087.125,
+          "width": 328,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 16,
+          "y": 1168.125,
+          "width": 328,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 16,
+          "y": 1232.125,
+          "width": 328,
+          "height": 764.734375
+        },
+        ".review-card": {
+          "x": 16,
+          "y": 1232.125,
+          "width": 328,
+          "height": 244.578125
+        },
+        ".review-card__author": {
+          "x": 40,
+          "y": 1288.703125,
+          "width": 280,
+          "height": 20
+        },
+        ".review-card__text": {
+          "x": 40,
+          "y": 1314.953125,
+          "width": 280,
+          "height": 100
+        },
+        ".review-card__date": {
+          "x": 40,
+          "y": 1430.828125,
+          "width": 280,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 16,
+          "y": 2016.859375,
+          "width": 328,
+          "height": 48
+        },
+        ".related-products__heading": {
+          "x": 16,
+          "y": 2078.59375,
+          "width": 328,
+          "height": 80
+        },
+        ".related-products__heading-image": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".related-products__list": {
+          "x": 16,
+          "y": 2225.59375,
+          "width": 344,
+          "height": 283.65625
+        },
+        ".product-card__picture": {
+          "x": 16,
+          "y": 2225.59375,
+          "width": 198,
+          "height": 200
+        },
+        ".product-card__title": {
+          "x": 16,
+          "y": 2437.59375,
+          "width": 198,
+          "height": 19
+        },
+        ".product-card__rating": {
+          "x": 16,
+          "y": 2461.59375,
+          "width": 198,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 16,
+          "y": 2482.59375,
+          "width": 198,
+          "height": 26.65625
+        },
+        ".newsletter": {
+          "x": 16,
+          "y": 2558.25,
+          "width": 328,
+          "height": 293
+        },
+        ".newsletter__inner": {
+          "x": 16,
+          "y": 2558.25,
+          "width": 328,
+          "height": 293
+        },
+        ".newsletter__title": {
+          "x": 40,
+          "y": 2590.25,
+          "width": 280,
+          "height": 105
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2693.25,
+          "width": 360,
+          "height": 846.09375
+        },
+        ".site-footer__inner": {
+          "x": 16,
+          "y": 2878.25,
+          "width": 328,
+          "height": 592.09375
+        }
+      }
+    },
+    {
+      "viewport": [
+        320,
+        740
+      ],
+      "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 316,
+          "right": 343,
+          "width": 27,
+          "scrollWidth": 27
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 336,
+          "right": 343,
+          "width": 7,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 230,
+          "right": 428,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 444,
+          "right": 642,
+          "width": 198,
+          "scrollWidth": 198
+        }
+      ],
+      "fonts": [
+        true,
+        true,
+        true
+      ],
+      "brokenImages": [],
+      "cards": 6,
+      "products": 8,
+      "textBoxes": [
+        {
+          "text": "(451)",
+          "x": 126,
+          "y": 1138.65625,
+          "width": 28.40625,
+          "height": 19.25
+        },
+        {
+          "text": "Samantha D.",
+          "x": 40,
+          "y": 1246.0625,
+          "width": 95,
+          "height": 15
+        },
+        {
+          "text": "Alex M.",
+          "x": 40,
+          "y": 1506.640625,
+          "width": 55,
+          "height": 15
+        },
+        {
+          "text": "Ethan R.",
+          "x": 40,
+          "y": 1787.21875,
+          "width": 63,
+          "height": 15
+        },
+        {
+          "text": "Olivia P.",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "text": "Liam K.",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "text": "Ava H.",
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        {
+          "text": "Price: $212",
+          "x": 16,
+          "y": 2477.453125,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 65,
+          "y": 2477.453125,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 118,
+          "y": 2479.78125,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 230,
+          "y": 2477.453125,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 444,
+          "y": 2477.453125,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 658,
+          "y": 2477.453125,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 709,
+          "y": 2477.453125,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 760,
+          "y": 2479.78125,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $212",
+          "x": 872,
+          "y": 2477.453125,
+          "width": 44,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $242",
+          "x": 921,
+          "y": 2477.453125,
+          "width": 48,
+          "height": 26.65625
+        },
+        {
+          "text": "-20%",
+          "x": 974,
+          "y": 2479.78125,
+          "width": 42,
+          "height": 22
+        },
+        {
+          "text": "Price: $145",
+          "x": 1086,
+          "y": 2477.453125,
+          "width": 45,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $180",
+          "x": 1300,
+          "y": 2477.453125,
+          "width": 47,
+          "height": 26.65625
+        },
+        {
+          "text": "Price: $120",
+          "x": 1514,
+          "y": 2477.453125,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "Original price: $150",
+          "x": 1565,
+          "y": 2477.453125,
+          "width": 46,
+          "height": 26.65625
+        },
+        {
+          "text": "-30%",
+          "x": 1616,
+          "y": 2479.78125,
+          "width": 42,
+          "height": 22
+        }
+      ],
+      "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 288,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 16,
+          "y": 116,
+          "width": 288,
+          "height": 20
+        },
+        ".product-overview": {
+          "x": 16,
+          "y": 156,
+          "width": 288,
+          "height": 868.984375
+        },
+        ".product-gallery": {
+          "x": 16,
+          "y": 156,
+          "width": 288,
+          "height": 330.296875
+        },
+        ".product-gallery__featured": {
+          "x": 16,
+          "y": 157,
+          "width": 288,
+          "height": 233.28125
+        },
+        ".product-summary": {
+          "x": 16,
+          "y": 511.296875,
+          "width": 288,
+          "height": 513.6875
+        },
+        ".product-summary__title": {
+          "x": 16,
+          "y": 511.296875,
+          "width": 260,
+          "height": 56
+        },
+        ".product-summary__rating": {
+          "x": 16,
+          "y": 575.296875,
+          "width": 288,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 16,
+          "y": 604.984375,
+          "width": 288,
+          "height": 30
+        },
+        ".product-summary__description": {
+          "x": 16,
+          "y": 651.984375,
+          "width": 288,
+          "height": 79
+        },
+        ".product-options__group--colors": {
+          "x": 16,
+          "y": 730.984375,
+          "width": 288,
+          "height": 113
+        },
+        ".product-options__label": {
+          "x": 16,
+          "y": 749.984375,
+          "width": 85.15625,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 16,
+          "y": 780.984375,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 16,
+          "y": 843.984375,
+          "width": 288,
+          "height": 113
+        },
+        ".product-options__choices--sizes": {
+          "x": 16,
+          "y": 893.984375,
+          "width": 288,
+          "height": 44
+        },
+        ".product-options__purchase": {
+          "x": 16,
+          "y": 956.984375,
+          "width": 288,
+          "height": 68
+        },
+        ".product-options__add": {
+          "x": 138,
+          "y": 980.984375,
+          "width": 166,
+          "height": 44
+        },
+        ".product-tabs": {
+          "x": 16,
+          "y": 1041.984375,
+          "width": 288,
+          "height": 64
+        },
+        ".reviews__toolbar": {
+          "x": 16,
+          "y": 1122.984375,
+          "width": 288,
+          "height": 48
+        },
+        ".reviews__list": {
+          "x": 16,
+          "y": 1186.984375,
+          "width": 288,
+          "height": 804.734375
+        },
+        ".review-card": {
+          "x": 16,
+          "y": 1186.984375,
+          "width": 288,
+          "height": 244.578125
+        },
+        ".review-card__author": {
+          "x": 40,
+          "y": 1243.5625,
+          "width": 240,
+          "height": 20
+        },
+        ".review-card__text": {
+          "x": 40,
+          "y": 1269.8125,
+          "width": 240,
+          "height": 100
+        },
+        ".review-card__date": {
+          "x": 40,
+          "y": 1385.6875,
+          "width": 240,
+          "height": 22
+        },
+        ".reviews__footer": {
+          "x": 16,
+          "y": 2011.71875,
+          "width": 288,
+          "height": 48
+        },
+        ".related-products__heading": {
+          "x": 16,
+          "y": 2073.453125,
+          "width": 288,
+          "height": 80
+        },
+        ".related-products__heading-image": {
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0
+        },
+        ".related-products__list": {
+          "x": 16,
+          "y": 2220.453125,
+          "width": 304,
+          "height": 283.65625
+        },
+        ".product-card__picture": {
+          "x": 16,
+          "y": 2220.453125,
+          "width": 198,
+          "height": 200
+        },
+        ".product-card__title": {
+          "x": 16,
+          "y": 2432.453125,
+          "width": 198,
+          "height": 19
+        },
+        ".product-card__rating": {
+          "x": 16,
+          "y": 2456.453125,
+          "width": 198,
+          "height": 19
+        },
+        ".product-card__prices": {
+          "x": 16,
+          "y": 2477.453125,
+          "width": 198,
+          "height": 26.65625
+        },
+        ".newsletter": {
+          "x": 16,
+          "y": 2553.109375,
+          "width": 288,
+          "height": 293
+        },
+        ".newsletter__inner": {
+          "x": 16,
+          "y": 2553.109375,
+          "width": 288,
+          "height": 293
+        },
+        ".newsletter__title": {
+          "x": 40,
+          "y": 2585.109375,
+          "width": 240,
+          "height": 105
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 2688.109375,
+          "width": 320,
+          "height": 866.390625
+        },
+        ".site-footer__inner": {
+          "x": 16,
+          "y": 2873.109375,
+          "width": 288,
+          "height": 612.390625
         }
       }
     },
@@ -2456,6 +5526,104 @@
         390
       ],
       "overflow": false,
+      "overflowingElements": [
+        {
+          "tag": "li",
+          "className": "related-products__item",
+          "left": 832,
+          "right": 1212,
+          "width": 380,
+          "scrollWidth": 380
+        },
+        {
+          "tag": "article",
+          "className": "product-card",
+          "left": 832,
+          "right": 1212,
+          "width": 380,
+          "scrollWidth": 380
+        },
+        {
+          "tag": "div",
+          "className": "product-card__picture",
+          "left": 832,
+          "right": 1212,
+          "width": 380,
+          "scrollWidth": 380
+        },
+        {
+          "tag": "img",
+          "className": "product-card__image",
+          "left": 832,
+          "right": 1212,
+          "width": 380,
+          "scrollWidth": 380
+        },
+        {
+          "tag": "h3",
+          "className": "product-card__title",
+          "left": 832,
+          "right": 1212,
+          "width": 380,
+          "scrollWidth": 380
+        },
+        {
+          "tag": "p",
+          "className": "product-card__rating",
+          "left": 832,
+          "right": 1212,
+          "width": 380,
+          "scrollWidth": 380
+        },
+        {
+          "tag": "img",
+          "className": "product-card__stars product-card__stars--45",
+          "left": 832,
+          "right": 936,
+          "width": 104,
+          "scrollWidth": 104
+        },
+        {
+          "tag": "span",
+          "className": "",
+          "left": 949,
+          "right": 982,
+          "width": 33,
+          "scrollWidth": 33
+        },
+        {
+          "tag": "span",
+          "className": "visually-hidden",
+          "left": 949,
+          "right": 950,
+          "width": 1,
+          "scrollWidth": 43
+        },
+        {
+          "tag": "span",
+          "className": "product-card__rating-max",
+          "left": 973,
+          "right": 982,
+          "width": 8,
+          "scrollWidth": 0
+        },
+        {
+          "tag": "p",
+          "className": "product-card__prices",
+          "left": 832,
+          "right": 1212,
+          "width": 380,
+          "scrollWidth": 380
+        },
+        {
+          "tag": "span",
+          "className": "product-card__price",
+          "left": 832,
+          "right": 888,
+          "width": 56,
+          "scrollWidth": 56
+        }
+      ],
       "fonts": [
         true,
         true,
@@ -2468,255 +5636,387 @@
         {
           "text": "(451)",
           "x": 165,
-          "y": 104,
+          "y": 1318.796875,
           "width": 32.453125,
           "height": 22
         },
         {
           "text": "Samantha D.",
           "x": 56,
-          "y": 226.078125,
+          "y": 1440.875,
           "width": 118,
           "height": 15
         },
         {
           "text": "Alex M.",
           "x": 456,
-          "y": 226.078125,
+          "y": 1440.875,
           "width": 69,
           "height": 15
         },
         {
           "text": "Ethan R.",
           "x": 56,
-          "y": 523.65625,
+          "y": 1738.453125,
           "width": 78,
           "height": 15
         },
         {
           "text": "Olivia P.",
           "x": 456,
-          "y": 523.65625,
+          "y": 1738.453125,
           "width": 75,
           "height": 15
         },
         {
           "text": "Liam K.",
           "x": 56,
-          "y": 821.234375,
+          "y": 2036.03125,
           "width": 70,
           "height": 15
         },
         {
           "text": "Ava H.",
           "x": 456,
-          "y": 821.234375,
+          "y": 2036.03125,
           "width": 61,
           "height": 15
         },
         {
           "text": "Price: $212",
           "x": 32,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 95,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 163,
-          "y": 1762.015625,
+          "y": 2976.8125,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 432,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 832,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 1232,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 1297,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 1362,
-          "y": 1762.015625,
+          "y": 2976.8125,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $212",
           "x": 1632,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 53,
           "height": 32
         },
         {
           "text": "Original price: $242",
           "x": 1695,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 58,
           "height": 32
         },
         {
           "text": "-20%",
           "x": 1763,
-          "y": 1762.015625,
+          "y": 2976.8125,
           "width": 58,
           "height": 28
         },
         {
           "text": "Price: $145",
           "x": 2032,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 54,
           "height": 32
         },
         {
           "text": "Price: $180",
           "x": 2432,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 56,
           "height": 32
         },
         {
           "text": "Price: $120",
           "x": 2832,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 55,
           "height": 32
         },
         {
           "text": "Original price: $150",
           "x": 2897,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 55,
           "height": 32
         },
         {
           "text": "-30%",
           "x": 2962,
-          "y": 1762.015625,
+          "y": 2976.8125,
           "width": 58,
           "height": 28
         }
       ],
       "boxes": {
+        ".site-header__inner": {
+          "x": 16,
+          "y": 38,
+          "width": 812,
+          "height": 56
+        },
+        ".breadcrumb": {
+          "x": 32,
+          "y": 144,
+          "width": 780,
+          "height": 22
+        },
+        ".product-overview": {
+          "x": 32,
+          "y": 196,
+          "width": 780,
+          "height": 970.796875
+        },
+        ".product-gallery": {
+          "x": 32,
+          "y": 196,
+          "width": 780,
+          "height": 430
+        },
+        ".product-gallery__featured": {
+          "x": 166,
+          "y": 196,
+          "width": 646,
+          "height": 430
+        },
+        ".product-summary": {
+          "x": 32,
+          "y": 654,
+          "width": 680,
+          "height": 512.796875
+        },
+        ".product-summary__title": {
+          "x": 32,
+          "y": 654,
+          "width": 680,
+          "height": 37.796875
+        },
+        ".product-summary__rating": {
+          "x": 32,
+          "y": 703.796875,
+          "width": 680,
+          "height": 24.6875
+        },
+        ".product-summary__prices": {
+          "x": 32,
+          "y": 742.484375,
+          "width": 680,
+          "height": 35
+        },
+        ".product-summary__description": {
+          "x": 32,
+          "y": 794.484375,
+          "width": 590,
+          "height": 63
+        },
+        ".product-options__group--colors": {
+          "x": 32,
+          "y": 857.484375,
+          "width": 680,
+          "height": 112.25
+        },
+        ".product-options__label": {
+          "x": 32,
+          "y": 877.484375,
+          "width": 96.75,
+          "height": 22
+        },
+        ".product-options__choices--colors": {
+          "x": 32,
+          "y": 906.734375,
+          "width": 143,
+          "height": 44
+        },
+        ".product-options__group--sizes": {
+          "x": 32,
+          "y": 969.734375,
+          "width": 680,
+          "height": 120.0625
+        },
+        ".product-options__choices--sizes": {
+          "x": 32,
+          "y": 1020.796875,
+          "width": 680,
+          "height": 48
+        },
+        ".product-options__purchase": {
+          "x": 32,
+          "y": 1089.796875,
+          "width": 680,
+          "height": 77
+        },
+        ".product-options__add": {
+          "x": 184,
+          "y": 1114.796875,
+          "width": 528,
+          "height": 52
+        },
         ".product-tabs": {
           "x": 32,
-          "y": 0,
+          "y": 1214.796875,
           "width": 780,
           "height": 64
         },
         ".reviews__toolbar": {
           "x": 32,
-          "y": 88,
+          "y": 1302.796875,
           "width": 780,
           "height": 48
         },
         ".reviews__list": {
           "x": 32,
-          "y": 160,
+          "y": 1374.796875,
           "width": 780,
           "height": 872.734375
         },
         ".review-card": {
           "x": 32,
-          "y": 160,
+          "y": 1374.796875,
           "width": 380,
           "height": 277.578125
         },
         ".review-card__author": {
           "x": 56,
-          "y": 221.578125,
+          "y": 1436.375,
           "width": 308,
           "height": 24
         },
         ".review-card__text": {
           "x": 56,
-          "y": 257.578125,
+          "y": 1472.375,
           "width": 308,
           "height": 110
         },
         ".review-card__date": {
           "x": 56,
-          "y": 391.578125,
+          "y": 1606.375,
           "width": 332,
           "height": 22
         },
         ".reviews__footer": {
           "x": 32,
-          "y": 1069.15625,
+          "y": 2283.953125,
           "width": 780,
           "height": 52
         },
         ".related-products__heading": {
           "x": 32,
-          "y": 1185.15625,
+          "y": 2399.953125,
           "width": 780,
           "height": 58
         },
         ".related-products__heading-image": {
           "x": 133.28125,
-          "y": 1202.436279296875,
+          "y": 2417.233154296875,
           "width": 578,
           "height": 36
         },
         ".related-products__list": {
           "x": 32,
-          "y": 1298.15625,
+          "y": 2512.953125,
           "width": 780,
           "height": 493.859375
         },
         ".product-card__picture": {
           "x": 32,
-          "y": 1298.15625,
+          "y": 2512.953125,
           "width": 380,
           "height": 383.859375
         },
         ".product-card__title": {
           "x": 32,
-          "y": 1698.015625,
+          "y": 2912.8125,
           "width": 380,
           "height": 27
         },
         ".product-card__rating": {
           "x": 32,
-          "y": 1733.015625,
+          "y": 2947.8125,
           "width": 380,
           "height": 19
         },
         ".product-card__prices": {
           "x": 32,
-          "y": 1760.015625,
+          "y": 2974.8125,
           "width": 380,
           "height": 32
+        },
+        ".newsletter": {
+          "x": 32,
+          "y": 3083.8125,
+          "width": 780,
+          "height": 180
+        },
+        ".newsletter__inner": {
+          "x": 32,
+          "y": 3083.8125,
+          "width": 780,
+          "height": 180
+        },
+        ".newsletter__title": {
+          "x": 94,
+          "y": 3128.8125,
+          "width": 600,
+          "height": 90
+        },
+        ".site-footer": {
+          "x": 0,
+          "y": 3174.8125,
+          "width": 844,
+          "height": 499
+        },
+        ".site-footer__inner": {
+          "x": 32,
+          "y": 3313.8125,
+          "width": 780,
+          "height": 286.75
         }
       }
     }

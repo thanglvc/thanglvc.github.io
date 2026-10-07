@@ -17,7 +17,6 @@ body {
   background-color: #ffffff;
   line-height: 1.5;
   min-width: 320px;
-  overflow-x: hidden;
 }
 
 img {
@@ -188,8 +187,18 @@ button:focus-visible {
     gap: 12px;
   }
   .header__brand {
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    left: 0;
+    padding-top: 0;
     text-align: center;
+  }
+  .header__catchphrase {
+    position: static;
+    margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.4;
   }
   .header__contact {
     align-items: center;
@@ -292,7 +301,7 @@ button:focus-visible {
   width: 138px;
   background-color: #b21516;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  display: block;
+  display: none;
   z-index: 150;
   padding: 6px 0;
   text-align: left;
@@ -320,26 +329,52 @@ button:focus-visible {
   background-color: #da0410;
 }
 
+@media (hover: hover) {
+  .nav__item--has-sub:hover .nav__submenu {
+    display: block;
+  }
+}
+.nav__item--has-sub:focus-within .nav__submenu {
+  display: block;
+}
+
 @media (max-width: 991px) {
   .nav {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
+    height: auto;
+    overflow: visible;
   }
   .nav__container {
-    padding: 0;
+    min-width: 0;
+    padding: 0 15px;
   }
   .nav__list {
-    min-width: 680px;
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .nav__item {
+    flex: 1 1 25%;
+    height: auto;
+    min-width: 0;
+    min-height: 48px;
   }
   .nav__link {
-    height: 48px;
+    height: auto;
+    min-height: 48px;
+    padding: 6px 8px;
     font-size: 14px;
+    line-height: 1.35;
+    white-space: normal;
+    text-align: center;
   }
   .nav__submenu {
     display: none;
   }
-  .nav__item--has-sub:hover .nav__submenu, .nav__item--has-sub:focus-within .nav__submenu {
-    display: block;
+}
+@media (max-width: 600px) {
+  .nav__item {
+    flex-basis: 50%;
   }
 }
 .hero {
@@ -1308,12 +1343,12 @@ button:focus-visible {
 @media (max-width: 991px) {
   .footer__main {
     height: auto;
-    padding: 20px 15px;
+    padding: 24px 15px;
   }
   .footer__copyright {
     height: auto;
     min-height: 29px;
-    padding: 6px 15px;
+    padding: 8px 15px;
   }
   .footer__container {
     height: auto;
@@ -1323,16 +1358,30 @@ button:focus-visible {
     text-align: center;
   }
   .footer__nav {
-    max-width: 100%;
+    width: 100%;
+    max-width: 580px;
   }
   .footer__nav-list {
     justify-content: center;
+    column-gap: 16px;
+    row-gap: 8px;
+  }
+  .footer__nav-item::after {
+    display: none;
   }
   .footer__info {
+    width: 100%;
     text-align: center;
   }
   .footer__logo {
     justify-content: center;
+  }
+  .footer__copyright-container {
+    width: 100%;
+  }
+  .footer__copyright-text {
+    line-height: 1.5;
+    overflow-wrap: anywhere;
   }
 }
 @media (max-width: 600px) {

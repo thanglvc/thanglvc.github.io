@@ -1,63 +1,95 @@
+:root {
+  --color-page: #f5f7fa;
+  --color-surface: #fff;
+  --color-text: #333;
+  --color-heading: #0f172a;
+  --color-border: #e2e8f0;
+  --color-link: #2563eb;
+  --color-link-hover: #1d4ed8;
+}
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-body {
+.training-index {
   max-width: 900px;
   margin: auto;
-  padding: 40px 20px;
-  background: #f5f7fa;
-  color: #333;
+  padding: 2.5rem 1.25rem;
   font-family: "Segoe UI", Roboto, sans-serif;
   line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-page);
 }
 
-h2 {
-  margin-bottom: 15px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #e2e8f0;
-  color: #0f172a;
-  font-size: 20px;
+.training-index__title {
+  margin-block-end: .5rem;
+  font-size: 2rem;
+  color: var(--color-heading);
 }
 
-p {
-  margin-bottom: 10px;
-  padding: 12px 16px;
-  background: #fff;
+.training-index__intro {
+  margin-block-end: 2rem;
+}
+
+.training-index__section + .training-index__section {
+  margin-block-start: 2rem;
+}
+
+.training-index__heading {
+  margin-block-end: 1rem;
+  padding-block-end: .5rem;
+  font-size: 1.25rem;
+  color: var(--color-heading);
+  border-bottom: 2px solid var(--color-border);
+}
+
+.training-index__note {
+  margin-block-end: 1rem;
+}
+
+.exercise-list {
+  list-style: none;
+}
+
+.exercise-list__item {
+  margin-block-end: .625rem;
+  padding: .75rem 1rem;
+  overflow-wrap: anywhere;
+  background: var(--color-surface);
   border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
-  transition: 0.2s ease;
+  box-shadow: 0 4px 10px rgb(0 0 0 / .04);
 }
 
-p:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-}
-
-a {
-  color: #2563eb;
+.exercise-list__item a {
   font-weight: 500;
+  color: var(--color-link);
   text-decoration: none;
-  transition: 0.2s ease;
 }
 
-a:hover {
-  color: #1d4ed8;
+.exercise-list__item a:hover {
+  color: var(--color-link-hover);
   text-decoration: underline;
 }
 
+.exercise-list__item a:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid var(--color-link);
+  outline-offset: 3px;
+}
+
 @media (max-width: 600px) {
-  body {
-    padding: 20px 15px;
+  .training-index {
+    padding: 1.25rem .9375rem;
   }
 
-  h2 {
-    font-size: 18px;
+  .training-index__heading {
+    font-size: 1.125rem;
   }
 
-  p {
-    font-size: 14px;
+  .exercise-list__item {
+    font-size: .875rem;
   }
 }

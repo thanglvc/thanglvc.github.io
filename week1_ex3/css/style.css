@@ -1,84 +1,69 @@
-/* Reset & Base Styles */
+:root {
+  --border-color: #dfdfdf;
+  --comment-bg: #ececec;
+}
+
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-html {
-  font-size: 16px;
-  -webkit-text-size-adjust: 100%;
 }
 
 body {
   margin: 0;
-  padding: 0;
-  background-color: #ffffff;
-  color: #000000;
+  color: #000;
+  background: #fff;
   font-family: "Times New Roman", Times, serif;
   font-synthesis: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Page Frame: 500x685 px at (82, 8) */
-.profile-card {
-  position: relative;
-  width: 500px;
-  height: 685px;
-  margin: 8px 0 0 82px;
-  border: 1px solid #dfdfdf;
-  background-color: #ffffff;
+h1,
+h2,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-/* Header Section */
+.profile-card {
+  width: 500px;
+  min-height: 685px;
+  margin: 8px auto 0;
+  border: 1px solid var(--border-color);
+}
+
 .profile-card__header {
   position: relative;
   height: 22px;
 }
 
 .profile-card__title {
-  display: inline-block;
   position: relative;
-  z-index: 2;
-  margin: 0;
-  padding: 4.8px 0 0 1.1px;
-  font-size: 17px;
+  z-index: 1;
+  padding: 3.8px 0 0 1.1px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1;
-  color: #000000;
-  letter-spacing: 0;
-  transform: scaleX(1.2) translateY(-1px);
-  transform-origin: left top;
+  letter-spacing: .5px;
 }
 
-.profile-card__title-shadow {
+/* The reference has a faded strip below the heading.
+   見出し下の帯は参照画像と同じようにフェードさせる。 */
+.profile-card__header::after {
+  content: "";
   position: absolute;
   top: 12px;
+  right: 0;
   left: 0;
-  z-index: 1;
-  width: 498px;
   height: 15px;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.184) 0%,
-    rgba(0, 0, 0, 0.184) 27%,
-    rgba(0, 0, 0, 0.161) 33%,
-    rgba(0, 0, 0, 0.110) 53%,
-    rgba(0, 0, 0, 0.055) 73%,
-    rgba(0, 0, 0, 0.024) 87%,
-    transparent 100%
-  );
-  pointer-events: none;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 18.4%) 27%, rgb(0 0 0 / 16.1%) 33%, rgb(0 0 0 / 11%) 53%, rgb(0 0 0 / 5.5%) 73%, rgb(0 0 0 / 2.4%) 87%, transparent);
 }
 
-/* Bio & Scroll Container */
 .profile-card__bio {
   display: flex;
   align-items: flex-start;
-  height: 108px;
   padding-left: 12px;
 }
 
@@ -94,15 +79,8 @@ body {
   width: 394px;
   height: 108px;
   overflow: scroll;
-  background-color: #ffffff;
 }
 
-.profile-card__scroll-box:focus-visible {
-  outline: 2px solid #2563eb;
-  outline-offset: -2px;
-}
-
-/* WebKit Custom Scrollbar */
 .profile-card__scroll-box::-webkit-scrollbar {
   width: 17px;
   height: 17px;
@@ -113,13 +91,9 @@ body {
 }
 
 .profile-card__scroll-box::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #eaf2fc, #cde1f7);
   border: 1px solid #9ab9df;
   border-radius: 2px;
-}
-
-.profile-card__scroll-box::-webkit-scrollbar-thumb:hover {
-  background: #b5d3f4;
+  background: linear-gradient(to bottom, #eaf2fc, #cde1f7);
 }
 
 .profile-card__scroll-box::-webkit-scrollbar-corner {
@@ -132,101 +106,65 @@ body {
 }
 
 .profile-card__info-line {
-  margin: 0;
   font-size: 15px;
   line-height: 16px;
-  letter-spacing: -0.3px;
-  color: #000000;
+  letter-spacing: -.3px;
   white-space: nowrap;
 }
 
-/* Facts Section */
 .profile-card__facts {
-  margin-top: 16px;
+  margin-top: 13px;
 }
 
 .profile-card__facts-title {
-  display: inline-block;
-  margin: 0 0 17px 3px;
-  font-size: 17px;
+  margin: 0 0 19px 3px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 1;
-  color: #000000;
-  letter-spacing: 0;
-  transform: scaleX(1.2) translateY(-2px);
-  transform-origin: left top;
+  letter-spacing: .5px;
 }
 
 .facts-list {
+  width: 374px;
+  margin-left: 36px;
   list-style: none;
-  margin: 0 0 0 36px;
-  padding: 0;
 }
 
 .facts-list__item {
-  display: block;
-  margin-bottom: 7px;
-  min-height: 16px;
-}
-
-.facts-list__item:first-child {
-  margin-bottom: 6px;
-}
-
-.facts-list__item::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.facts-list__icon {
-  float: left;
-  display: block;
-  width: 17px;
-  height: 16px;
-  margin-left: 1px;
-  margin-right: 4.5px;
-}
-
-.facts-list__text {
-  display: block;
-  max-width: 374px;
+  margin-bottom: 5px;
+  padding-top: 2px;
+  background: url("../images/icn_star.webp") 1px top / 17px 16px no-repeat;
   font-size: 15px;
   line-height: 16px;
-  letter-spacing: -0.18px;
-  color: #000000;
-  transform: translateY(3px);
+  letter-spacing: -.18px;
+  text-indent: 22.5px;
 }
 
-.facts-list__item:first-child .facts-list__text {
-  transform: translateY(2px);
-}
-
-.facts-list__item:nth-child(4) .facts-list__text {
+.facts-list__item:nth-child(4) {
   letter-spacing: -.1px;
 }
 
-.facts-list__item:nth-child(5) .facts-list__text {
+.facts-list__item:nth-child(5) {
   letter-spacing: -.08px;
 }
 
-/* Comments Section */
 .profile-card__comments {
-  margin-top: 66px;
+  margin-top: 63px;
 }
 
 .comment-bubble {
-  position: relative;
-  height: 59px;
-  margin-left: 1px;
+  min-height: 59px;
+  margin: 0 1px;
 }
 
 .comment-bubble__box {
   position: relative;
-  width: 496px;
-  height: 43px;
-  padding: 5.5px 18px 0 18px;
-  background-color: #ececec;
+  min-height: 43px;
+  padding: 5.5px 18px;
+  background: var(--comment-bg);
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: -.1px;
 }
 
 .comment-bubble__box::after {
@@ -234,314 +172,92 @@ body {
   position: absolute;
   top: 100%;
   left: 18px;
-  width: 0;
-  height: 0;
   border-style: solid;
   border-width: 13px 15px 0 14px;
-  border-color: #ececec transparent transparent transparent;
-}
-
-.comment-bubble__text {
-  margin: 0;
-  font-size: 15px;
-  line-height: 16px;
-  letter-spacing: -0.1px;
-  color: #000000;
+  border-color: var(--comment-bg) transparent transparent;
 }
 
 .comment-bubble__meta {
-  margin: 3px 0 0 51px;
+  margin-left: 51px;
   font-size: 13px;
   line-height: 16px;
-  color: #000000;
-  transform: translateY(-3px);
-  word-spacing: 0.5px;
+  word-spacing: .5px;
 }
 
-.comment-bubble__author-link {
+.comment-bubble__author {
   color: #1424f4;
   text-decoration: underline;
-  transition: color 0.15s ease;
 }
 
-.comment-bubble__author-link:hover {
-  color: #0000bb;
-}
-
-.comment-bubble__author-link:focus-visible {
-  outline: 2px solid #1424f4;
-  outline-offset: 2px;
-}
-
-/* Feedback Form Section */
 .profile-card__feedback {
-  margin-top: 24px;
+  margin-top: 27px;
 }
 
 .profile-card__feedback-title {
-  display: inline-block;
-  height: 12px;
   margin: 0 0 3px 193px;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 12px;
-  color: #000000;
-  letter-spacing: 0;
-  transform: scaleX(1.2) translateY(1px);
-  transform-origin: left top;
+  letter-spacing: .5px;
 }
 
 .feedback-form {
-  position: relative;
   padding-left: 5px;
 }
 
 .feedback-form__field {
   display: flex;
+  align-items: flex-start;
 }
 
 .feedback-form__field--name {
   align-items: center;
-  height: 22px;
   margin-bottom: 9px;
 }
 
 .feedback-form__field--email {
-  align-items: flex-start;
   height: 22px;
   margin-bottom: 10px;
 }
 
-.feedback-form__field--comment {
-  align-items: flex-start;
-}
-
 .feedback-form__label {
+  flex: 0 0 106px;
   font-size: 15px;
   line-height: 1;
-  color: #000000;
-  cursor: pointer;
 }
 
 .feedback-form__field--name .feedback-form__label {
-  width: 106px;
   margin-top: 2px;
 }
 
-.feedback-form__label--email {
-  width: 106px;
-  line-height: 20px;
+.feedback-form__field--email .feedback-form__label {
   margin-top: -9px;
+  line-height: 20px;
 }
 
-.feedback-form__label--comment {
-  width: 106px;
+.feedback-form__field--comment .feedback-form__label {
   margin-top: 36px;
+}
+
+.feedback-form__input,
+.feedback-form__textarea {
+  border: 1px solid var(--border-color);
+  color: #000;
+  background: #fff;
+  font: 15px "Times New Roman", Times, serif;
 }
 
 .feedback-form__input {
   width: 146px;
   height: 22px;
-  border: 1px solid #dfdfdf;
-  background-color: #ffffff;
-  color: #000000;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
   padding: 0 4px;
 }
 
 .feedback-form__textarea {
-  width: 388px;
+  flex: 1;
+  min-width: 0;
   height: 85px;
-  border: 1px solid #dfdfdf;
-  background-color: #ffffff;
-  color: #000000;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 15px;
-  line-height: 16px;
   padding: 2px 4px;
+  line-height: 16px;
   resize: none;
-}
-
-.feedback-form__input:hover,
-.feedback-form__textarea:hover {
-  border-color: #b0b0b0;
-}
-
-.feedback-form__input:focus-visible,
-.feedback-form__textarea:focus-visible {
-  outline: 2px solid #2563eb;
-  outline-offset: -1px;
-}
-
-.feedback-form__submit {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-.feedback-form__submit:focus-visible {
-  position: absolute;
-  top: 31px;
-  right: 8px;
-  z-index: 10;
-  width: auto;
-  height: auto;
-  clip: auto;
-  margin: 0;
-  padding: 4px 12px;
-  font-family: inherit;
-  font-size: 14px;
-  color: #000000;
-  background-color: #ececec;
-  border: 1px solid #767676;
-  border-radius: 2px;
-  outline: 2px solid #2563eb;
-  cursor: pointer;
-}
-
-/* Responsive Mobile (<= 600px, e.g. 375px) */
-@media (max-width: 600px) {
-  .profile-card {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    border-left: none;
-    border-right: none;
-    padding-bottom: 24px;
-  }
-
-  .profile-card__header {
-    height: auto;
-    padding-bottom: 8px;
-  }
-
-  .profile-card__title {
-    transform: none;
-    letter-spacing: normal;
-    padding-left: 16px;
-  }
-
-  .profile-card__title-shadow {
-    width: 100%;
-  }
-
-  .profile-card__bio {
-    flex-direction: column;
-    height: auto;
-    padding: 0 16px;
-  }
-
-  .profile-card__scroll-box {
-    width: 100%;
-    max-width: 100%;
-    margin-top: 12px;
-  }
-
-  .profile-card__facts {
-    margin-top: 24px;
-  }
-
-  .profile-card__facts-title {
-    transform: none;
-    letter-spacing: normal;
-    margin-left: 16px;
-    margin-bottom: 12px;
-  }
-
-  .facts-list {
-    margin-left: 16px;
-    padding-right: 16px;
-  }
-
-  .facts-list__text {
-    max-width: 100%;
-  }
-
-  .profile-card__comments {
-    margin-top: 32px;
-    padding: 0 16px;
-  }
-
-  .comment-bubble {
-    height: auto;
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
-
-  .comment-bubble__box {
-    width: 100%;
-    height: auto;
-    min-height: 43px;
-    padding-bottom: 8px;
-  }
-
-  .comment-bubble__meta {
-    margin-top: 16px;
-    margin-left: 16px;
-    line-height: 16px;
-  }
-
-  .profile-card__feedback {
-    margin-top: 24px;
-    padding: 0 16px;
-  }
-
-  .profile-card__feedback-title {
-    padding-left: 0;
-    margin-left: 0;
-    text-align: left;
-    transform: none;
-    letter-spacing: normal;
-    line-height: 1;
-    margin-bottom: 12px;
-  }
-
-  .feedback-form {
-    padding-left: 0;
-  }
-
-  .feedback-form__field {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 12px;
-    height: auto;
-  }
-
-  .feedback-form__field--name {
-    height: auto;
-  }
-
-  .feedback-form__field--email {
-    height: auto;
-  }
-
-  .feedback-form__field--name .feedback-form__label,
-  .feedback-form__label--email,
-  .feedback-form__label--comment {
-    width: 100%;
-    margin-top: 0;
-    margin-bottom: 6px;
-    margin-left: 0;
-  }
-
-  .feedback-form__input,
-  .feedback-form__textarea {
-    width: 100%;
-    max-width: 100%;
-    margin-left: 0;
-    margin-top: 0;
-  }
-
-  .feedback-form__submit:focus-visible {
-    position: static;
-    margin: 10px 0 0 0;
-  }
 }

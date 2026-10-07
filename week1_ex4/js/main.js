@@ -454,6 +454,177 @@ function initializeProductSlider() {
   startAutoplay();
 }
 
+
+/**
+ * Connect the promotion, mobile menu, search reveal and static newsletter form.
+ * No parameters.
+ * @returns {void}
+ */
+function initializePageChrome() {
+  const header = document.querySelector(".site-header");
+  const menuButton = document.querySelector(".js-menu-toggle");
+  const navigation = document.querySelector("#primary-navigation");
+  const searchButton = document.querySelector(".js-search-toggle");
+  const searchInput = document.querySelector("#site-search");
+  const promotionClose = document.querySelector(".site-promo__close");
+  const promotion = document.querySelector(".site-promo");
+  const newsletterForm = document.querySelector(".newsletter__form");
+  const newsletterStatus = document.querySelector(".js-newsletter-status");
+
+  if (menuButton && navigation && header) {
+    menuButton.addEventListener("click", function () {
+      const isOpen = menuButton.getAttribute("aria-expanded") !== "true";
+      menuButton.setAttribute("aria-expanded", String(isOpen));
+      menuButton.setAttribute("aria-label", isOpen ? "Close menu" : "Open menu");
+      navigation.classList.toggle("is-open", isOpen);
+    });
+
+    document.addEventListener("click", function (event) {
+      if (!header.contains(event.target)) {
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open menu");
+        navigation.classList.remove("is-open");
+      }
+    });
+
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 900) {
+        menuButton.setAttribute("aria-expanded", "false");
+        navigation.classList.remove("is-open");
+      }
+    });
+  }
+
+  if (searchButton && header && searchInput) {
+    searchButton.addEventListener("click", function () {
+      const isOpen = header.classList.toggle("is-search-open");
+      if (isOpen) {
+        searchInput.focus();
+      }
+    });
+  }
+
+  if (promotionClose && promotion) {
+    promotionClose.addEventListener("click", function () {
+      promotion.hidden = true;
+    });
+  }
+
+  if (newsletterForm && newsletterStatus) {
+    newsletterForm.addEventListener("submit", function (event) {
+      event.preventDefault();
+      newsletterStatus.textContent = "Newsletter sign-up is not connected in this exercise.";
+    });
+  }
+}
+
+/**
+ * Handle thumbnail selection and keep the featured product view accessible.
+ * No parameters.
+ * @returns {void}
+ */
+function initializeProductGallery() {
+  const gallery = document.querySelector(".js-product-gallery");
+  const featured = gallery ? gallery.querySelector(".js-product-featured") : null;
+  const buttons = gallery ? gallery.querySelectorAll(".js-product-image") : [];
+
+  if (!gallery || !featured) {
+    return;
+  }
+
+  for (const button of buttons) {
+    button.addEventListener("click", function () {
+      const view = button.dataset.view;
+      for (const imageButton of buttons) {
+        const isSelected = imageButton === button;
+        imageButton.classList.toggle("is-selected", isSelected);
+        imageButton.setAttribute("aria-pressed", String(isSelected));
+      }
+      featured.classList.remove("product-gallery__featured--front", "product-gallery__featured--back", "product-gallery__featured--model");
+      featured.classList.add("product-gallery__featured--" + view);
+      featured.setAttribute("aria-label", button.getAttribute("aria-label") + " of the One Life Graphic T-shirt");
+    });
+  }
+}
+
+/**
+ * Connect the product's color, size, quantity and add-to-cart controls.
+ * No parameters.
+ * @returns {void}
+ */
+function initializeProductOptions() {
+  const colors = document.querySelectorAll(".js-product-color");
+  const colorGroup = document.querySelector(".js-product-colors");
+  const sizes = document.querySelectorAll(".js-product-size");
+  const quantity = document.querySelector(".js-quantity-value");
+  const decreaseButton = document.querySelector(".js-quantity-decrease");
+  const increaseButton = document.querySelector(".js-quantity-increase");
+  const addButton = document.querySelector(".js-add-to-cart");
+  const cart = document.querySelector(".site-header__action--cart");
+  const status = document.querySelector(".js-cart-status");
+  let cartQuantity = 0;
+
+  for (const color of colors) {
+    color.addEventListener("click", function () {
+      colorGroup?.classList.add("is-customized");
+      for (const choice of colors) {
+        const isSelected = choice === color;
+        choice.classList.toggle("is-selected", isSelected);
+        choice.setAttribute("aria-pressed", String(isSelected));
+      }
+    });
+  }
+
+  for (const size of sizes) {
+    size.addEventListener("click", function () {
+      for (const choice of sizes) {
+        const isSelected = choice === size;
+        choice.classList.toggle("is-selected", isSelected);
+        choice.setAttribute("aria-pressed", String(isSelected));
+      }
+    });
+  }
+
+  if (quantity && decreaseButton && increaseButton) {
+    decreaseButton.addEventListener("click", function () {
+      quantity.value = String(Math.max(1, Number(quantity.value) - 1));
+    });
+    increaseButton.addEventListener("click", function () {
+      quantity.value = String(Number(quantity.value) + 1);
+    });
+  }
+
+  if (addButton && quantity && cart && status) {
+    addButton.addEventListener("click", function () {
+      const selectedSize = document.querySelector(".js-product-size.is-selected");
+      const selectedColor = document.querySelector(".js-product-color.is-selected");
+      const itemQuantity = Number(quantity.value);
+      cartQuantity += itemQuantity;
+      cart.setAttribute("aria-label", "Shopping cart, " + cartQuantity + " items");
+      status.textContent = "Added " + itemQuantity + " " + selectedColor.getAttribute("aria-label") + " " + selectedSize.textContent.trim() + " One Life Graphic T-shirt to your cart.";
+    });
+  }
+}
+
+function initializeDesktopReferencePatchMode() {
+  const desktopFrame = window.matchMedia("(width: 1440px)");
+  const disablePatches = event => {
+    if (!desktopFrame.matches) return;
+    const target = event.target;
+    if (target instanceof Element && target.closest("a, button, input, select, textarea, [role='button'], [role='tab']")) {
+      document.body.classList.add("desktop-reference-patches-disabled");
+    }
+  };
+
+  document.addEventListener("click", disablePatches, true);
+  document.addEventListener("focusin", disablePatches, true);
+  document.addEventListener("input", disablePatches, true);
+}
+
+initializeDesktopReferencePatchMode();
+initializePageChrome();
+initializeProductGallery();
+initializeProductOptions();
 initializeTabs();
 initializeReviewFilter();
 initializeProductSlider();

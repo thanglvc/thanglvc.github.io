@@ -63,7 +63,40 @@
 
     &--outline {
       height: 48px;
+      padding-bottom: 2px;
       font-size: .875rem;
     }
+  }
+}
+
+@media (max-width: 359px) {
+  .reviews {
+    &__toolbar {
+      gap: 6px;
+    }
+
+    &__controls {
+      gap: 6px;
+    }
+  }
+
+  .pill-button {
+    &--filter {
+      width: 36px;
+    }
+
+    &--primary {
+      width: 100px;
+      padding-inline: 8px;
+      font-size: .6875rem;
+    }
+  }
+}
+
+@media (min-width: 1280px) {
+  .pill-button--outline {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    line-height: normal;
   }
 }

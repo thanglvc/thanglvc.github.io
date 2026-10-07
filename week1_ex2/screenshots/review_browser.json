@@ -1,0 +1,2316 @@
+[
+  {
+    "viewport": [
+      363,
+      774
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 23.5,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 33.5,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 34.5,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 34.5,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 34.5,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 205.5,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 205.5,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 34.5,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 34.5,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 84.515625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 114.53125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 34.5,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 34.5,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 34.5,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 145.5,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 145.5,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 146.5,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 167.609375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 34.5,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 57.5,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 34.5,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 34.5,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 34.5,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 57.5,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 34.5,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 34.5,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 35.5,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      320,
+      740
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 2,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 10,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 11,
+        "y": 22,
+        "width": 298,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 11,
+        "y": 22,
+        "width": 298,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 11,
+        "y": 40,
+        "width": 298,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 182,
+        "y": 49,
+        "width": 119,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 182,
+        "y": 62,
+        "width": 119,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 11,
+        "y": 140,
+        "width": 298,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 11,
+        "y": 209,
+        "width": 298,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 61.015625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 91.03125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 11,
+        "y": 251,
+        "width": 298,
+        "height": 223
+      },
+      "section-title": {
+        "x": 11,
+        "y": 251,
+        "width": 298,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 11,
+        "y": 269,
+        "width": 298,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 122,
+        "y": 292,
+        "width": 179,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 122,
+        "y": 308,
+        "width": 179,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 123,
+        "y": 328,
+        "width": 178,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 144.109375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 11,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 34,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 11,
+        "y": 495,
+        "width": 298,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 11,
+        "y": 495,
+        "width": 298,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 11,
+        "y": 513,
+        "width": 298,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 34,
+        "y": 601,
+        "width": 275,
+        "height": 12
+      },
+      "competitions": {
+        "x": 11,
+        "y": 641,
+        "width": 298,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 11,
+        "y": 641,
+        "width": 298,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 12,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      375,
+      812
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 29.5,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 39.5,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 40.5,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 40.5,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 40.5,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 211.5,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 211.5,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 40.5,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 40.5,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 90.515625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 120.53125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 40.5,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 40.5,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 40.5,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 151.5,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 151.5,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 152.5,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 173.609375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 40.5,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 63.5,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 40.5,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 40.5,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 40.5,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 63.5,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 40.5,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 40.5,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 41.5,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 37,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 47,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 48,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 48,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 48,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 219,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 219,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 48,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 48,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 98.015625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 128.03125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 48,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 48,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 48,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 159,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 159,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 160,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 181.109375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 48,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 71,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 48,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 48,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 48,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 71,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 48,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 48,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 49,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      599,
+      800
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 141.5,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 151.5,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 152.5,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 152.5,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 152.5,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 323.5,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 323.5,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 152.5,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 152.5,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 202.515625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 232.53125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 152.5,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 152.5,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 152.5,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 263.5,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 263.5,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 264.5,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 285.609375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 152.5,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 175.5,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 152.5,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 152.5,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 152.5,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 175.5,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 152.5,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 152.5,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 153.5,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      600,
+      800
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 142,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 152,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 153,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 153,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 153,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 324,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 324,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 153,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 153,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 203.015625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 233.03125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 153,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 153,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 153,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 264,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 264,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 265,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 286.109375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 153,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 176,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 153,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 153,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 153,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 176,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 153,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 153,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 154,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      601,
+      800
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 142.5,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 152.5,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 153.5,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 153.5,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 153.5,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 324.5,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 324.5,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 153.5,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 153.5,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 203.515625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 233.53125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 153.5,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 153.5,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 153.5,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 264.5,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 264.5,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 265.5,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 286.609375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 153.5,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 176.5,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 153.5,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 153.5,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 153.5,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 176.5,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 153.5,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 153.5,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 154.5,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      708,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 196,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 206,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 207,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 207,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 207,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 378,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 378,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 207,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 207,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 257.015625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 287.03125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 207,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 207,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 207,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 318,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 318,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 319,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 340.109375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 207,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 230,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 207,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 207,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 207,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 230,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 207,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 207,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 208,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      709,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 196.5,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 206.5,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 207.5,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 207.5,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 207.5,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 378.5,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 378.5,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 207.5,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 207.5,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 257.515625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 287.53125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 207.5,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 207.5,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 207.5,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 318.5,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 318.5,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 319.5,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 340.609375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 207.5,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 230.5,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 207.5,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 207.5,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 207.5,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 230.5,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 207.5,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 207.5,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 208.5,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      768,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 226,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 236,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 237,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 237,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 237,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 408,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 408,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 237,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 237,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 287.015625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 317.03125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 237,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 237,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 237,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 348,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 348,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 349,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 370.109375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 237,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 260,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 237,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 237,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 237,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 260,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 237,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 237,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 238,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      844,
+      390
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 256.5,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 266.5,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 267.5,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 267.5,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 267.5,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 438.5,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 438.5,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 267.5,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 267.5,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 317.515625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 347.53125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 267.5,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 267.5,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 267.5,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 378.5,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 378.5,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 379.5,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 400.609375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 267.5,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 290.5,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 267.5,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 267.5,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 267.5,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 290.5,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 267.5,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 267.5,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 268.5,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 346.5,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 356.5,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 357.5,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 357.5,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 357.5,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 528.5,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 528.5,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 357.5,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 357.5,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 407.515625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 437.53125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 357.5,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 357.5,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 357.5,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 468.5,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 468.5,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 469.5,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 490.609375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 357.5,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 380.5,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 357.5,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 357.5,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 357.5,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 380.5,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 357.5,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 357.5,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 358.5,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 50,
+    "boxes": {
+      "widget-panel": {
+        "x": 562,
+        "y": 16,
+        "width": 316,
+        "height": 733
+      },
+      "visually-hidden": {
+        "x": 572,
+        "y": 21,
+        "width": 1,
+        "height": 1
+      },
+      "blogroll": {
+        "x": 573,
+        "y": 22,
+        "width": 296,
+        "height": 224
+      },
+      "section-title blogroll__title": {
+        "x": 573,
+        "y": 22,
+        "width": 296,
+        "height": 18
+      },
+      "blogroll__featured": {
+        "x": 573,
+        "y": 40,
+        "width": 296,
+        "height": 100
+      },
+      "blogroll__headline": {
+        "x": 744,
+        "y": 49,
+        "width": 117,
+        "height": 12
+      },
+      "blogroll__desc": {
+        "x": 744,
+        "y": 62,
+        "width": 117,
+        "height": 60
+      },
+      "blogroll__list": {
+        "x": 573,
+        "y": 140,
+        "width": 296,
+        "height": 106
+      },
+      "blogroll__item": {
+        "x": 573,
+        "y": 209,
+        "width": 296,
+        "height": 37
+      },
+      "blogroll__summary--spaced": {
+        "x": 623.015625,
+        "y": 147,
+        "width": 217.40625,
+        "height": 14
+      },
+      "blogroll__summary": {
+        "x": 653.03125,
+        "y": 221,
+        "width": 165.375,
+        "height": 15
+      },
+      "horoscopes": {
+        "x": 573,
+        "y": 251,
+        "width": 296,
+        "height": 223
+      },
+      "section-title": {
+        "x": 573,
+        "y": 251,
+        "width": 296,
+        "height": 18
+      },
+      "horoscopes__body": {
+        "x": 573,
+        "y": 269,
+        "width": 296,
+        "height": 158
+      },
+      "horoscopes__sign": {
+        "x": 684,
+        "y": 292,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__dates": {
+        "x": 684,
+        "y": 308,
+        "width": 177,
+        "height": 15
+      },
+      "horoscopes__forecast": {
+        "x": 685,
+        "y": 328,
+        "width": 176,
+        "height": 84
+      },
+      "horoscopes__more": {
+        "x": 706.109375,
+        "y": 399,
+        "width": 12.75,
+        "height": 12
+      },
+      "horoscopes__author-banner": {
+        "x": 573,
+        "y": 427,
+        "width": 297,
+        "height": 47
+      },
+      "horoscopes__all": {
+        "x": 596,
+        "y": 451,
+        "width": 251,
+        "height": 14
+      },
+      "mobile-news": {
+        "x": 573,
+        "y": 495,
+        "width": 297,
+        "height": 140
+      },
+      "section-title mobile-news__title": {
+        "x": 573,
+        "y": 495,
+        "width": 296,
+        "height": 18
+      },
+      "mobile-news__content": {
+        "x": 573,
+        "y": 513,
+        "width": 297,
+        "height": 113
+      },
+      "mobile-news__label": {
+        "x": 596,
+        "y": 601,
+        "width": 274,
+        "height": 12
+      },
+      "competitions": {
+        "x": 573,
+        "y": 641,
+        "width": 296,
+        "height": 91
+      },
+      "competitions__title": {
+        "x": 573,
+        "y": 641,
+        "width": 296,
+        "height": 13
+      },
+      "competitions__list": {
+        "x": 574,
+        "y": 654,
+        "width": 298,
+        "height": 78
+      }
+    },
+    "errors": []
+  }
+]

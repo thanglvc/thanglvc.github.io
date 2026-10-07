@@ -1,0 +1,2628 @@
+[
+  {
+    "viewport": [
+      1031,
+      585
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 175,
+        "y": 22,
+        "width": 681,
+        "height": 523
+      },
+      "main-content": {
+        "x": 188,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 185,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 188,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 188,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 188,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 188,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 186,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 341,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 341,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 340,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 202,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 199,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 203,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 188,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 203,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 203,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 203,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 394,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 405,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 203,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 203,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 620,
+        "y": 22,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 641,
+        "y": 94,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 651,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 651,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 652,
+        "y": 239,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 652,
+        "y": 259,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 654,
+        "y": 287,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 654,
+        "y": 286,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 652,
+        "y": 358,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      320,
+      740
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 16,
+        "y": 24,
+        "width": 288,
+        "height": 1020
+      },
+      "main-content": {
+        "x": 16,
+        "y": 24,
+        "width": 288,
+        "height": 682
+      },
+      "main-content__tag": {
+        "x": 13,
+        "y": 24,
+        "width": 291,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 16,
+        "y": 74,
+        "width": 288,
+        "height": 314
+      },
+      "intro-card__media": {
+        "x": 16,
+        "y": 74,
+        "width": 288,
+        "height": 247
+      },
+      "intro-card__photo": {
+        "x": 16,
+        "y": 74,
+        "width": 129,
+        "height": 108
+      },
+      "intro-card__image": {
+        "x": 16,
+        "y": 74,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 16,
+        "y": 170,
+        "width": 129,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 16,
+        "y": 198,
+        "width": 288,
+        "height": 123
+      },
+      "intro-card__title": {
+        "x": 16,
+        "y": 197,
+        "width": 288,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 15,
+        "y": 221,
+        "width": 288,
+        "height": 100
+      },
+      "intro-card__desc": {
+        "x": 16,
+        "y": 322,
+        "width": 288,
+        "height": 24
+      },
+      "divider intro-card__divider": {
+        "x": 16,
+        "y": 360,
+        "width": 288,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 16,
+        "y": 376,
+        "width": 288,
+        "height": 12
+      },
+      "news-section": {
+        "x": 16,
+        "y": 427,
+        "width": 288,
+        "height": 279
+      },
+      "news-section__title": {
+        "x": 16,
+        "y": 427,
+        "width": 288,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 16,
+        "y": 441,
+        "width": 288,
+        "height": 28
+      },
+      "news-list": {
+        "x": 16,
+        "y": 491,
+        "width": 288,
+        "height": 166
+      },
+      "news-list__item": {
+        "x": 16,
+        "y": 645,
+        "width": 288,
+        "height": 12
+      },
+      "news-list__text": {
+        "x": 27,
+        "y": 645,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 16,
+        "y": 675,
+        "width": 288,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 16,
+        "y": 691,
+        "width": 288,
+        "height": 15
+      },
+      "sidebar": {
+        "x": 16,
+        "y": 742,
+        "width": 288,
+        "height": 302
+      },
+      "sidebar__divider": {
+        "x": 36,
+        "y": 770,
+        "width": 248,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 36,
+        "y": 791,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 36,
+        "y": 791,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 37,
+        "y": 908,
+        "width": 247,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 37,
+        "y": 928,
+        "width": 248,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 39,
+        "y": 956,
+        "width": 248,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 39,
+        "y": 955,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 37,
+        "y": 1004,
+        "width": 247,
+        "height": 16
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      375,
+      812
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 16,
+        "y": 24,
+        "width": 343,
+        "height": 996
+      },
+      "main-content": {
+        "x": 16,
+        "y": 24,
+        "width": 343,
+        "height": 658
+      },
+      "main-content__tag": {
+        "x": 13,
+        "y": 24,
+        "width": 346,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 16,
+        "y": 74,
+        "width": 343,
+        "height": 304
+      },
+      "intro-card__media": {
+        "x": 16,
+        "y": 74,
+        "width": 343,
+        "height": 237
+      },
+      "intro-card__photo": {
+        "x": 16,
+        "y": 74,
+        "width": 129,
+        "height": 108
+      },
+      "intro-card__image": {
+        "x": 16,
+        "y": 74,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 16,
+        "y": 170,
+        "width": 129,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 16,
+        "y": 198,
+        "width": 343,
+        "height": 113
+      },
+      "intro-card__title": {
+        "x": 16,
+        "y": 197,
+        "width": 343,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 15,
+        "y": 221,
+        "width": 343,
+        "height": 90
+      },
+      "intro-card__desc": {
+        "x": 16,
+        "y": 312,
+        "width": 343,
+        "height": 24
+      },
+      "divider intro-card__divider": {
+        "x": 16,
+        "y": 350,
+        "width": 343,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 16,
+        "y": 366,
+        "width": 343,
+        "height": 12
+      },
+      "news-section": {
+        "x": 16,
+        "y": 417,
+        "width": 343,
+        "height": 265
+      },
+      "news-section__title": {
+        "x": 16,
+        "y": 417,
+        "width": 343,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 16,
+        "y": 431,
+        "width": 343,
+        "height": 14
+      },
+      "news-list": {
+        "x": 16,
+        "y": 467,
+        "width": 343,
+        "height": 166
+      },
+      "news-list__item": {
+        "x": 16,
+        "y": 621,
+        "width": 343,
+        "height": 12
+      },
+      "news-list__text": {
+        "x": 27,
+        "y": 621,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 16,
+        "y": 651,
+        "width": 343,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 16,
+        "y": 667,
+        "width": 343,
+        "height": 15
+      },
+      "sidebar": {
+        "x": 27.5,
+        "y": 718,
+        "width": 320,
+        "height": 302
+      },
+      "sidebar__divider": {
+        "x": 47.5,
+        "y": 746,
+        "width": 280,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 47.5,
+        "y": 767,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 47.5,
+        "y": 767,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 48.5,
+        "y": 884,
+        "width": 279,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 48.5,
+        "y": 904,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 50.5,
+        "y": 932,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 50.5,
+        "y": 931,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 48.5,
+        "y": 980,
+        "width": 279,
+        "height": 16
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 16,
+        "y": 24,
+        "width": 358,
+        "height": 974
+      },
+      "main-content": {
+        "x": 16,
+        "y": 24,
+        "width": 358,
+        "height": 636
+      },
+      "main-content__tag": {
+        "x": 13,
+        "y": 24,
+        "width": 361,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 16,
+        "y": 74,
+        "width": 358,
+        "height": 282
+      },
+      "intro-card__media": {
+        "x": 16,
+        "y": 74,
+        "width": 358,
+        "height": 227
+      },
+      "intro-card__photo": {
+        "x": 16,
+        "y": 74,
+        "width": 129,
+        "height": 108
+      },
+      "intro-card__image": {
+        "x": 16,
+        "y": 74,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 16,
+        "y": 170,
+        "width": 129,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 16,
+        "y": 198,
+        "width": 358,
+        "height": 103
+      },
+      "intro-card__title": {
+        "x": 16,
+        "y": 197,
+        "width": 358,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 15,
+        "y": 221,
+        "width": 358,
+        "height": 80
+      },
+      "intro-card__desc": {
+        "x": 16,
+        "y": 302,
+        "width": 358,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 16,
+        "y": 328,
+        "width": 358,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 16,
+        "y": 344,
+        "width": 358,
+        "height": 12
+      },
+      "news-section": {
+        "x": 16,
+        "y": 395,
+        "width": 358,
+        "height": 265
+      },
+      "news-section__title": {
+        "x": 16,
+        "y": 395,
+        "width": 358,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 16,
+        "y": 409,
+        "width": 358,
+        "height": 14
+      },
+      "news-list": {
+        "x": 16,
+        "y": 445,
+        "width": 358,
+        "height": 166
+      },
+      "news-list__item": {
+        "x": 16,
+        "y": 599,
+        "width": 358,
+        "height": 12
+      },
+      "news-list__text": {
+        "x": 27,
+        "y": 599,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 16,
+        "y": 629,
+        "width": 358,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 16,
+        "y": 645,
+        "width": 358,
+        "height": 15
+      },
+      "sidebar": {
+        "x": 35,
+        "y": 696,
+        "width": 320,
+        "height": 302
+      },
+      "sidebar__divider": {
+        "x": 55,
+        "y": 724,
+        "width": 280,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 55,
+        "y": 745,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 55,
+        "y": 745,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 56,
+        "y": 862,
+        "width": 279,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 56,
+        "y": 882,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 58,
+        "y": 910,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 58,
+        "y": 909,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 56,
+        "y": 958,
+        "width": 279,
+        "height": 16
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      599,
+      800
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 16,
+        "y": 24,
+        "width": 552,
+        "height": 954
+      },
+      "main-content": {
+        "x": 72,
+        "y": 24,
+        "width": 440,
+        "height": 616
+      },
+      "main-content__tag": {
+        "x": 69,
+        "y": 24,
+        "width": 443,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 72,
+        "y": 74,
+        "width": 440,
+        "height": 262
+      },
+      "intro-card__media": {
+        "x": 72,
+        "y": 74,
+        "width": 440,
+        "height": 207
+      },
+      "intro-card__photo": {
+        "x": 72,
+        "y": 74,
+        "width": 129,
+        "height": 108
+      },
+      "intro-card__image": {
+        "x": 72,
+        "y": 74,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 72,
+        "y": 170,
+        "width": 129,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 72,
+        "y": 198,
+        "width": 440,
+        "height": 83
+      },
+      "intro-card__title": {
+        "x": 72,
+        "y": 197,
+        "width": 440,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 71,
+        "y": 221,
+        "width": 440,
+        "height": 60
+      },
+      "intro-card__desc": {
+        "x": 72,
+        "y": 282,
+        "width": 440,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 72,
+        "y": 308,
+        "width": 440,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 72,
+        "y": 324,
+        "width": 440,
+        "height": 12
+      },
+      "news-section": {
+        "x": 72,
+        "y": 375,
+        "width": 440,
+        "height": 265
+      },
+      "news-section__title": {
+        "x": 72,
+        "y": 375,
+        "width": 440,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 72,
+        "y": 389,
+        "width": 440,
+        "height": 14
+      },
+      "news-list": {
+        "x": 72,
+        "y": 425,
+        "width": 440,
+        "height": 166
+      },
+      "news-list__item": {
+        "x": 72,
+        "y": 579,
+        "width": 440,
+        "height": 12
+      },
+      "news-list__text": {
+        "x": 83,
+        "y": 579,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 72,
+        "y": 609,
+        "width": 440,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 72,
+        "y": 625,
+        "width": 440,
+        "height": 15
+      },
+      "sidebar": {
+        "x": 132,
+        "y": 676,
+        "width": 320,
+        "height": 302
+      },
+      "sidebar__divider": {
+        "x": 152,
+        "y": 704,
+        "width": 280,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 152,
+        "y": 725,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 152,
+        "y": 725,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 153,
+        "y": 842,
+        "width": 279,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 153,
+        "y": 862,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 155,
+        "y": 890,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 155,
+        "y": 889,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 153,
+        "y": 938,
+        "width": 279,
+        "height": 16
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      600,
+      800
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 16,
+        "y": 24,
+        "width": 553,
+        "height": 954
+      },
+      "main-content": {
+        "x": 72.5,
+        "y": 24,
+        "width": 440,
+        "height": 616
+      },
+      "main-content__tag": {
+        "x": 69.5,
+        "y": 24,
+        "width": 443,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 72.5,
+        "y": 74,
+        "width": 440,
+        "height": 262
+      },
+      "intro-card__media": {
+        "x": 72.5,
+        "y": 74,
+        "width": 440,
+        "height": 207
+      },
+      "intro-card__photo": {
+        "x": 72.5,
+        "y": 74,
+        "width": 129,
+        "height": 108
+      },
+      "intro-card__image": {
+        "x": 72.5,
+        "y": 74,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 72.5,
+        "y": 170,
+        "width": 129,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 72.5,
+        "y": 198,
+        "width": 440,
+        "height": 83
+      },
+      "intro-card__title": {
+        "x": 72.5,
+        "y": 197,
+        "width": 440,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 71.5,
+        "y": 221,
+        "width": 440,
+        "height": 60
+      },
+      "intro-card__desc": {
+        "x": 72.5,
+        "y": 282,
+        "width": 440,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 72.5,
+        "y": 308,
+        "width": 440,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 72.5,
+        "y": 324,
+        "width": 440,
+        "height": 12
+      },
+      "news-section": {
+        "x": 72.5,
+        "y": 375,
+        "width": 440,
+        "height": 265
+      },
+      "news-section__title": {
+        "x": 72.5,
+        "y": 375,
+        "width": 440,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 72.5,
+        "y": 389,
+        "width": 440,
+        "height": 14
+      },
+      "news-list": {
+        "x": 72.5,
+        "y": 425,
+        "width": 440,
+        "height": 166
+      },
+      "news-list__item": {
+        "x": 72.5,
+        "y": 579,
+        "width": 440,
+        "height": 12
+      },
+      "news-list__text": {
+        "x": 83.5,
+        "y": 579,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 72.5,
+        "y": 609,
+        "width": 440,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 72.5,
+        "y": 625,
+        "width": 440,
+        "height": 15
+      },
+      "sidebar": {
+        "x": 132.5,
+        "y": 676,
+        "width": 320,
+        "height": 302
+      },
+      "sidebar__divider": {
+        "x": 152.5,
+        "y": 704,
+        "width": 280,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 152.5,
+        "y": 725,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 152.5,
+        "y": 725,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 153.5,
+        "y": 842,
+        "width": 279,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 153.5,
+        "y": 862,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 155.5,
+        "y": 890,
+        "width": 280,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 155.5,
+        "y": 889,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 153.5,
+        "y": 938,
+        "width": 279,
+        "height": 16
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      601,
+      800
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 20,
+        "y": 22,
+        "width": 546,
+        "height": 939
+      },
+      "main-content": {
+        "x": 99,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 96,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 99,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 99,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 99,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 99,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 97,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 252,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 252,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 251,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 113,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 110,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 114,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 99,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 114,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 114,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 114,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 305,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 316,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 114,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 114,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 181.5,
+        "y": 576,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 202.5,
+        "y": 648,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 212.5,
+        "y": 676,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 212.5,
+        "y": 676,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 213.5,
+        "y": 793,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 213.5,
+        "y": 813,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 215.5,
+        "y": 841,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 215.5,
+        "y": 840,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 213.5,
+        "y": 912,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      708,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 20,
+        "y": 22,
+        "width": 653,
+        "height": 939
+      },
+      "main-content": {
+        "x": 152.5,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 149.5,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 152.5,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 152.5,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 152.5,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 152.5,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 150.5,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 305.5,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 305.5,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 304.5,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 166.5,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 163.5,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 167.5,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 152.5,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 167.5,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 167.5,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 167.5,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 358.5,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 369.5,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 167.5,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 167.5,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 235,
+        "y": 576,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 256,
+        "y": 648,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 266,
+        "y": 676,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 266,
+        "y": 676,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 267,
+        "y": 793,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 267,
+        "y": 813,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 269,
+        "y": 841,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 269,
+        "y": 840,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 267,
+        "y": 912,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      709,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 20,
+        "y": 22,
+        "width": 654,
+        "height": 939
+      },
+      "main-content": {
+        "x": 153,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 150,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 153,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 153,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 153,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 153,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 151,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 306,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 306,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 305,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 167,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 164,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 168,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 153,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 168,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 168,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 168,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 359,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 370,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 168,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 168,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 235.5,
+        "y": 576,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 256.5,
+        "y": 648,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 266.5,
+        "y": 676,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 266.5,
+        "y": 676,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 267.5,
+        "y": 793,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 267.5,
+        "y": 813,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 269.5,
+        "y": 841,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 269.5,
+        "y": 840,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 267.5,
+        "y": 912,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      768,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 43.5,
+        "y": 22,
+        "width": 681,
+        "height": 523
+      },
+      "main-content": {
+        "x": 56.5,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 53.5,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 56.5,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 56.5,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 56.5,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 56.5,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 54.5,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 209.5,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 209.5,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 208.5,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 70.5,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 67.5,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 71.5,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 56.5,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 71.5,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 71.5,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 71.5,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 262.5,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 273.5,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 71.5,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 71.5,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 488.5,
+        "y": 22,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 509.5,
+        "y": 94,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 519.5,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 519.5,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 520.5,
+        "y": 239,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 520.5,
+        "y": 259,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 522.5,
+        "y": 287,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 522.5,
+        "y": 286,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 520.5,
+        "y": 358,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      844,
+      390
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 74,
+        "y": 22,
+        "width": 681,
+        "height": 523
+      },
+      "main-content": {
+        "x": 87,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 84,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 87,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 87,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 87,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 87,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 85,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 240,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 240,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 239,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 101,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 98,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 102,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 87,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 102,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 102,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 102,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 293,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 304,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 102,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 102,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 519,
+        "y": 22,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 540,
+        "y": 94,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 550,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 550,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 551,
+        "y": 239,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 551,
+        "y": 259,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 553,
+        "y": 287,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 553,
+        "y": 286,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 551,
+        "y": 358,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      1024,
+      768
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 171.5,
+        "y": 22,
+        "width": 681,
+        "height": 523
+      },
+      "main-content": {
+        "x": 184.5,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 181.5,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 184.5,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 184.5,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 184.5,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 184.5,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 182.5,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 337.5,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 337.5,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 336.5,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 198.5,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 195.5,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 199.5,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 184.5,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 199.5,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 199.5,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 199.5,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 390.5,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 401.5,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 199.5,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 199.5,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 616.5,
+        "y": 22,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 637.5,
+        "y": 94,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 647.5,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 647.5,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 648.5,
+        "y": 239,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 648.5,
+        "y": 259,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 650.5,
+        "y": 287,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 650.5,
+        "y": 286,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 648.5,
+        "y": 358,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "overflow": false,
+    "overflowingElements": [],
+    "clippedText": [],
+    "brokenImages": [],
+    "internalScroll": null,
+    "controls": [],
+    "elements": 47,
+    "boxes": {
+      "page__container": {
+        "x": 379.5,
+        "y": 22,
+        "width": 681,
+        "height": 523
+      },
+      "main-content": {
+        "x": 392.5,
+        "y": 22,
+        "width": 401,
+        "height": 523
+      },
+      "main-content__tag": {
+        "x": 389.5,
+        "y": 38,
+        "width": 404,
+        "height": 12
+      },
+      "intro-card": {
+        "x": 392.5,
+        "y": 88,
+        "width": 401,
+        "height": 197
+      },
+      "intro-card__media": {
+        "x": 392.5,
+        "y": 88,
+        "width": 401,
+        "height": 142
+      },
+      "intro-card__photo": {
+        "x": 392.5,
+        "y": 88,
+        "width": 129,
+        "height": 142
+      },
+      "intro-card__image": {
+        "x": 392.5,
+        "y": 88,
+        "width": 129,
+        "height": 92
+      },
+      "intro-card__note": {
+        "x": 390.5,
+        "y": 218,
+        "width": 131,
+        "height": 12
+      },
+      "intro-card__content": {
+        "x": 545.5,
+        "y": 88,
+        "width": 251,
+        "height": 133
+      },
+      "intro-card__title": {
+        "x": 545.5,
+        "y": 87,
+        "width": 251,
+        "height": 12
+      },
+      "intro-card__text": {
+        "x": 544.5,
+        "y": 111,
+        "width": 251,
+        "height": 110
+      },
+      "intro-card__desc": {
+        "x": 406.5,
+        "y": 231,
+        "width": 387,
+        "height": 12
+      },
+      "divider intro-card__divider": {
+        "x": 403.5,
+        "y": 257,
+        "width": 390,
+        "height": 1
+      },
+      "more-info intro-card__action": {
+        "x": 407.5,
+        "y": 273,
+        "width": 386,
+        "height": 12
+      },
+      "news-section": {
+        "x": 392.5,
+        "y": 368,
+        "width": 401,
+        "height": 177
+      },
+      "news-section__title": {
+        "x": 407.5,
+        "y": 368,
+        "width": 386,
+        "height": 14
+      },
+      "news-section__subtitle": {
+        "x": 407.5,
+        "y": 382,
+        "width": 386,
+        "height": 14
+      },
+      "news-list": {
+        "x": 407.5,
+        "y": 418,
+        "width": 386,
+        "height": 92
+      },
+      "news-list__item": {
+        "x": 598.5,
+        "y": 487,
+        "width": 195,
+        "height": 23
+      },
+      "news-list__text": {
+        "x": 609.5,
+        "y": 487,
+        "width": 172.953125,
+        "height": 12
+      },
+      "divider news-section__divider": {
+        "x": 407.5,
+        "y": 517,
+        "width": 386,
+        "height": 1
+      },
+      "more-info news-section__action": {
+        "x": 407.5,
+        "y": 533,
+        "width": 386,
+        "height": 12
+      },
+      "sidebar": {
+        "x": 824.5,
+        "y": 22,
+        "width": 236,
+        "height": 385
+      },
+      "sidebar__divider": {
+        "x": 845.5,
+        "y": 94,
+        "width": 191,
+        "height": 1
+      },
+      "sidebar__banner": {
+        "x": 855.5,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__image": {
+        "x": 855.5,
+        "y": 122,
+        "width": 174,
+        "height": 96
+      },
+      "sidebar__title": {
+        "x": 856.5,
+        "y": 239,
+        "width": 178,
+        "height": 14
+      },
+      "sidebar__text": {
+        "x": 856.5,
+        "y": 259,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__text sidebar__text--lead": {
+        "x": 858.5,
+        "y": 287,
+        "width": 179,
+        "height": 24
+      },
+      "sidebar__highlight": {
+        "x": 858.5,
+        "y": 286,
+        "width": 77.9375,
+        "height": 14
+      },
+      "more-info sidebar__action": {
+        "x": 856.5,
+        "y": 358,
+        "width": 178,
+        "height": 12
+      }
+    },
+    "errors": []
+  }
+]

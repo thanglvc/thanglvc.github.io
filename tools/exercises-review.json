@@ -1,0 +1,297 @@
+{
+  "color_samples": [
+    {
+      "exercise": 1,
+      "area": "Nền trang",
+      "point": [
+        10,
+        10
+      ],
+      "reference": "#121214",
+      "actual": "#121214",
+      "match": true
+    },
+    {
+      "exercise": 1,
+      "area": "Nền sidebar",
+      "point": [
+        630,
+        30
+      ],
+      "reference": "#232227",
+      "actual": "#232227",
+      "match": true
+    },
+    {
+      "exercise": 1,
+      "area": "Viền sidebar",
+      "point": [
+        650,
+        94
+      ],
+      "reference": "#353439",
+      "actual": "#353439",
+      "match": true
+    },
+    {
+      "exercise": 2,
+      "area": "Nền panel",
+      "point": [
+        25,
+        20
+      ],
+      "reference": "#e6f3fb",
+      "actual": "#e6f3fb",
+      "match": true
+    },
+    {
+      "exercise": 2,
+      "area": "Thanh cam",
+      "point": [
+        100,
+        38
+      ],
+      "reference": "#f7a418",
+      "actual": "#f7a418",
+      "match": true
+    },
+    {
+      "exercise": 2,
+      "area": "Nền danh sách",
+      "point": [
+        34,
+        150
+      ],
+      "reference": "#f9f1c2",
+      "actual": "#f9f1c2",
+      "match": true
+    },
+    {
+      "exercise": 2,
+      "area": "Viền Competitions",
+      "point": [
+        34,
+        700
+      ],
+      "reference": "#595959",
+      "actual": "#595959",
+      "match": true
+    },
+    {
+      "exercise": 3,
+      "area": "Nền trang",
+      "point": [
+        10,
+        10
+      ],
+      "reference": "#ffffff",
+      "actual": "#ffffff",
+      "match": true
+    },
+    {
+      "exercise": 3,
+      "area": "Viền profile",
+      "point": [
+        82,
+        100
+      ],
+      "reference": "#dfdfdf",
+      "actual": "#dfdfdf",
+      "match": true
+    },
+    {
+      "exercise": 3,
+      "area": "Nền bình luận",
+      "point": [
+        90,
+        400
+      ],
+      "reference": "#ececec",
+      "actual": "#ececec",
+      "match": true
+    }
+  ],
+  "assets": [
+    {
+      "source": "week1_ex1/images/pic_profile.jpg",
+      "export": "week1_ex1/images/pic_profile.webp",
+      "size": [
+        129,
+        92
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex1/images/pic_sidebar.png",
+      "export": "week1_ex1/images/pic_sidebar.webp",
+      "size": [
+        174,
+        96
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex1/images/icn_more_info.png",
+      "export": "week1_ex1/images/icn_more_info.webp",
+      "size": [
+        12,
+        11
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex2/images/pic_blogroll.jpg",
+      "export": "week1_ex2/images/pic_blogroll.webp",
+      "size": [
+        156,
+        81
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex2/images/pic_horoscope_author.jpg",
+      "export": "week1_ex2/images/pic_horoscope_author.webp",
+      "size": [
+        297,
+        47
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex2/images/pic_mobile_news.png",
+      "export": "week1_ex2/images/pic_mobile_news.webp",
+      "size": [
+        116,
+        113
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex2/images/pic_libra.png",
+      "export": "week1_ex2/images/pic_libra.webp",
+      "size": [
+        76,
+        85
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex3/images/icn_star.png",
+      "export": "week1_ex3/images/icn_star.webp",
+      "size": [
+        17,
+        16
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    },
+    {
+      "source": "week1_ex3/images/pic_player.png",
+      "export": "week1_ex3/images/pic_player.webp",
+      "size": [
+        83,
+        90
+      ],
+      "format": "WEBP",
+      "same_pixels": true
+    }
+  ],
+  "visual_comparison": [
+    {
+      "exercise": 1,
+      "mean_absolute_rgb_error": 2.8433,
+      "scale": "0–255; includes text rasterization and layout differences; no pixel-perfect threshold agreed"
+    },
+    {
+      "exercise": 2,
+      "mean_absolute_rgb_error": 13.3445,
+      "scale": "0–255; includes text rasterization and layout differences; no pixel-perfect threshold agreed"
+    },
+    {
+      "exercise": 3,
+      "mean_absolute_rgb_error": 8.0591,
+      "scale": "0–255; includes text rasterization and layout differences; no pixel-perfect threshold agreed"
+    }
+  ],
+  "line_counts": [
+    {
+      "exercise": 1,
+      "before": 599,
+      "after_including_responsive_css": 408
+    },
+    {
+      "exercise": 2,
+      "before": 571,
+      "after_including_responsive_css": 294
+    },
+    {
+      "exercise": 3,
+      "before": 650,
+      "after_including_responsive_css": 448
+    }
+  ],
+  "same_chrome_output_comparison": [
+    {
+      "exercise": 1,
+      "viewport_width": 1031,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 0.4705
+    },
+    {
+      "exercise": 1,
+      "viewport_width": 320,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 0.2349
+    },
+    {
+      "exercise": 1,
+      "viewport_width": 375,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 0.207
+    },
+    {
+      "exercise": 2,
+      "viewport_width": 363,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 12.4251
+    },
+    {
+      "exercise": 2,
+      "viewport_width": 320,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 0.6576
+    },
+    {
+      "exercise": 2,
+      "viewport_width": 375,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 15.46
+    },
+    {
+      "exercise": 3,
+      "viewport_width": 672,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 6.5952
+    },
+    {
+      "exercise": 3,
+      "viewport_width": 320,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 1.1422
+    },
+    {
+      "exercise": 3,
+      "viewport_width": 375,
+      "same_dimensions": true,
+      "mean_absolute_rgb_error_vs_old_same_chrome": 1.0228
+    }
+  ],
+  "color_samples_note": "Pixel color samples were checked before the centering adjustment. Centering changed only horizontal position; color declarations are unchanged."
+}

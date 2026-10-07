@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1540" width="1400" height="1540" role="img" aria-labelledby="title description">
+  <title id="title">Workflow tải danh mục — EVENT_LOAD</title>
+  <desc id="description">Luồng FE gọi GET /api/categories, BE đọc DB và trả 200 hoặc 500; phân biệt danh sách có dữ liệu, rỗng và lỗi mạng. Không ghi DB.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155" />
+    </marker>
+  </defs>
+  <rect width="1400" height="1540" fill="#fff" />
+  <g id="connectors">
+    <path d="M 700 149.0 L 700 192.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_start" data-to="load_loading" />
+    <path d="M 700 278.0 L 700 317.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_loading" data-to="load_request" />
+    <path d="M 700 393.0 L 700 437.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_request" data-to="load_query" />
+    <path d="M 700 523.0 L 700 562.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_query" data-to="load_database" />
+    <path d="M 700 658.0 L 700 694.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_database" data-to="load_query_ok" />
+    <path d="M 830.0 750 L 984.0 750" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_query_ok" data-to="load_500" />
+    <path d="M 700 806.0 L 700 844.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_query_ok" data-to="load_200" />
+    <path d="M 1160 790.0 L 1160 955.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_500" data-to="load_error" />
+    <path d="M 886.0 355 L 1375 355 L 1375 1010 L 1345.0 1010" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_request" data-to="load_error" />
+    <path d="M 1160 1065.0 L 1160 1151.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_error" data-to="load_error_end" />
+    <path d="M 700 926.0 L 700 970.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_200" data-to="load_empty_check" />
+    <path d="M 565.0 1025 L 240 1025 L 240 1100.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_empty_check" data-to="load_empty" />
+    <path d="M 240 1200.0 L 240 1271.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_empty" data-to="load_empty_end" />
+    <path d="M 700 1080.0 L 700 1116.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_empty_check" data-to="load_ready" />
+    <path d="M 700 1224.0 L 700 1291.0" fill="none" stroke="#334155" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)" data-from="load_ready" data-to="load_ready_end" />
+  </g>
+  <g id="nodes">
+    <g id="load_start" data-shape="terminal">
+      <rect x="525.0" y="91.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="700" y="120" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="126.8">Mở trang / tải lại danh mục</tspan>
+      </text>
+    </g>
+    <g id="load_loading" data-shape="process">
+      <rect x="515.0" y="192.0" width="370" height="86" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="235" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="229.3">FE: hiện Đang tải danh mục…</tspan>
+        <tspan x="700" y="254.3">Khóa select và nút tạo</tspan>
+      </text>
+    </g>
+    <g id="load_request" data-shape="io">
+      <polygon points="523.0,317.0 895.0,317.0 877.0,393.0 505.0,393.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="700" y="355" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="361.8">GET /api/categories</tspan>
+      </text>
+    </g>
+    <g id="load_query" data-shape="process">
+      <rect x="515.0" y="437.0" width="370" height="86" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="480" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="474.3">BE: lấy id, name</tspan>
+        <tspan x="700" y="499.3">Sắp xếp theo id tăng dần</tspan>
+      </text>
+    </g>
+    <g id="load_database" data-shape="database">
+      <path d="M 535.0 575.0 A 165.0 13 0 0 1 865.0 575.0 V 645.0 A 165.0 13 0 0 1 535.0 645.0 Z" fill="#f0fdf4" stroke="#475569" stroke-width="2" />
+      <ellipse cx="700" cy="575.0" rx="165.0" ry="13" fill="#f0fdf4" stroke="#475569" stroke-width="2" />
+      <text x="700" y="617" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="611.3">DB: categories</tspan>
+        <tspan x="700" y="636.3">Chỉ đọc</tspan>
+      </text>
+    </g>
+    <g id="load_query_ok" data-shape="decision">
+      <polygon points="700,694.0 830.0,750 700,806.0 570.0,750" fill="#fffbeb" stroke="#475569" stroke-width="2" />
+      <text x="700" y="750" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="744.3">BE: truy vấn</tspan>
+        <tspan x="700" y="769.3">thành công?</tspan>
+      </text>
+    </g>
+    <g id="load_500" data-shape="io">
+      <polygon points="993.0,710.0 1345.0,710.0 1327.0,790.0 975.0,790.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="750" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="744.3">BE: 500</tspan>
+        <tspan x="1160" y="769.3">Không thay đổi DB</tspan>
+      </text>
+    </g>
+    <g id="load_200" data-shape="io">
+      <polygon points="518.0,844.0 900.0,844.0 882.0,926.0 500.0,926.0" fill="#eff6ff" stroke="#475569" stroke-width="2" />
+      <text x="700" y="885" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="879.3">BE: 200</tspan>
+        <tspan x="700" y="904.3">data là mảng danh mục</tspan>
+      </text>
+    </g>
+    <g id="load_empty_check" data-shape="decision">
+      <polygon points="700,970.0 835.0,1025 700,1080.0 565.0,1025" fill="#fffbeb" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1025" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1031.8">FE: data rỗng?</tspan>
+      </text>
+    </g>
+    <g id="load_empty" data-shape="process">
+      <rect x="55.0" y="1100.0" width="370" height="100" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="240" y="1150" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="1143.62">FE: Chưa có danh mục để chọn</tspan>
+        <tspan x="240" y="1168.62">Khóa select và nút tạo</tspan>
+      </text>
+    </g>
+    <g id="load_empty_end" data-shape="terminal">
+      <rect x="65.0" y="1271.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="240" y="1300" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="240" y="1306.8">Dừng: chưa thể tạo</tspan>
+      </text>
+    </g>
+    <g id="load_ready" data-shape="process">
+      <rect x="515.0" y="1116.0" width="370" height="108" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="700" y="1170" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1151.12">FE: hiển thị các lựa chọn</tspan>
+        <tspan x="700" y="1176.12">Giữ thứ tự API trả về</tspan>
+        <tspan x="700" y="1201.12">Chờ người dùng chọn danh mục</tspan>
+      </text>
+    </g>
+    <g id="load_ready_end" data-shape="terminal">
+      <rect x="525.0" y="1291.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="700" y="1320" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="700" y="1326.8">Sẵn sàng nhập và chọn</tspan>
+      </text>
+    </g>
+    <g id="load_error" data-shape="process">
+      <rect x="975.0" y="955.0" width="370" height="110" fill="#f8fafc" stroke="#475569" stroke-width="2" />
+      <text x="1160" y="1010" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="18" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="991.12">FE: Không tải được danh mục</tspan>
+        <tspan x="1160" y="1016.12">Giữ thông tin đã nhập</tspan>
+        <tspan x="1160" y="1041.12">Khóa select và nút tạo</tspan>
+      </text>
+    </g>
+    <g id="load_error_end" data-shape="terminal">
+      <rect x="985.0" y="1151.0" width="350" height="58" fill="#f1f5f9" stroke="#475569" stroke-width="2" rx="29.0" />
+      <text x="1160" y="1180" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="20" fill="#0f172a" font-weight="400">
+        <tspan x="1160" y="1186.8">Dừng: chờ tải lại trang</tspan>
+      </text>
+    </g>
+  </g>
+  <g id="labels">
+    <text x="700.0" y="35" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="26" fill="#0f172a" font-weight="600">
+      <tspan x="700.0" y="43.84">Workflow tải danh mục — EVENT_LOAD</tspan>
+    </text>
+    <text x="905" y="728" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="905" y="733.78">Không</tspan>
+    </text>
+    <text x="730" y="824" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="730" y="829.78">Có</tspan>
+    </text>
+    <text x="1160" y="325" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="1160" y="330.78">Lỗi mạng / timeout / response hỏng</tspan>
+    </text>
+    <text x="455" y="1004" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="455" y="1009.78">Có</tspan>
+    </text>
+    <text x="740" y="1100" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="740" y="1105.78">Không</tspan>
+    </text>
+    <text x="700" y="1430" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="17" fill="#0f172a" font-weight="400">
+      <tspan x="700" y="1423.28">Bo tròn: bắt đầu/kết thúc · Chữ nhật: xử lý · Hình thoi: điều kiện</tspan>
+      <tspan x="700" y="1448.28">Bình hành: input/output · Hình trụ: DB · Mũi tên nét liền: thứ tự xử lý</tspan>
+    </text>
+  </g>
+</svg>

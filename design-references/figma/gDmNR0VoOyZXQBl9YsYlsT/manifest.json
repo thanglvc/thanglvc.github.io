@@ -1,0 +1,134 @@
+{
+  "figma": {
+    "fileKey": "gDmNR0VoOyZXQBl9YsYlsT",
+    "sourceUrl": "https://www.figma.com/design/gDmNR0VoOyZXQBl9YsYlsT/E-commerce-Website-Template--Freebie---Community---Copy---Copy-?node-id=39-1402",
+    "pages": [
+      {
+        "nodeId": "39:1402",
+        "name": "Cover"
+      }
+    ],
+    "coverFrame": {
+      "nodeId": "39:1403",
+      "name": "Cover",
+      "size": "1920×960"
+    }
+  },
+  "archivedAt": "2026-09-25",
+  "summary": "Six full-page raster UI references found on the Figma Cover page. No additional top-level design pages appeared in metadata.",
+  "screens": [
+    {
+      "nodeId": "39:1430",
+      "figmaName": "Category Page 1",
+      "label": "Category page — desktop",
+      "path": "screens/category-page-desktop-original.jpeg",
+      "pixelSize": "1440×2332",
+      "coverPlacement": {
+        "x": 162,
+        "y": 455,
+        "width": 575,
+        "height": 931
+      }
+    },
+    {
+      "nodeId": "39:1429",
+      "figmaName": "Product Detail Page (5) 1",
+      "label": "Product detail — desktop",
+      "path": "screens/product-detail-desktop-original.jpeg",
+      "pixelSize": "1440×3066",
+      "coverPlacement": {
+        "x": 1192,
+        "y": 455,
+        "width": 575,
+        "height": 1223
+      }
+    },
+    {
+      "nodeId": "39:1427",
+      "figmaName": "Homepage 1",
+      "label": "Homepage — desktop",
+      "path": "screens/homepage-desktop-original.jpeg",
+      "pixelSize": "1350×4096",
+      "coverPlacement": {
+        "x": 528,
+        "y": 409,
+        "width": 864,
+        "height": 2622
+      }
+    },
+    {
+      "nodeId": "39:1431",
+      "figmaName": "Homepage (1) 1",
+      "label": "Homepage — mobile",
+      "path": "screens/homepage-mobile-original.jpeg",
+      "pixelSize": "358×4096",
+      "coverPlacement": {
+        "x": 1271,
+        "y": 505,
+        "width": 225,
+        "height": 2572
+      }
+    },
+    {
+      "nodeId": "39:1433",
+      "figmaName": "Product Detail Page (6) 1",
+      "label": "Product detail — mobile",
+      "path": "screens/product-detail-mobile-original.jpeg",
+      "pixelSize": "390×3553",
+      "coverPlacement": {
+        "x": 1662,
+        "y": 583,
+        "width": 191,
+        "height": 1739
+      }
+    },
+    {
+      "nodeId": "39:1434",
+      "figmaName": "Cart (1) 1",
+      "label": "Cart — mobile",
+      "path": "screens/cart-mobile-original.jpeg",
+      "pixelSize": "390×2033",
+      "coverPlacement": {
+        "x": 67,
+        "y": 558,
+        "width": 191,
+        "height": 994
+      }
+    }
+  ],
+  "assets": {
+    "coverPreview": "cover-39-1403.png",
+    "coverIcon": "assets/cover-frame-icon.svg",
+    "additionalSourceImages": [
+      {
+        "path": "source-images/source-image-01.jpeg",
+        "pixelSize": "169×512"
+      },
+      {
+        "path": "source-images/source-image-02.jpeg",
+        "pixelSize": "49×445"
+      },
+      {
+        "path": "source-images/source-image-05.jpeg",
+        "pixelSize": "45×512"
+      },
+      {
+        "path": "source-images/source-image-06.jpeg",
+        "pixelSize": "180×292"
+      },
+      {
+        "path": "source-images/source-image-08.jpeg",
+        "pixelSize": "180×384"
+      },
+      {
+        "path": "source-images/source-image-11.jpeg",
+        "pixelSize": "98×509"
+      }
+    ],
+    "contactSheet": "screens/screen-contact-sheet.jpg"
+  },
+  "referenceFiles": {
+    "metadata": "cover-metadata.xml",
+    "generatedContext": "cover-reference.tsx"
+  }
+}

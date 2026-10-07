@@ -1,8 +1,12 @@
 @charset "utf-8";
 
-/* ==========================================================================
-   Base & Reset
-   ========================================================================== */
+/* Shared colors sampled from the reference.
+   参照画像から取得した共通色。 */
+:root {
+  --page-bg: #121214;
+  --text-muted: #595959;
+  --text-light: #fff;
+}
 
 *,
 *::before,
@@ -10,156 +14,104 @@
   box-sizing: border-box;
 }
 
-html,
 body {
   margin: 0;
-  padding: 0;
-  background-color: #121214;
-}
-
-body {
-  color: #595959;
+  color: var(--text-muted);
+  background: var(--page-bg);
   font-family: "Times New Roman", Times, serif;
   font-size: 12px;
   line-height: 1.2;
   -webkit-font-smoothing: antialiased;
 }
 
+figure {
+  margin: 0;
+}
+
 img {
   display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-/* ==========================================================================
-   Layout
-   ========================================================================== */
-
-.page {
-  display: flex;
-  justify-content: center;
   width: 100%;
+  height: auto;
 }
 
 .page__container {
   display: flex;
-  justify-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: flex-start;
-  width: 1031px;
-  padding: 22px 175px 34px 188px;
   gap: 31px;
+  width: min(681px, 100% - 40px);
+  margin: 22px auto 34px;
+  padding-left: 13px;
 }
 
-/* ==========================================================================
-   Main Content (Left Column)
-   ========================================================================== */
-
 .main-content {
-  width: 401px;
-  flex-shrink: 0;
+  width: min(401px, 100%);
   padding-top: 16px;
 }
 
-.main-content__header {
-  margin: 0 0 38px;
-}
-
 .main-content__tag {
-  margin: 0 0 0 -3px;
-  color: #595959;
+  margin: 0 0 38px -3px;
   font-size: 12px;
   font-weight: normal;
-  line-height: 12px;
-}
-
-/* --------------------------------------------------------------------------
-   Intro Card Section
-   -------------------------------------------------------------------------- */
-
-.intro-card {
-  width: 100%;
+  line-height: 1;
 }
 
 .intro-card__media {
   display: flex;
-  justify-content: flex-start;
   align-items: flex-start;
-  width: 100%;
   gap: 24px;
 }
 
-.intro-card__photo-col {
-  display: flex;
-  flex-direction: column;
-  width: 129px;
-  flex-shrink: 0;
+.intro-card__photo {
+  flex: 0 0 129px;
 }
 
 .intro-card__image {
-  width: 129px;
   height: 92px;
   object-fit: cover;
 }
 
 .intro-card__note {
   margin: 38px 0 0 -2px;
-  color: #595959;
-  font-size: 12px;
-  line-height: 12px;
+  line-height: 1;
 }
 
 .intro-card__content {
-  width: 251px;
-  flex-shrink: 0;
+  flex: 0 0 251px;
 }
 
 .intro-card__title {
-  margin: 0 0 11px;
-  color: #ffffff;
+  margin: -1px 0 12px;
+  color: var(--text-light);
   font-size: 12px;
   font-weight: normal;
-  line-height: 12px;
-  transform: translateY(-1px);
+  line-height: 1;
 }
 
 .intro-card__text {
-  margin: 0;
-  color: #595959;
-  font-size: 12px;
+  margin: 0 1px 0 -1px;
   line-height: 10px;
-  letter-spacing: -0.05px;
-  text-align: left;
-  transform: translateX(-1px);
+  letter-spacing: -.05px;
 }
 
 .intro-card__desc {
   margin: 1px 0 1px 14px;
-  color: #595959;
-  font-size: 12px;
-  line-height: 12px;
+  line-height: 1;
 }
 
 .intro-card__action {
   margin: 15px 0 0 15px;
 }
 
-/* --------------------------------------------------------------------------
-   News Section (Bottom 2-column)
-   -------------------------------------------------------------------------- */
-
 .news-section {
-  margin-top: 80px;
+  margin-top: 83px;
   padding-left: 15px;
 }
 
 .news-section__title {
   margin: 0;
-  color: #ffffff;
+  color: var(--text-light);
   font-size: 12px;
   font-weight: normal;
   line-height: 14px;
@@ -167,16 +119,12 @@ a {
 
 .news-section__subtitle {
   margin: 0 0 22px;
-  color: #595959;
-  font-size: 12px;
   line-height: 14px;
 }
 
 .news-list {
-  display: grid;
-  grid-template-columns: 191px 195px;
-  grid-template-rows: 23px 24px 23px auto;
-  row-gap: 0;
+  display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -186,294 +134,108 @@ a {
   display: flex;
   align-items: baseline;
   gap: 7px;
+  width: calc(50% - 2px);
+  min-height: 23px;
+}
+
+.news-list__item:nth-child(even) {
+  width: calc(50% + 2px);
 }
 
 .news-list__item::before {
   content: "";
-  display: inline-block;
-  width: 0;
-  height: 0;
+  flex-shrink: 0;
   border-top: 3.5px solid transparent;
   border-bottom: 3.5px solid transparent;
   border-left: 4.5px solid #757783;
-  transform: translateY(-1px);
-  flex-shrink: 0;
 }
 
-.news-list__link {
-  color: #595959;
-  font-size: 12px;
-  line-height: 12px;
+.news-list__text {
+  line-height: 1;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   white-space: nowrap;
-  transition: color 0.15s ease-in-out;
-}
-
-/* Match the individual text rows in the PSD without moving their icons. */
-@media (min-width: 769px) {
-  .news-list__item:nth-child(-n+2) .news-list__link,
-  .news-list__item:nth-child(5) .news-list__link {
-    transform: translateY(-1px);
-  }
-
-  .news-list__item:nth-child(3) .news-list__link {
-    transform: translateY(-2px);
-  }
-}
-
-.news-list__link:hover {
-  color: #ffffff;
-}
-
-.news-list__link:focus-visible {
-  outline: 1px dashed #757783;
-  outline-offset: 2px;
 }
 
 .news-section__action {
-  margin-top: 15px;
+  margin: 15px 0 0;
 }
-
-/* ==========================================================================
-   Divider Component
-   ========================================================================== */
 
 .divider {
-  width: 100%;
   height: 0;
   margin: 0;
-  border: none;
-}
-
-.divider--dotted {
+  border: 0;
   border-bottom: 1px dotted #3f3f41;
 }
 
-.intro-card .divider--dotted {
+.intro-card__divider {
   margin: 14px 0 0 11px;
-  width: calc(100% - 11px);
 }
 
-.news-section .divider--dotted {
-  margin-top: 18px;
+.news-section__divider {
+  margin-top: 7px;
   border-bottom-color: #2c2c2e;
 }
 
-/* ==========================================================================
-   More Info Component
-   ========================================================================== */
-
 .more-info {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.more-info__icon {
-  display: inline-block;
-  width: 12px;
-  height: 11px;
-  background-image: url("../images/icn_more_info.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  flex-shrink: 0;
-}
-
-.more-info__text {
-  color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 12px;
+  padding-left: 18px;
+  color: var(--text-light);
+  background: url("../images/icn_more_info.webp") left center / 12px 11px no-repeat;
   line-height: 1;
-  transform: translateY(-1px);
-  transition: opacity 0.15s ease-in-out;
 }
-
-.more-info:hover .more-info__text {
-  text-decoration: underline;
-}
-
-.more-info:hover .more-info__icon {
-  filter: brightness(1.2);
-}
-
-.more-info:focus-visible {
-  outline: 1px dashed #ffffff;
-  outline-offset: 2px;
-}
-
-/* ==========================================================================
-   Sidebar (Right Column)
-   ========================================================================== */
 
 .sidebar {
-  width: 236px;
-  height: 385px;
-  background-color: #232227;
-  padding: 0 26px 0 31px;
   flex-shrink: 0;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-}
-
-.sidebar__inner {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+  width: 236px;
+  min-height: 385px;
+  padding: 0 26px 36px 31px;
+  background: #232227;
+  box-shadow: 0 0 10px rgb(0 0 0 / 40%);
 }
 
 .sidebar__divider {
   width: 191px;
   height: 0;
   margin: 72px 0 27px -10px;
-  border: none;
+  border: 0;
   border-top: 1px solid #353439;
 }
 
 .sidebar__banner {
   width: 174px;
-  height: 96px;
-  margin: 0 0 21px 0;
+  margin-bottom: 21px;
 }
 
 .sidebar__image {
-  width: 174px;
   height: 96px;
   object-fit: cover;
 }
 
 .sidebar__title {
-  margin: 0 0 7px;
-  color: #ffffff;
+  margin: 0 0 6px 1px;
+  color: var(--text-light);
   font-size: 12px;
   font-weight: normal;
   line-height: 14px;
-  transform: translateX(1px);
 }
 
 .sidebar__text {
-  margin: 0 0 4px;
-  color: #595959;
-  font-size: 12px;
-  line-height: 12px;
+  margin: 0 -1px 4px 1px;
+  line-height: 1;
   letter-spacing: -.05px;
-  transform: translate(1px, -1px);
 }
 
 .sidebar__text--lead {
-  margin: 0;
+  margin: 0 -3px 0 3px;
   color: #767884;
-  line-height: 12px;
   letter-spacing: -.1px;
-  transform: translate(3px, -1px);
 }
 
 .sidebar__highlight {
-  color: #ffffff;
+  color: var(--text-light);
   font-weight: normal;
 }
 
 .sidebar__action {
-  margin-top: 47px;
-  transform: translateX(1px);
-}
-
-/* ==========================================================================
-   Responsive (Mobile & Tablet)
-   ========================================================================== */
-
-@media (max-width: 1030px) {
-  .page__container {
-    width: 100%;
-    max-width: 100%;
-    justify-content: center;
-    padding: 22px 20px 34px;
-  }
-}
-
-@media (max-width: 768px) {
-  .page__container {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    max-width: 100%;
-    min-height: auto;
-    padding: 24px 16px;
-    gap: 36px;
-  }
-
-  .main-content {
-    width: 100%;
-    max-width: 440px;
-    padding-top: 0;
-  }
-
-  .intro-card__media {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-  }
-
-  .intro-card__note {
-    margin: 4px 0 0 0;
-  }
-
-  .intro-card__content {
-    width: 100%;
-    max-width: 100%;
-    flex-shrink: 1;
-  }
-
-  .intro-card__desc {
-    margin-left: 0;
-  }
-
-  .intro-card .divider--dotted {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .intro-card__action {
-    margin-left: 0;
-  }
-
-  .news-section {
-    margin-top: 36px;
-    padding-left: 0;
-  }
-
-  .news-list {
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    row-gap: 10px;
-  }
-
-  .news-list__link {
-    white-space: normal;
-    word-break: break-word;
-  }
-
-  .sidebar {
-    width: 100%;
-    max-width: 320px;
-    height: auto;
-    min-height: auto;
-    padding: 0 20px 24px;
-  }
-
-  .sidebar__divider {
-    width: 100%;
-    margin: 28px 0 20px 0;
-  }
-
-  .sidebar__text,
-  .sidebar__text--lead {
-    word-break: break-word;
-  }
-
-  .sidebar__action {
-    margin-top: 24px;
-  }
+  margin: 47px 0 0 1px;
 }
